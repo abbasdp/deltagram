@@ -28,10 +28,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_disable_notifications_from_tray" = "غیرفعال کردن اعلان‌ها";
 "lng_enable_notifications_from_tray" = "فعال کردن اعلان‌ها";
-"lng_open_from_tray" = "بازکردن تلگرام";
+"lng_open_from_tray" = "بازکردن دلتاگرام";
 "lng_minimize_to_tray" = "کوچک کردن در نوار ابزار";
-"lng_quit_from_tray" = "خروج از تلگرام";
-"lng_tray_icon_text" = "تلگرام در اینجا همچنان در حال اجرا است،\nشما می‌توانید این مورد را از قسمت تنظیمات تغییر دهید.\nدر صورتی که از منوی کنار ساعت ناپدید شد،\nشما می‌توانید آن را از قسمت آیکون‌های پنهان بازگردانید.";
+"lng_quit_from_tray" = "خروج از دلتاگرام";
+"lng_tray_icon_text" = "دلتاگرام در اینجا همچنان در حال اجرا است،\nشما می‌توانید این مورد را از قسمت تنظیمات تغییر دهید.\nدر صورتی که از منوی کنار ساعت ناپدید شد،\nشما می‌توانید آن را از قسمت آیکون‌های پنهان بازگردانید.";
 
 // For lng_month_year or plain month name.
 "lng_month1" = "ژانویه";
@@ -192,7 +192,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_lastseen_or" = "یا";
 "lng_lastseen_premium_title" = "ارتقاء به پرمیوم";
 "lng_lastseen_premium_about" = "خرید اشتراک به شما این امکان را می‌دهد تا بدون نیاز به نمایش وضعیت آخرین بازدید خود، زمان آخرین بازدید **{user}** را مشاهده کنید.";
-"lng_lastseen_premium_button" = "خرید اشتراک تلگرام پرمیوم";
+"lng_lastseen_premium_button" = "خرید اشتراک دلتاگرام پرمیوم";
 "lng_lastseen_shown_toast" = "زمان آخرین بازدید شما اکنون قابل مشاهده است.";
 
 "lng_readtime_show_title" = "نمایش تاریخ خواندن پیام‌ها توسط شما";
@@ -201,14 +201,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_readtime_or" = "یا";
 "lng_readtime_premium_title" = "ارتقاء به پرمیوم";
 "lng_readtime_premium_about" = "خرید اشتراک به شما امکان می‌دهد تا بدون نیاز به نمایش زمان خواندن پیام‌ها توسط خودتان، زمان خواندن پیام‌ها توسط **{user}** را مشاهده کنید.";
-"lng_readtime_premium_button" = "خرید اشتراک تلگرام پرمیوم";
+"lng_readtime_premium_button" = "خرید اشتراک دلتاگرام پرمیوم";
 "lng_readtime_shown_toast" = "زمان خواندن پیام‌ها توسط شما اکنون قابل مشاهده است.";
 
 "lng_channels_limit_title" = "انجمن‌های بسیار زیاد";
 "lng_channels_limit1#one" = "شما عضو **{count}** گروه یا کانال هستید.";
 "lng_channels_limit1#other" = "شما عضو **{count}** گروه و کانال هستید.";
-"lng_channels_limit2#one" = "لطفاً پیش از پیوستن به گروه یا کانال جدید، تعدادی از آن‌ها را ترک کنید، یا با ارتقاء به **تلگرام پرمیوم**، این محدودیت را به **{count}** گروه یا کانال تغییر دهید.";
-"lng_channels_limit2#other" = "لطفاً پیش از پیوستن به گروه یا کانال جدید، تعدادی از آن‌ها را ترک کنید، یا با ارتقاء به **تلگرام پرمیوم**، این محدودیت را به **{count}** گروه و کانال تغییر دهید.";
+"lng_channels_limit2#one" = "لطفاً پیش از پیوستن به گروه یا کانال جدید، تعدادی از آن‌ها را ترک کنید، یا با ارتقاء به **دلتاگرام پرمیوم**، این محدودیت را به **{count}** گروه یا کانال تغییر دهید.";
+"lng_channels_limit2#other" = "لطفاً پیش از پیوستن به گروه یا کانال جدید، تعدادی از آن‌ها را ترک کنید، یا با ارتقاء به **دلتاگرام پرمیوم**، این محدودیت را به **{count}** گروه و کانال تغییر دهید.";
 "lng_channels_limit2_final" = "لطفاً پیش از پیوستن به گروه یا کانال جدید، تعدادی از آن‌ها را ترک کنید.";
 "lng_channels_leave_title" = "انجمن‌ها با کمترین فعالیت";
 "lng_channels_leave_status" = "{type}، غیرفعال به مدت {time}";
@@ -219,8 +219,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_links_limit_title" = "لینک‌های عمومی بسیار زیاد";
 "lng_links_limit1#one" = "شما **{count}** لینک عمومی را رزرو کرده‌اید.";
 "lng_links_limit1#other" = "شما **{count}** لینک عمومی را رزرو کرده‌اید.";
-"lng_links_limit2#one" = "می‌توانید لینک یک گروه یا کانال قدیمی‌تر را باطل کرده یا با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** لینک عمومی تغییر دهید.";
-"lng_links_limit2#other" = "می‌توانید لینک یک گروه یا کانال قدیمی‌تر را باطل کرده یا با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** لینک عمومی تغییر دهید.";
+"lng_links_limit2#one" = "می‌توانید لینک یک گروه یا کانال قدیمی‌تر را باطل کرده یا با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** لینک عمومی تغییر دهید.";
+"lng_links_limit2#other" = "می‌توانید لینک یک گروه یا کانال قدیمی‌تر را باطل کرده یا با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** لینک عمومی تغییر دهید.";
 "lng_links_limit2_final" = "می‌توانید لینک یک گروه یا کانال قدیمی‌تر را باطل کنید";
 "lng_links_revoke_title" = "انجمن‌های عمومی شما";
 
@@ -229,20 +229,20 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_filter_chats_limit1#other" = "متأسفانه نمی‌توانید بیش از **{count}** گفتگو را به یک پوشه اضافه کنید.";
 "lng_filter_chats_exlude_limit1#one" = "متأسفانه نمی‌توانید بیش از **{count}** گفتگو را در یک پوشه شامل نکنید.";
 "lng_filter_chats_exlude_limit1#other" = "متأسفانه نمی‌توانید بیش از **{count}** گفتگو را در یک پوشه شامل نکنید.";
-"lng_filter_chats_limit2#one" = "می‌توانید با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** تغییر دهید.";
-"lng_filter_chats_limit2#other" = "می‌توانید با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** تغییر دهید.";
+"lng_filter_chats_limit2#one" = "می‌توانید با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** تغییر دهید.";
+"lng_filter_chats_limit2#other" = "می‌توانید با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** تغییر دهید.";
 
 "lng_filters_limit_title" = "به سقف مجاز رسیده‌اید";
 "lng_filters_limit1#one" = "شما به سقف محدودیت **{count}** پوشه رسیده‌اید.";
 "lng_filters_limit1#other" = "شما به سقف محدودیت **{count}** پوشه رسیده‌اید.";
-"lng_filters_limit2#one" = "می‌توانید با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** پوشه تغییر دهید.";
-"lng_filters_limit2#other" = "می‌توانید با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** پوشه تغییر دهید.";
+"lng_filters_limit2#one" = "می‌توانید با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** پوشه تغییر دهید.";
+"lng_filters_limit2#other" = "می‌توانید با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** پوشه تغییر دهید.";
 
 "lng_filter_pin_limit_title" = "به سقف مجاز رسیده‌اید";
 "lng_filter_pin_limit1#one" = "متأسفانه نمی‌توانید بیش از **{count}** گفتگو را به بالای صفحه سنجاق کنید.";
 "lng_filter_pin_limit1#other" = "متأسفانه نمی‌توانید بیش از **{count}** گفتگو را به بالای صفحه سنجاق کنید.";
-"lng_filter_pin_limit2#one" = "سنجاق تعدادی از گفتگوهای فعلی را بردارید، یا با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** گفتگو تغییر دهید.";
-"lng_filter_pin_limit2#other" = "سنجاق تعدادی از گفتگوهای فعلی را بردارید، یا با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** گفتگو تغییر دهید.";
+"lng_filter_pin_limit2#one" = "سنجاق تعدادی از گفتگوهای فعلی را بردارید، یا با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** گفتگو تغییر دهید.";
+"lng_filter_pin_limit2#other" = "سنجاق تعدادی از گفتگوهای فعلی را بردارید، یا با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** گفتگو تغییر دهید.";
 
 "lng_forum_pin_limit#one" = "متأسفانه نمی‌توانید بیش از **{count}** موضوع را به بالای صفحه سنجاق کنید.";
 "lng_forum_pin_limit#other" = "متأسفانه نمی‌توانید بیش از **{count}** موضوع را به بالای صفحه سنجاق کنید.";
@@ -262,8 +262,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_caption_limit_title" = "به سقف مجاز رسیده‌اید";
 "lng_caption_limit1#one" = "متأسفانه نمی‌توانید در توضیحات رسانه‌ها از بیش از **{count}** کاراکتر استفاده کنید.";
 "lng_caption_limit1#other" = "متأسفانه نمی‌توانید در توضیحات رسانه‌ها از بیش از **{count}** کاراکتر استفاده کنید.";
-"lng_caption_limit2#one" = "توضیحات را کوتاه‌تر کرده یا با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** کاراکتر تغییر دهید.";
-"lng_caption_limit2#other" = "توضیحات را کوتاه‌تر کرده یا با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** کاراکتر تغییر دهید.";
+"lng_caption_limit2#one" = "توضیحات را کوتاه‌تر کرده یا با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** کاراکتر تغییر دهید.";
+"lng_caption_limit2#other" = "توضیحات را کوتاه‌تر کرده یا با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** کاراکتر تغییر دهید.";
 "lng_caption_limit_reached#one" = "شما به سقف محدودیت توضیحات رسانه رسیده‌اید. لطفاً توضیحات را {count} کاراکتر کوتاه‌تر کنید.";
 "lng_caption_limit_reached#other" = "شما به سقف محدودیت توضیحات رسانه رسیده‌اید. لطفاً توضیحات را {count} کاراکتر کوتاه‌تر کنید.";
 "lng_caption_move_up" = "انتقال توضیحات به بالا";
@@ -273,32 +273,32 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_file_size_limit#one" = "{count} گیگابایت";
 "lng_file_size_limit#other" = "{count} گیگابایت";
 "lng_file_size_limit1" = "سند قابل ارسال نیست، زیرا حجم آن بیشتر از {size} است.";
-"lng_file_size_limit2" = "با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به {size} برای هر سند تغییر دهید.";
+"lng_file_size_limit2" = "با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به {size} برای هر سند تغییر دهید.";
 
 "lng_filter_links_limit_title" = "به سقف مجاز رسیده‌اید";
 "lng_filter_links_limit1#one" = "متأسفانه نمی‌توانید بیش از **{count}** لینک دعوت ایجاد کنید.";
 "lng_filter_links_limit1#other" = "متأسفانه نمی‌توانید بیش از **{count}** لینک دعوت ایجاد کنید.";
-"lng_filter_links_limit2#one" = "می‌توانید با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** لینک تغییر دهید.";
-"lng_filter_links_limit2#other" = "می‌توانید با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** لینک تغییر دهید.";
+"lng_filter_links_limit2#one" = "می‌توانید با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** لینک تغییر دهید.";
+"lng_filter_links_limit2#other" = "می‌توانید با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** لینک تغییر دهید.";
 
 "lng_filter_shared_limit_title" = "به سقف مجاز رسیده‌اید";
 "lng_filter_shared_limit1#one" = "متأسفانه نمی‌توانید بیش از **{count}** پوشه قابل اشتراک اضافه کنید.";
 "lng_filter_shared_limit1#other" = "متأسفانه نمی‌توانید بیش از **{count}** پوشه قابل اشتراک اضافه کنید.";
-"lng_filter_shared_limit2#one" = "می‌توانید با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** پوشه تغییر دهید.";
-"lng_filter_shared_limit2#other" = "می‌توانید با خرید اشتراک **تلگرام پرمیوم**، این محدودیت را به **{count}** پوشه تغییر دهید.";
+"lng_filter_shared_limit2#one" = "می‌توانید با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** پوشه تغییر دهید.";
+"lng_filter_shared_limit2#other" = "می‌توانید با خرید اشتراک **دلتاگرام پرمیوم**، این محدودیت را به **{count}** پوشه تغییر دهید.";
 
 "lng_limits_increase" = "تغییر محدودیت";
 
 "lng_sticker_premium_text" = "این بسته حاوی استیکرهای پرمیومی مشابه این استیکر است.";
 "lng_sticker_premium_view" = "مشاهده";
-"lng_animated_emoji_text" = "با خرید اشتراک **تلگرام پرمیوم**، به این اموجی دسترسی پیدا کنید.";
+"lng_animated_emoji_text" = "با خرید اشتراک **دلتاگرام پرمیوم**، به این اموجی دسترسی پیدا کنید.";
 "lng_animated_emoji_saved" = "برای امتحان کردن این اموجی‌ها به صورت رایگان، آن‌ها را در **پیام‌های ذخیره شده** ارسال کنید.";
 "lng_animated_emoji_saved_open" = "باز کردن";
 
 "lng_flood_error" = "دفعات بسیار زیادی امتحان کردید. لطفاً بعداً تلاش کنید.";
 "lng_edit_error" = "شما نمی‌توانید این پیام را ویرایش کنید.";
 "lng_error_phone_flood" = "متأسفانه شما اخیراً دفعات زیادی حساب کاربری خود را حذف و مجدداً ایجاد کرده‌اید. لطفاً چند روز صبر کنید تا بتوانید مجدداً ثبت نام کنید.";
-"lng_error_start_minimized_passcoded" = "شما یک گذرواژه محلی تنظیم کرده‌اید تا تلگرام دسکتاپ نتواند به صورت کوچک شده اجرا شود؛ تلگرام پیش از شروع به کار از شما می‌خواهد این گذرواژه را وارد کنید.";
+"lng_error_start_minimized_passcoded" = "شما یک گذرواژه محلی تنظیم کرده‌اید تا دلتاگرام دسکتاپ نتواند به صورت کوچک شده اجرا شود؛ دلتاگرام پیش از شروع به کار از شما می‌خواهد این گذرواژه را وارد کنید.";
 "lng_error_public_groups_denied" = "متأسفانه شما از مشارکت در گروه‌های عمومی محروم هستید.\n{more_info}";
 "lng_error_cant_add_member" = "متأسفانه شما نمی‌توانید این ربات را به این گروه‌ اضافه کنید. لطفاً از یکی از مدیران گروه بخواهید تا این کار را انجام دهد.";
 "lng_error_cant_add_bot" = "متأسفانه این ربات نمی‌تواند به گروه‌ها اضافه شود.";
@@ -342,7 +342,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_proxy_box_username" = "نام کاربری";
 "lng_proxy_box_password" = "گذرواژه";
 "lng_proxy_invalid" = "لینک پروکسی نامعتبر است.";
-"lng_proxy_unsupported" = "نسخه تلگرام دسکتاپ شما از این نوع پروکسی پشتیبانی نمی‌کند یا لینک پروکسی نامعتبر است. لطفاً تلگرام دسکتاپ را به آخرین نسخه به‌روزرسانی کنید.";
+"lng_proxy_unsupported" = "نسخه دلتاگرام دسکتاپ شما از این نوع پروکسی پشتیبانی نمی‌کند یا لینک پروکسی نامعتبر است. لطفاً دلتاگرام دسکتاپ را به آخرین نسخه به‌روزرسانی کنید.";
 "lng_proxy_incorrect_secret" = "این لینک پروکسی از پارامتر **رمز** نامعتبر استفاده می‌کند.\n\nلطفاً با ارائه دهنده پروکسی تماس بگیرید و از او بخواهید کد منبع MTProxy را به‌روزرسانی کرده و آن را با مقدار صحیح **رمز** تنظیم کند.\n\nسپس از او بخواهید یک لینک جدید در اختیار شما قرار دهد.";
 "lng_proxy_check_ip_warning_title" = "هشدار";
 "lng_proxy_check_ip_warning" = "این کار، آدرس IP شما را برای مدیر سرور پروکسی آشکار خواهد کرد.";
@@ -389,7 +389,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_caption_attach" = "متأسفانه نمی‌توانید هنگام ویرایش یک پیام، رسانه جدیدی را پیوست کنید.";
 "lng_edit_caption_voice" = "متأسفانه نمی‌توانید در حالی که یک پیام صوتی ارسال نشده دارید، پیام‌ها را ویرایش کنید.";
 
-"lng_intro_about" = "به برنامه رسمی تلگرام دسکتاپ خوش آمدید.\nاین برنامه سریع و امن است.";
+"lng_intro_about" = "به برنامه رسمی دلتاگرام دسکتاپ خوش آمدید.\nاین برنامه سریع و امن است.";
 "lng_start_msgs" = "شروع پیام‌رسانی";
 
 "lng_intro_next" = "ادامه";
@@ -399,8 +399,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_photo_caption" = "توضیحات";
 "lng_photos_comment" = "توضیح";
 
-"lng_intro_qr_title" = "اسکن از تلگرام تلفن همراه";
-"lng_intro_qr_step1" = "تلگرام را در تلفن همراه خود باز کنید";
+"lng_intro_qr_title" = "اسکن از دلتاگرام تلفن همراه";
+"lng_intro_qr_step1" = "دلتاگرام را در تلفن همراه خود باز کنید";
 "lng_intro_qr_step2" = "به تنظیمات > دستگاه‌ها > افزودن دستگاه بروید";
 "lng_intro_qr_step3" = "برای ورود به حساب کاربری، این تصویر را اسکن کنید";
 "lng_intro_qr_skip" = "یا ورود به حساب کاربری با استفاده از شماره تلفنتان";
@@ -426,17 +426,17 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_code_ph" = "کد";
 "lng_code_desc" = "ما یک کد فعال‌سازی به شماره تلفن شما ارسال کرده‌ایم.\nلطفاً آن را در قسمت زیر وارد کنید.";
-"lng_code_from_telegram" = "در صورتی که دستگاه دیگری دارید که به تلگرام متصل است، کدی **از طریق تلگرام** به آن ارسال شد.";
+"lng_code_from_telegram" = "در صورتی که دستگاه دیگری دارید که به دلتاگرام متصل است، کدی **از طریق دلتاگرام** به آن ارسال شد.";
 "lng_code_no_telegram" = "ارسال کد از طریق پیامک";
-"lng_code_call" = "تلگرام ظرف {seconds}:{minutes} با شما تماس خواهد گرفت";
-"lng_code_calling" = "در حال درخواست تماس از طرف تلگرام...";
-"lng_code_called" = "تلگرام با شماره‌ شما تماس گرفت";
+"lng_code_call" = "دلتاگرام ظرف {seconds}:{minutes} با شما تماس خواهد گرفت";
+"lng_code_calling" = "در حال درخواست تماس از طرف دلتاگرام...";
+"lng_code_called" = "دلتاگرام با شماره‌ شما تماس گرفت";
 
 "lng_bad_phone" = "شماره تلفن نامعتبر است. لطفاً دوباره تلاش کنید.";
 "lng_bad_code" = "شما کد نامعتبری را وارد کرده‌اید.";
 "lng_bad_name" = "نام و نام خانوادگی خود را وارد کنید.";
-"lng_bad_photo" = "متأسفانه تلگرام قادر نیست این نوع تصویر را پردازش کند.";
-"lng_bad_video" = "متأسفانه تلگرام نمی‌تواند این نوع ویدیو را پردازش کند.";
+"lng_bad_photo" = "متأسفانه دلتاگرام قادر نیست این نوع تصویر را پردازش کند.";
+"lng_bad_video" = "متأسفانه دلتاگرام نمی‌تواند این نوع ویدیو را پردازش کند.";
 
 "lng_signin_title" = "بررسی گذرواژه ابری";
 "lng_signin_desc" = "لطفاً گذرواژه ابری خود را وارد کنید.";
@@ -453,7 +453,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signin_no_email_forgot" = "از آنجا که شما هنگام تنظیم گذرواژه خود ایمیلی برای بازیابی ارائه نکردید، گزینه‌های باقیمانده برای شما به‌یادآوردن گذرواژه خود یا بازنشانی حساب کاربریتان است.";
 "lng_signin_cant_email_forgot" = "اگر نمی‌توانید به ایمیل خود دسترسی داشته باشید، گزینه‌های باقیمانده برای شما، به‌یادآوردن گذرواژه یا بازنشانی حساب کاربریتان است.";
 "lng_signin_reset_account" = "بازنشانی حساب کاربری شما";
-"lng_signin_sure_reset" = "در صورت ادامه، شما تمامی گفتگوها، پیام‌ها، رسانه‌ها و فایل‌های تلگرامی خود را از دست خواهید داد.\n\nآیا می‌خواهید حساب کاربری خود را بازنشانی کنید؟";
+"lng_signin_sure_reset" = "در صورت ادامه، شما تمامی گفتگوها، پیام‌ها، رسانه‌ها و فایل‌های دلتاگرامی خود را از دست خواهید داد.\n\nآیا می‌خواهید حساب کاربری خود را بازنشانی کنید؟";
 "lng_signin_reset" = "بازنشانی";
 "lng_signin_reset_wait" = "از آنجا که حساب کاربری {phone_number} فعال است و با یک گذرواژه محافظت می‌شود، پس از 1 هفته حذف خواهد شد. این تأخیر به دلایل امنیتی لازم است. شما می‌توانید این فرآیند را در هر زمانی لغو کنید.\n\nشما می‌توانید حساب کاربری خود را پس از این مدت بازنشانی کنید:\n{when}";
 "lng_signin_reset_in_days" = "{days_count} {hours_count} {minutes_count}";
@@ -475,7 +475,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_no_chats" = "گفتگوهای شما در اینجا خواهد بود";
 "lng_no_conversations" = "شما هنوز\nمکالمه‌ای ندارید.";
 "lng_no_conversations_button" = "پیام جدید";
-"lng_no_conversations_subtitle" = "مخاطبین شما در تلگرام";
+"lng_no_conversations_subtitle" = "مخاطبین شما در دلتاگرام";
 "lng_no_chats_filter" = "در حال حاضر هیچ گفتگویی متعلق به این پوشه نیست.";
 "lng_no_saved_sublists" = "شما می‌توانید پیام‌های گفتگوهای دیگر را در اینجا ذخیره کنید.";
 "lng_contacts_loading" = "در حال بارگذاری...";
@@ -484,7 +484,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_forum_all_messages" = "تمامی پیام‌ها";
 "lng_forum_create_new_topic" = "ایجاد رشته جدید";
 "lng_dlg_search_for_messages" = "جستجوی پیام‌ها";
-"lng_update_telegram" = "به‌روزرسانی تلگرام";
+"lng_update_telegram" = "به‌روزرسانی دلتاگرام";
 "lng_dlg_search_in" = "جستجوی پیام‌ها در";
 "lng_dlg_search_from" = "از: {user}";
 "lng_chat_menu" = "منوی گفتگو";
@@ -493,7 +493,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_apply" = "اعمال";
 
 "lng_username_title" = "نام کاربری";
-"lng_username_description1" = "شما می‌توانید در تلگرام برای خود یک نام کاربری انتخاب کنید. با این کار، سایر افراد می‌توانند بدون دانستن شماره تلفن شما، با استفاده از این نام کاربری شما را پیدا کرده و با شما ارتباط برقرار کنند.";
+"lng_username_description1" = "شما می‌توانید در دلتاگرام برای خود یک نام کاربری انتخاب کنید. با این کار، سایر افراد می‌توانند بدون دانستن شماره تلفن شما، با استفاده از این نام کاربری شما را پیدا کرده و با شما ارتباط برقرار کنند.";
 "lng_username_description2" = "شما می‌توانید از کاراکترهای **9-0**، **a-z** و **زیرخط** استفاده کنید.\nحداقل طول مجاز **5 کاراکتر** است.";
 "lng_username_choose" = "نام کاربری خود را انتخاب کنید.";
 "lng_username_invalid" = "این نام کاربری نامعتبر است.";
@@ -572,7 +572,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_include_muted_folders" = "شامل شدن گفتگوهای بی‌صدا در شمارنده پوشه";
 "lng_settings_count_unread" = "شمارش پیام‌های خوانده نشده";
 "lng_settings_events_title" = "رویدادها";
-"lng_settings_events_joined" = "مخاطب به تلگرام پیوست";
+"lng_settings_events_joined" = "مخاطب به دلتاگرام پیوست";
 "lng_settings_events_pinned" = "پیام‌های سنجاق شده";
 "lng_settings_notifications_calls_title" = "تماس‌ها";
 
@@ -657,13 +657,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_effect_send" = "ارسال با جلوه";
 "lng_effect_none" = "جلوه‌ای پیدا نشد";
 "lng_effect_premium" = "با خرید اشتراک {link}، این جلوه متحرک را اضافه کنید.";
-"lng_effect_premium_link" = "تلگرام پرمیوم";
+"lng_effect_premium_link" = "دلتاگرام پرمیوم";
 
 "lng_languages" = "زبان‌";
 "lng_languages_none" = "زبانی پیدا نشد.";
 "lng_languages_count#one" = "{count} زبان";
 "lng_languages_count#other" = "{count} زبان";
-"lng_sure_save_language" = "تلگرام جهت تغییر زبان مجدداً راه‌اندازی می‌شود";
+"lng_sure_save_language" = "دلتاگرام جهت تغییر زبان مجدداً راه‌اندازی می‌شود";
 "lng_settings_update_automatically" = "به‌روزرسانی خودکار";
 "lng_settings_install_beta" = "نصب نسخه‌های بتا";
 "lng_settings_current_version" = "نسخه {version}";
@@ -673,7 +673,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_update_ready" = "نسخه جدید آماده است";
 "lng_settings_update_fail" = "بررسی به‌روزرسانی انجام نشد :(";
 "lng_settings_workmode_tray" = "نمایش آیکون در نوار ساعت";
-"lng_settings_workmode_window" = "نمایش آیکون تلگرام در نوار وظیفه";
+"lng_settings_workmode_window" = "نمایش آیکون دلتاگرام در نوار وظیفه";
 "lng_settings_window_close" = "هنگام بسته بودن پنجره";
 "lng_settings_run_in_background" = "اجرا در پس‌زمینه";
 "lng_settings_quit_on_close" = "خروج از برنامه";
@@ -685,9 +685,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_title_total_count" = "تعداد پیام‌های خوانده نشده";
 "lng_settings_native_frame" = "استفاده از فریم پنجره سیستم";
 "lng_settings_qt_frame" = "استفاده از فریم پنجره Qt";
-"lng_settings_auto_start" = "اجرای تلگرام هنگام شروع سیستم";
+"lng_settings_auto_start" = "اجرای دلتاگرام هنگام شروع سیستم";
 "lng_settings_start_min" = "اجرا به صورت کوچک شده";
-"lng_settings_auto_start_disabled_uwp" = "شروع به همراه سیستم در تنظیمات ویندوز غیرفعال شده است.\n\nلطفاً در قسمت تنظیمات Startup Apps، تلگرام دسکتاپ را فعال کنید.";
+"lng_settings_auto_start_disabled_uwp" = "شروع به همراه سیستم در تنظیمات ویندوز غیرفعال شده است.\n\nلطفاً در قسمت تنظیمات Startup Apps، دلتاگرام دسکتاپ را فعال کنید.";
 "lng_settings_restore_windows" = "بازگردانی آخرین پنجره‌های باز شده";
 "lng_restore_windows_question" = "پنجره‌ها بازگردانی شوند؟";
 "lng_restore_windows_restore" = "بازگردانی";
@@ -697,7 +697,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restore_windows_disabled_toast" = "پنجره‌ها بازگردانی نخواهند شد. می‌توانید این گزینه را از قسمت تنظیمات > پیشرفته فعال کنید.";
 "lng_restore_windows_unavailable" = "این گفتگو دیگر در دسترس نیست.";
 "lng_settings_open_system_settings" = "باز کردن تنظیمات";
-"lng_settings_add_sendto" = "قرار دادن تلگرام در منوی «Send to»";
+"lng_settings_add_sendto" = "قرار دادن دلتاگرام در منوی «Send to»";
 "lng_settings_mac_warn_before_quit" = "نمایش هشدار پیش از خروج با {text}";
 "lng_settings_mac_round_icon" = "آیکون برنامه گرد";
 
@@ -836,20 +836,20 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_birthday_privacy" = "تاریخ تولد";
 "lng_settings_saved_music_privacy" = "موزیک‌های ذخیره شده";
 "lng_settings_privacy_premium" = "فقط مشترکین {link} می‌توانند دریافت پیام‌های صوتی را محدود کنند.";
-"lng_settings_privacy_premium_link" = "تلگرام پرمیوم";
+"lng_settings_privacy_premium_link" = "دلتاگرام پرمیوم";
 "lng_settings_passcode_disable" = "غیرفعال کردن گذرواژه محلی";
 "lng_settings_passcode_disable_sure" = "آیا از غیرفعال کردن گذرواژه اطمینان دارید؟";
 
 
 
 "lng_settings_use_winhello" = "باز کردن قفل با Windows Hello";
-"lng_settings_use_winhello_about" = "شما باید پیش از باز کردن قفل تلگرام با Windows Hello، یک بار گذرواژه خود را وارد کنید.";
+"lng_settings_use_winhello_about" = "شما باید پیش از باز کردن قفل دلتاگرام با Windows Hello، یک بار گذرواژه خود را وارد کنید.";
 "lng_settings_use_touchid" = "باز کردن قفل با Touch ID";
-"lng_settings_use_touchid_about" = "شما باید پیش از باز کردن قفل تلگرام با Touch ID، یک بار گذرواژه خود را وارد کنید.";
+"lng_settings_use_touchid_about" = "شما باید پیش از باز کردن قفل دلتاگرام با Touch ID، یک بار گذرواژه خود را وارد کنید.";
 "lng_settings_use_applewatch" = "باز کردن قفل با Apple Watch";
-"lng_settings_use_applewatch_about" = "شما باید پیش از باز کردن قفل تلگرام با Apple Watch، یک بار گذرواژه خود را وارد کنید.";
+"lng_settings_use_applewatch_about" = "شما باید پیش از باز کردن قفل دلتاگرام با Apple Watch، یک بار گذرواژه خود را وارد کنید.";
 "lng_settings_use_systempwd" = "باز کردن قفل با گذرواژه سیستم";
-"lng_settings_use_systempwd_about" = "شما باید پیش از باز کردن قفل تلگرام با گذرواژه سیستم، یک بار گذرواژه خود را وارد کنید.";
+"lng_settings_use_systempwd_about" = "شما باید پیش از باز کردن قفل دلتاگرام با گذرواژه سیستم، یک بار گذرواژه خود را وارد کنید.";
 "lng_settings_password_disable" = "غیرفعال کردن گذرواژه ابری";
 "lng_settings_password_abort" = "لغو راه‌اندازی تأیید دو مرحله‌ای";
 "lng_settings_about_bio" = "هر گونه جزئیاتی مانند سن، شغل یا شهر محل زندگی.\nنمونه: طراح 23 ساله از سن فرانسیسکو.";
@@ -857,7 +857,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_username_label" = "نام کاربری";
 "lng_settings_phone_label" = "شماره تلفن";
 "lng_settings_username_add" = "افزودن نام کاربری";
-"lng_settings_username_about" = "نام کاربری به دیگران این امکان را می‌دهد که بدون نیاز به دانستن شماره تلفنتان، با شما در تلگرام ارتباط برقرار کنند. ";
+"lng_settings_username_about" = "نام کاربری به دیگران این امکان را می‌دهد که بدون نیاز به دانستن شماره تلفنتان، با شما در دلتاگرام ارتباط برقرار کنند. ";
 "lng_settings_birthday_label" = "تاریخ تولد";
 "lng_settings_birthday_title" = "تنظیم تاریخ تولد خود";
 "lng_settings_birthday_add" = "افزودن";
@@ -877,7 +877,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_channel_saved" = "کانال شخصی شما به‌روز شد.";
 "lng_settings_channel_removed" = "کانال شخصی حذف شد.";
 "lng_settings_add_account_about" = "شما می‌توانید تا سقف چهار حساب کاربری با شماره تلفن‌های مختلف اضافه کنید.";
-"lng_settings_peer_to_peer_about" = "با غیرفعال کردن همتا به همتا، تمامی تماس‌ها از طریق سرورهای تلگرام انتقال خواهند یافت تا از آشکار شدن آدرس IP شما جلوگیری شود، اما ممکن است کیفیت صدا پایین بیاید.";
+"lng_settings_peer_to_peer_about" = "با غیرفعال کردن همتا به همتا، تمامی تماس‌ها از طریق سرورهای دلتاگرام انتقال خواهند یافت تا از آشکار شدن آدرس IP شما جلوگیری شود، اما ممکن است کیفیت صدا پایین بیاید.";
 "lng_settings_advanced" = "پیشرفته";
 "lng_settings_stickers_emoji" = "استیکرها و اموجی‌ها";
 "lng_settings_messages" = "پیام‌ها";
@@ -931,21 +931,21 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_edit_ip_confirm_about" = "برای فایل‌هایی که ممکن است آدرس IP شما را افشا کنند، پیام تأیید نمایش داده شود.";
 "lng_settings_clear_payment_info" = "پاک کردن اطلاعات پرداخت و ارسال";
 "lng_settings_logged_in" = "وبسایت‌های متصل";
-"lng_settings_logged_in_title" = "وارد شده با تلگرام";
-"lng_settings_logged_in_description" = "شما می‌توانید در وبسایت‌هایی که از ورود با حساب کاربری تلگرام پشتیبانی می‌کنند، وارد شوید.";
+"lng_settings_logged_in_title" = "وارد شده با دلتاگرام";
+"lng_settings_logged_in_description" = "شما می‌توانید در وبسایت‌هایی که از ورود با حساب کاربری دلتاگرام پشتیبانی می‌کنند، وارد شوید.";
 "lng_settings_disconnect_all" = "قطع اتصال تمامی وبسایت‌ها";
 "lng_settings_disconnect_title" = "قطع اتصال وبسایت";
 "lng_settings_disconnect_sure" = "آیا از قطع اتصال {domain} اطمینان دارید؟";
 "lng_settings_disconnect_block" = "مسدود کردن {name}";
 "lng_settings_disconnect_all_title" = "قطع اتصال وبسایت‌ها";
-"lng_settings_disconnect_all_sure" = "آیا از قطع اتصال تمامی وبسایت‌هایی که از تلگرام برای ورود به آن‌ها استفاده کرده‌اید، اطمینان دارید؟";
+"lng_settings_disconnect_all_sure" = "آیا از قطع اتصال تمامی وبسایت‌هایی که از دلتاگرام برای ورود به آن‌ها استفاده کرده‌اید، اطمینان دارید؟";
 "lng_settings_disconnect" = "قطع اتصال";
 "lng_settings_connected_title" = "وبسایت‌های متصل";
 
 "lng_settings_suggestion_phone_number_title" = "آیا شماره شما همچنان {phone} است؟";
-"lng_settings_suggestion_phone_number_about" = "جهت اطمینان از این که همیشه بتوانید وارد حساب کاربری تلگرام خود شوید، شماره تلفن خود را به‌روز نگه دارید. {link}";
+"lng_settings_suggestion_phone_number_about" = "جهت اطمینان از این که همیشه بتوانید وارد حساب کاربری دلتاگرام خود شوید، شماره تلفن خود را به‌روز نگه دارید. {link}";
 "lng_settings_suggestion_phone_number_about_link" = "https://telegram.org/faq#q-i-have-a-new-phone-number-what-do-i-do";
-"lng_settings_suggestion_phone_number_change" = "لطفاً در اسرع وقت، شماره تلفن خود را در برنامه رسمی تلگرام بر روی تلفن همراه خود تغییر دهید. {emoji}";
+"lng_settings_suggestion_phone_number_change" = "لطفاً در اسرع وقت، شماره تلفن خود را در برنامه رسمی دلتاگرام بر روی تلفن همراه خود تغییر دهید. {emoji}";
 "lng_settings_suggestion_password_title" = "گذرواژه شما";
 "lng_settings_suggestion_password_about" = "حساب کاربری شما با تأیید دو مرحله‌ای محافظت می‌شود. آیا همچنان گذرواژه خود را به خاطر دارید؟";
 "lng_settings_suggestion_password_yes" = "بله، قطعاً";
@@ -982,7 +982,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_cloud_password_password_title" = "گذرواژه";
 "lng_settings_cloud_password_hint_title" = "راهنمای گذرواژه";
 "lng_settings_cloud_password_email_title" = "ایمیل بازیابی";
-"lng_settings_cloud_password_start_about" = "از حساب کاربری تلگرام خود با یک گذرواژه اضافی محافظت کنید.";
+"lng_settings_cloud_password_start_about" = "از حساب کاربری دلتاگرام خود با یک گذرواژه اضافی محافظت کنید.";
 "lng_settings_cloud_password_hint_about" = "شما می‌توانید برای گذرواژه خود یک راهنمای اختیاری ایجاد کنید.";
 "lng_settings_cloud_password_email_about" = "لطفاً ایمیل بازیابی جدید خود را وارد کنید. این تنها راه برای بازیابی یک گذرواژه فراموش شده است.";
 "lng_settings_cloud_password_password_subtitle" = "ایجاد گذرواژه";
@@ -1002,11 +1002,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_cloud_password_reset_in" = "می‌توانید گذرواژه خود را {duration} دیگر بازنشانی کنید.";
 
 "lng_settings_cloud_login_email_section_title" = "ایمیل ورود";
-"lng_settings_cloud_login_email_box_about" = "هر بار که از دستگاه جدیدی وارد حساب کاربری تلگرام خود می‌شوید، از این آدرس ایمیل استفاده می‌شود.";
+"lng_settings_cloud_login_email_box_about" = "هر بار که از دستگاه جدیدی وارد حساب کاربری دلتاگرام خود می‌شوید، از این آدرس ایمیل استفاده می‌شود.";
 "lng_settings_cloud_login_email_box_ok" = "تغییر ایمیل";
 "lng_settings_cloud_login_email_title" = "ایمیل جدید را وارد کنید";
 "lng_settings_cloud_login_email_placeholder" = "ایمیل ورود به حساب کاربری را وارد کنید";
-"lng_settings_cloud_login_email_about" = "شما کدهای ورود به حساب کاربری تلگرام را به جای پیامک، از طریق ایمیل دریافت خواهید کرد. لطفاً آدرس ایمیلی که به آن دسترسی دارید را وارد نمایید.";
+"lng_settings_cloud_login_email_about" = "شما کدهای ورود به حساب کاربری دلتاگرام را به جای پیامک، از طریق ایمیل دریافت خواهید کرد. لطفاً آدرس ایمیلی که به آن دسترسی دارید را وارد نمایید.";
 "lng_settings_cloud_login_email_confirm" = "تأیید";
 "lng_settings_cloud_login_email_code_title" = "ایمیل جدید خود را بررسی کنید";
 "lng_settings_cloud_login_email_code_about" = "لطفاً کدی که به ایمیل جدیدتان {email} ارسال کرده‌ایم را وارد کنید";
@@ -1049,7 +1049,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_clear_payment_info_shipping" = "اطلاعات ارسال";
 "lng_clear_payment_info_payment" = "اطلاعات پرداخت";
 "lng_clear_payment_info_clear" = "پاک کردن";
-"lng_clear_payment_info_confirm" = "آیا می‌خواهید تمامی اطلاعات ارسال خود را حذف کرده و از ارائه‌دهندگان خدمات پرداختی بخواهید کارت‌های اعتباری ذخیره شده شما را حذف کنند؟ توجه داشته باشید که تلگرام به هیچ وجه اطلاعات کارت‌های اعتباری شما را ذخیره نمی کند.";
+"lng_clear_payment_info_confirm" = "آیا می‌خواهید تمامی اطلاعات ارسال خود را حذف کرده و از ارائه‌دهندگان خدمات پرداختی بخواهید کارت‌های اعتباری ذخیره شده شما را حذف کنند؟ توجه داشته باشید که دلتاگرام به هیچ وجه اطلاعات کارت‌های اعتباری شما را ذخیره نمی کند.";
 
 "lng_settings_theme_settings" = "تنظیمات پوسته‌ها";
 "lng_settings_theme_name_color" = "رنگ نام شما";
@@ -1067,7 +1067,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_color_reply_channel" = "پاسخ به پیام کانالتان";
 "lng_settings_color_text" = "نام شما و پاسخ‌ها به پیام‌هایتان با رنگ انتخاب شده نمایش داده می‌شود.";
 "lng_settings_color_text_channel" = "نام کانال و پاسخ به پیام‌های آن، با رنگ انتخاب شده نمایش داده می‌شوند.";
-"lng_settings_color_link_name" = "تلگرام";
+"lng_settings_color_link_name" = "دلتاگرام";
 "lng_settings_color_link_title" = "پیش‌نمایش لینک";
 "lng_settings_color_link_description" = "از این رنگ برای پیش‌نمایش لینک‌هایی که ارسال می‌کنید نیز استفاده می‌شود.";
 "lng_settings_color_about" = "از این رنگ برای نام شما، لینک‌هایی که ارسال می‌کنید و پاسخ‌ها به پیام‌های شما استفاده خواهد شد.";
@@ -1118,7 +1118,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_reverting#other" = "ظرف {count} ثانیه به پوسته قبلی بازگردانی می‌شود.";
 "lng_theme_keep_changes" = "حفظ تغییرات";
 "lng_theme_revert" = "بازگردانی";
-"lng_theme_no_desktop" = "متأسفانه این پوسته حاوی نسخه‌ای برای تلگرام دسکتاپ نیست.";
+"lng_theme_no_desktop" = "متأسفانه این پوسته حاوی نسخه‌ای برای دلتاگرام دسکتاپ نیست.";
 "lng_theme_share" = "به اشتراک گذاشتن";
 "lng_theme_edit" = "ویرایش";
 "lng_theme_delete" = "حذف";
@@ -1150,7 +1150,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_download_path_temp" = "پوشه موقت";
 "lng_download_path_default" = "پوشه پیش‌فرض";
 "lng_download_path_header" = "انتخاب مسیر دانلود";
-"lng_download_path_default_radio" = "پوشه تلگرام در قسمت «Downloads» در سیستم";
+"lng_download_path_default_radio" = "پوشه دلتاگرام در قسمت «Downloads» در سیستم";
 "lng_download_path_temp_radio" = "پوشه موقت، هنگام خروج از حساب کاربری یا حذف برنامه پاک می‌شود";
 "lng_download_path_dir_radio" = "پوشه سفارشی، فقط به صورت دستی پاک می‌شود";
 "lng_download_path_choose" = "انتخاب مسیر دانلود";
@@ -1190,14 +1190,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_local_storage_clear" = "پاک کردن همه";
 "lng_local_storage_clear_selected" = "پاک کردن موارد انتخاب شده";
 "lng_local_storage_clearing" = "در حال پاک‌ کردن...";
-"lng_local_storage_device_telegram" = "حافظه کش تلگرام";
+"lng_local_storage_device_telegram" = "حافظه کش دلتاگرام";
 "lng_local_storage_device_other" = "سایر داده‌ها";
 "lng_local_storage_device_free" = "خالی";
 "lng_local_storage_device_total" = "مجموع";
-"lng_local_storage_device_usage" = "تلگرام از {percent} حافظه دستگاه شما استفاده می‌کند.";
+"lng_local_storage_device_usage" = "دلتاگرام از {percent} حافظه دستگاه شما استفاده می‌کند.";
 "lng_local_storage_clearing_about" = "لطفاً هنگام پاک شدن حافظه کش، این پنجره را باز نگه دارید.";
 "lng_local_storage_cleared" = "پاک شد!";
-"lng_local_storage_about" = "تمامی رسانه‌ها در ابر تلگرام باقی مانده و می‌توانند در صورت نیاز، دوباره دانلود شوند.";
+"lng_local_storage_about" = "تمامی رسانه‌ها در ابر دلتاگرام باقی مانده و می‌توانند در صورت نیاز، دوباره دانلود شوند.";
 "lng_local_storage_manage_title" = "مدیریت محدودیت‌ها";
 "lng_local_storage_max_size_about" = "در صورتی که حجم حافظه کش شما از این محدوده بیشتر شود، قدیمی‌ترین رسانه‌های استفاده نشده از دستگاه حذف خواهند شد.";
 
@@ -1214,10 +1214,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passcode_enter_first" = "گذرواژه را وارد کنید";
 "lng_passcode_enter_new" = "گذرواژه جدید را وارد کنید";
 "lng_passcode_confirm_new" = "گذرواژه جدید را دوباره وارد کنید";
-"lng_passcode_about" = "هنگامی که یک گذرواژه محلی تنظیم شود، یک آیکون قفل در بالای لیست گفتگوهای شما ظاهر می‌شود. برای قفل کردن تلگرام دسکتاپ بر روی آن کلیک کنید.\n\nتوجه: در صورتی که گذرواژه محلی خود را فراموش کنید، باید از حساب کاربری خود در تلگرام دسکتاپ خارج شده و دوباره وارد آن شوید.";
+"lng_passcode_about" = "هنگامی که یک گذرواژه محلی تنظیم شود، یک آیکون قفل در بالای لیست گفتگوهای شما ظاهر می‌شود. برای قفل کردن دلتاگرام دسکتاپ بر روی آن کلیک کنید.\n\nتوجه: در صورتی که گذرواژه محلی خود را فراموش کنید، باید از حساب کاربری خود در دلتاگرام دسکتاپ خارج شده و دوباره وارد آن شوید.";
 "lng_passcode_about1" = "هنگامی یک گذرواژه محلی تنظیم شود، یک آیکون قفل در بالای لیست گفتگوهای شما ظاهر می‌شود.";
-"lng_passcode_about2" = "برای قفل کردن تلگرام دسکتاپ، بر روی آن کلیک کنید.";
-"lng_passcode_about3" = "توجه: در صورتی که گذرواژه خود را فراموش کنید، باید از حساب کاربری خود در تلگرام دسکتاپ خارج شده و دوباره وارد آن شوید.";
+"lng_passcode_about2" = "برای قفل کردن دلتاگرام دسکتاپ، بر روی آن کلیک کنید.";
+"lng_passcode_about3" = "توجه: در صورتی که گذرواژه خود را فراموش کنید، باید از حساب کاربری خود در دلتاگرام دسکتاپ خارج شده و دوباره وارد آن شوید.";
 "lng_passcode_differ" = "گذرواژه‌ها متفاوت هستند";
 "lng_passcode_wrong" = "گذرواژه اشتباه است";
 "lng_passcode_is_same" = "گذرواژه تغییر نکرد";
@@ -1229,7 +1229,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passcode_touchid" = "شما باید پیش از استفاده از Touch ID،\nگذرواژه خود را وارد کنید.";
 "lng_passcode_applewatch" = "شما باید پیش از استفاده از Watch برای باز کردن قفل،\nگذرواژه خود را وارد کنید.";
 "lng_passcode_systempwd" = "شما باید پیش از استفاده از گذرواژه سیستم،\nگذرواژه خود را وارد کنید.";
-"lng_passcode_winhello_unlock" = "تلگرام می‌خواهد با Windows Hello باز شود.";
+"lng_passcode_winhello_unlock" = "دلتاگرام می‌خواهد با Windows Hello باز شود.";
 "lng_passcode_touchid_unlock" = "باز کردن قفل";
 "lng_passcode_create_button" = "ذخیره گذرواژه";
 "lng_passcode_check_button" = "ثبت کردن";
@@ -1237,12 +1237,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passcode_create_title" = "ایجاد گذرواژه محلی";
 "lng_passcode_check_title" = "گذرواژه را وارد کنید";
 "lng_passcode_change_title" = "گذرواژه را وارد کنید";
-"lng_passcode_unlock_about" = "برای ادامه، قفل تلگرام را باز کنید.";
+"lng_passcode_unlock_about" = "برای ادامه، قفل دلتاگرام را باز کنید.";
 
 "lng_cloud_password_waiting_code" = "کد تأیید به {email} ارسال شد...";
 "lng_cloud_password_confirm" = "تأیید ایمیل بازیابی";
 "lng_cloud_password_change" = "تغییر گذرواژه ابری";
-"lng_cloud_password_create" = "گذرواژه تلگرام";
+"lng_cloud_password_create" = "گذرواژه دلتاگرام";
 "lng_cloud_password_remove" = "حذف گذرواژه ابری";
 "lng_cloud_password_reset_ready" = "بازنشانی گذرواژه";
 "lng_cloud_password_enter_old" = "گذرواژه فعلی را وارد کنید";
@@ -1255,7 +1255,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cloud_password_email" = "ایمیل بازیابی را وارد کنید";
 "lng_cloud_password_bad_email" = "ایمیل نامعتبر است";
 "lng_cloud_password_about" = "این گذرواژه هنگامی که  در یک دستگاه جدید وارد حساب کاربری خود می‌شوید، علاوه بر کدی که از طریق پیامک دریافت می‌کنید، از شما خواسته می‌شود.";
-"lng_cloud_password_about_recover" = "هشدار! آیا از اضافه نکردن ایمیل بازیابی گذرواژه اطمینان دارید؟\n\nدر صورت فراموش کردن گذرواژه، شما دسترسی به حساب کاربری تلگرام خود را از دست خواهید داد.";
+"lng_cloud_password_about_recover" = "هشدار! آیا از اضافه نکردن ایمیل بازیابی گذرواژه اطمینان دارید؟\n\nدر صورت فراموش کردن گذرواژه، شما دسترسی به حساب کاربری دلتاگرام خود را از دست خواهید داد.";
 "lng_cloud_password_skip_email" = "نادیده گرفتن ایمیل";
 "lng_cloud_password_was_set" = "تأیید دو مرحله‌ای فعال شد.";
 "lng_cloud_password_updated" = "گذرواژه ابری شما به‌روزرسانی شد.";
@@ -1263,7 +1263,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cloud_password_differ" = "گذرواژه‌ها همخوانی ندارند";
 "lng_cloud_password_wrong" = "گذرواژه ابری اشتباه است";
 "lng_cloud_password_is_same" = "گذرواژه تغییر نکرد";
-"lng_cloud_password_passport_losing" = "هشدار! تمامی اطلاعات ذخیره شده در پاسپورت تلگرام شما از دست خواهند رفت.";
+"lng_cloud_password_passport_losing" = "هشدار! تمامی اطلاعات ذخیره شده در پاسپورت دلتاگرام شما از دست خواهند رفت.";
 "lng_cloud_password_resend" = "ارسال مجدد کد";
 "lng_cloud_password_resent" = "کد مجدداً ارسال شد.";
 "lng_cloud_password_reset_no_email" = "از آنجا که شما هنگام تنظیم گذرواژه خود ایمیلی برای بازیابی ارائه نکردید، گزینه‌های باقیمانده برای شما این است که گذرواژه خود را به یاد آورید یا 7 روز صبر کنید تا گذرواژه شما بازنشانی شود.";
@@ -1295,7 +1295,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_proxy_auto_switch_about" = "شما می‌توانید انتخاب کنید که برنامه در صورت کار نکردن پروکسی فعلی، پس از چه مدتی به نزدیک‌ترین پروکسی فعال متصل شود.";
 "lng_proxy_auto_switch_timeout#one" = "{count} ثانیه";
 "lng_proxy_auto_switch_timeout#other" = "{count} ثانیه";
-"lng_proxy_about" = "سرورهای پروکسی می‌توانند در دسترسی به تلگرام در مناطق مشخصی که فاقد اتصال هستند مفید باشند.";
+"lng_proxy_about" = "سرورهای پروکسی می‌توانند در دسترسی به دلتاگرام در مناطق مشخصی که فاقد اتصال هستند مفید باشند.";
 "lng_proxy_add" = "افزودن پروکسی";
 "lng_proxy_share" = "به اشتراک گذاشتن";
 "lng_proxy_online" = "آنلاین";
@@ -1310,7 +1310,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_proxy_menu_delete" = "حذف";
 "lng_proxy_menu_restore" = "بازگردانی";
 "lng_proxy_web_open" = "باز کردن مرورگر";
-"lng_proxy_web_fallback" = "اتصال از طریق انتقال وب داخلی ناموفق بود. تلگرام  در پس‌زمینه، تلاش برای اتصال مجدد را ادامه می‌دهد. می‌توانید در عوض، صفحه پروکسی را در مرورگر خود باز کنید.";
+"lng_proxy_web_fallback" = "اتصال از طریق انتقال وب داخلی ناموفق بود. دلتاگرام  در پس‌زمینه، تلاش برای اتصال مجدد را ادامه می‌دهد. می‌توانید در عوض، صفحه پروکسی را در مرورگر خود باز کنید.";
 "lng_proxy_edit_share" = "به اشتراک گذاشتن";
 "lng_proxy_edit_share_qr_box_title" = "به اشتراک گذاری پروکسی با کد QR";
 "lng_proxy_edit_share_list_button" = "به اشتراک گذاشتن لیست پروکسی";
@@ -1322,9 +1322,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_proxy_credentials" = "مدارک";
 "lng_proxy_description" = "لیست پروکسی‌های ذخیره شده شما در اینجا خواهد بود.";
 "lng_proxy_sponsor" = "اسپانسر پروکسی";
-"lng_proxy_sponsor_about" = "این کانال توسط سرور پروکسی شما نمایش داده شده است.\nبرای حذف این کانال از لیست گفتگوهایتان،\nپروکسی را در تنظیمات تلگرام غیرفعال کنید.";
-"lng_proxy_sponsor_warning" = "این پروکسی ممکن است یک کانال حمایت شده را در لیست گفتگوهای شما نمایش دهد. این عمل هیچ یک ترافیک تلگرام شما را آشکار نمی‌کند.";
-"lng_proxy_web_warning" = "این پروکسی WEB هنگام اتصال شما، یک صفحه وب را از ارائه‌دهنده خود در پس‌زمینه اجرا می‌کند. فقط در صورتی از آن استفاده کنید که به ارائه‌دهنده اعتماد دارید. ممکن است یک کانال حمایت شده را نیز در لیست گفتگوهای شما نمایش دهد. این عمل هیچ یک از ترافیک تلگرام شما را آشکار نمی‌کند.";
+"lng_proxy_sponsor_about" = "این کانال توسط سرور پروکسی شما نمایش داده شده است.\nبرای حذف این کانال از لیست گفتگوهایتان،\nپروکسی را در تنظیمات دلتاگرام غیرفعال کنید.";
+"lng_proxy_sponsor_warning" = "این پروکسی ممکن است یک کانال حمایت شده را در لیست گفتگوهای شما نمایش دهد. این عمل هیچ یک ترافیک دلتاگرام شما را آشکار نمی‌کند.";
+"lng_proxy_web_warning" = "این پروکسی WEB هنگام اتصال شما، یک صفحه وب را از ارائه‌دهنده خود در پس‌زمینه اجرا می‌کند. فقط در صورتی از آن استفاده کنید که به ارائه‌دهنده اعتماد دارید. ممکن است یک کانال حمایت شده را نیز در لیست گفتگوهای شما نمایش دهد. این عمل هیچ یک از ترافیک دلتاگرام شما را آشکار نمی‌کند.";
 "lng_proxy_add_from_clipboard" = "افزودن پروکسی از حافظه";
 "lng_proxy_add_from_clipboard_good_toast" = "پروکسی از حافظه اضافه شد.";
 "lng_proxy_add_from_clipboard_failed_toast" = "این لینک پروکسی نیست.";
@@ -1336,7 +1336,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_blocked_users" = "کاربران مسدود";
 "lng_settings_no_blocked_users" = "خالی";
 "lng_settings_show_sessions" = "نشست‌های فعال";
-"lng_settings_export_data" = "صدور داده‌های تلگرام";
+"lng_settings_export_data" = "صدور داده‌های دلتاگرام";
 "lng_settings_destroy_if" = "اگر برای این مدت نبودید...";
 
 "lng_settings_terminate_title" = "پایان دادن به نشست‌های قدیمی";
@@ -1349,13 +1349,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_rename_device_title" = "تغییر نام دستگاه فعلی";
 "lng_settings_manage_local_storage" = "مدیریت فضای ذخیره‌سازی محلی";
 "lng_settings_ask_question" = "پرسیدن سؤال";
-"lng_settings_ask_sure" = "لطفاً توجه داشته باشید که پشتیبانی تلگرام توسط داوطلبان انجام می‌شود. ما سعی می‌کنیم هر چه سریع‌تر پاسخگو باشیم، اما ممکن است مدتی طول بکشد.\n\nلطفاً به صفحه پرسش‌های متداول تلگرام سری بزنید: این بخش حاوی توصیه‌های مهمی برای عیب‌یابی و پاسخ به اکثر پرسش‌ها است.";
+"lng_settings_ask_sure" = "لطفاً توجه داشته باشید که پشتیبانی دلتاگرام توسط داوطلبان انجام می‌شود. ما سعی می‌کنیم هر چه سریع‌تر پاسخگو باشیم، اما ممکن است مدتی طول بکشد.\n\nلطفاً به صفحه پرسش‌های متداول دلتاگرام سری بزنید: این بخش حاوی توصیه‌های مهمی برای عیب‌یابی و پاسخ به اکثر پرسش‌ها است.";
 "lng_settings_faq_button" = "رفتن به پرسش‌های متداول";
 "lng_settings_ask_ok" = "پرسیدن از یک داوطلب";
-"lng_settings_faq" = "پرسش‌های متداول تلگرام";
+"lng_settings_faq" = "پرسش‌های متداول دلتاگرام";
 "lng_settings_faq_subtitle" = "پرسش‌های متداول";
 "lng_settings_faq_link" = "https://telegram.org/faq/fa#a";
-"lng_settings_features" = "قابلیت‌های تلگرام";
+"lng_settings_features" = "قابلیت‌های دلتاگرام";
 "lng_settings_credits" = "ستاره‌های من";
 "lng_settings_currency" = "موجودی Gram";
 "lng_settings_logout" = "خروج از حساب کاربری";
@@ -1392,7 +1392,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_passkeys_none_button_unsupported" = "پشتیبانی نشده";
 "lng_settings_passkeys_created" = "ایجاد شده در {date}";
 "lng_settings_passkeys_last_used" = "آخرین استفاده در {date}";
-"lng_settings_passkeys_unsigned_error" = "کلیدهای عبور در نسخه‌های بدون امضا در دسترس نیستند. لطفاً از نسخه رسمی و امضا شده تلگرام دسکتاپ استفاده کنید.";
+"lng_settings_passkeys_unsigned_error" = "کلیدهای عبور در نسخه‌های بدون امضا در دسترس نیستند. لطفاً از نسخه رسمی و امضا شده دلتاگرام دسکتاپ استفاده کنید.";
 "lng_settings_passkey_unknown" = "کلید عبور";
 
 "lng_passkey_touch" = "کلید امنیتی خود را لمس کنید";
@@ -1458,11 +1458,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_archive_hint_button" = "متوجه شدم";
 
 "lng_settings_generic_subscribe" = "برای استفاده از این تنظیمات، اشتراک {link} خریداری کنید.";
-"lng_settings_generic_subscribe_link" = "تلگرام پرمیوم";
+"lng_settings_generic_subscribe_link" = "دلتاگرام پرمیوم";
 
 "lng_sessions_header" = "این دستگاه";
 "lng_sessions_other_header" = "دستگاه‌های فعال";
-"lng_sessions_other_desc" = "شما می‌توانید در تلفن همراه، تبلت یا رایانه‌های دیگر با استفاده از یک شماره تلفن یکسان وارد حساب کاربری تلگرام شوید. تمامی داده‌های شما بلافاصله همگام‌سازی خواهند شد.";
+"lng_sessions_other_desc" = "شما می‌توانید در تلفن همراه، تبلت یا رایانه‌های دیگر با استفاده از یک شماره تلفن یکسان وارد حساب کاربری دلتاگرام شوید. تمامی داده‌های شما بلافاصله همگام‌سازی خواهند شد.";
 "lng_sessions_terminate_all" = "پایان دادن به تمامی نشست‌های دیگر";
 "lng_sessions_terminate_all_about" = "از حساب کاربری در همه دستگاه‌ها بجز این دستگاه خارج می‌شود.";
 "lng_sessions_incomplete" = "تلاش‌های ناتمام جهت ورود به حساب کاربری";
@@ -1475,7 +1475,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sessions_ip" = "آدرس IP";
 "lng_sessions_location" = "موقعیت مکانی";
 "lng_sessions_location_about" = "این تخمین موقعیت مکانی بر اساس آدرس IP است و امکان دارد همیشه دقیق نباشد.";
-"lng_sessions_about_apps" = "برنامه رسمی تلگرام برای اندروید، آیفون، آیپد، ویندوز، macOS و لینوکس در دسترس است.";
+"lng_sessions_about_apps" = "برنامه رسمی دلتاگرام برای اندروید، آیفون، آیپد، ویندوز، macOS و لینوکس در دسترس است.";
 
 "lng_blocked_list_title" = "کاربران مسدود";
 "lng_blocked_list_unknown_phone" = "شماره تلفن ناشناس";
@@ -1486,7 +1486,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_blocked_list_about" = "کاربران مسدود شده نمی‌توانند برای شما پیام ارسال کرده یا شما را به گروه‌ها اضافه کنند. همچنین عکس‌های پروفایل، استوری‌ها، وضعیت آنلاین بودن و آخرین بازدید شما را نخواهند دید.";
 "lng_blocked_list_not_found" = "کاربری پیدا نشد.";
 "lng_blocked_list_confirm_title" = "مسدود کردن {name}";
-"lng_blocked_list_confirm_text" = "آیا می‌خواهید {name} را از ارسال پیام و تماس با شما در تلگرام مسدود کنید؟";
+"lng_blocked_list_confirm_text" = "آیا می‌خواهید {name} را از ارسال پیام و تماس با شما در دلتاگرام مسدود کنید؟";
 "lng_blocked_list_confirm_clear" = "حذف این گفتگو";
 "lng_blocked_list_confirm_reply" = "حذف این پاسخ";
 "lng_blocked_list_confirm_reply_all" = "حذف تمامی پاسخ‌ها از طرف {user}";
@@ -1509,7 +1509,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_exceptions" = "افزودن استثناها";
 "lng_edit_privacy_user_types" = "انواع کاربر";
 "lng_edit_privacy_users_and_groups" = "کاربران و گروه‌ها";
-"lng_edit_privacy_premium_status" = "تمامی مشترکین تلگرام پرمیوم";
+"lng_edit_privacy_premium_status" = "تمامی مشترکین دلتاگرام پرمیوم";
 "lng_edit_privacy_miniapps_status" = "مینی‌برنامه‌هایی که استفاده می‌کنید";
 
 "lng_edit_privacy_exceptions_count#one" = "{count} کاربر";
@@ -1520,7 +1520,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_edit_privacy_phone_number_title" = "حریم خصوصی شماره تلفن";
 "lng_edit_privacy_phone_number_header" = "چه کسانی می‌توانند شماره تلفن مرا مشاهده کنند";
-"lng_edit_privacy_phone_number_warning" = "کاربرانی که شماره شما را در مخاطبین خود ذخیره کرده باشند، آن را در تلگرام خواهند دید.";
+"lng_edit_privacy_phone_number_warning" = "کاربرانی که شماره شما را در مخاطبین خود ذخیره کرده باشند، آن را در دلتاگرام خواهند دید.";
 "lng_edit_privacy_phone_number_always_empty" = "همیشه به اشتراک گذاشته شود با";
 "lng_edit_privacy_phone_number_never_empty" = "هرگز به اشتراک گذاشته نشود با";
 "lng_edit_privacy_phone_number_exceptions" = "کاربران یا گروه‌هایی که از تنظیمات بالا پیروی نمی‌کنند را اضافه کنید.";
@@ -1528,7 +1528,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_phone_number_never_title" = "هرگز به اشتراک گذاشته نشود با";
 
 "lng_edit_privacy_phone_number_find" = "چه کسانی می‌توانند مرا از طریق شماره‌ام پیدا کنند";
-"lng_edit_privacy_phone_number_contacts" = "کاربرانی که شماره شما را به مخاطبین خود اضافه کنند، فقط در صورتی آن را در تلگرام می‌بینند که در مخاطبین شما باشند.";
+"lng_edit_privacy_phone_number_contacts" = "کاربرانی که شماره شما را به مخاطبین خود اضافه کنند، فقط در صورتی آن را در دلتاگرام می‌بینند که در مخاطبین شما باشند.";
 
 "lng_edit_privacy_lastseen_title" = "آخرین بازدید و آنلاین";
 "lng_edit_privacy_lastseen_header" = "چه کسانی می‌توانند زمان آخرین بازدید مرا مشاهده کنند";
@@ -1540,7 +1540,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_lastseen_never_title" = "هرگز به اشتراک گذاشته نشود با";
 "lng_edit_lastseen_hide_read_time" = "پنهان کردن زمان خواندن";
 "lng_edit_lastseen_hide_read_time_about" = "زمان خواندن پیام‌ها توسط خودتان را برای افرادی که نمی‌توانند آخرین بازدید شما را مشاهده کنند، پنهان کنید. در صورت فعال کردن این گزینه، زمان خواندن آن‌ها نیز برای شما پنهان خواهد شد (مگر اینکه کاربر پرمیوم باشید).\n\nاین تنظیمات بر روی گفتگوهای گروهی تأثیر نمی‌گذارد.";
-"lng_edit_lastseen_subscribe" = "خرید اشتراک تلگرام پرمیوم";
+"lng_edit_lastseen_subscribe" = "خرید اشتراک دلتاگرام پرمیوم";
 "lng_edit_lastseen_subscribe_about" = "در صورت خریداری اشتراک پرمیوم، می‌توانید زمان آخرین بازدید و خواندن پیام‌ها توسط کاربران دیگر را مشاهده کنید، حتی اگر زمان آخرین بازدید و خواندن پیام‌ها توسط خودتان را برای آن‌ها پنهان کرده باشید (مگر اینکه آن‌ها به طور خاص این تنظیمات را محدود کرده باشند).";
 
 "lng_edit_privacy_groups_title" = "گروه‌ها و کانال‌ها";
@@ -1655,10 +1655,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_messages_privacy_everyone" = "همه";
 "lng_messages_privacy_restricted" = "مخاطبین من و کاربران پرمیوم";
 "lng_messages_privacy_about" = "می‌توانید پیام‌های دریافتی از طرف کاربرانی که در مخاطبین شما نیستند و شما ابتدا به آن‌ها پیام ارسال نکرده‌اید را محدود کنید.";
-"lng_messages_privacy_premium_button" = "خرید اشتراک تلگرام پرمیوم";
-"lng_messages_privacy_premium_about" = "با خرید اشتراک، می‌توانید این تنظیمات را تغییر داده و به قابلیت‌های انحصاری تلگرام پرمیوم دسترسی پیدا کنید.";
+"lng_messages_privacy_premium_button" = "خرید اشتراک دلتاگرام پرمیوم";
+"lng_messages_privacy_premium_about" = "با خرید اشتراک، می‌توانید این تنظیمات را تغییر داده و به قابلیت‌های انحصاری دلتاگرام پرمیوم دسترسی پیدا کنید.";
 "lng_messages_privacy_premium" = "فقط مشترکین {link} می‌توانند این گزینه را انتخاب کنند.";
-"lng_messages_privacy_premium_link" = "تلگرام پرمیوم";
+"lng_messages_privacy_premium_link" = "دلتاگرام پرمیوم";
 "lng_messages_privacy_charge" = "دریافت هزینه برای پیام‌ها";
 "lng_messages_privacy_charge_about" = "برای پیام‌ها از طرف کسانی که در مخاطبین شما نیستند یا کسانی که شما ابتدا به آن‌ها پیام ارسال نکرده‌اید، هزینه دریافت کنید. ";
 "lng_messages_privacy_price" = "قیمت خود را برای هر پیام مشخص کنید";
@@ -1668,13 +1668,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_messages_privacy_remove_about" = "کاربران یا گروه‌هایی که برای ارسال پیام به شما هزینه‌ای پرداخت نمی‌کنند را اضافه کنید.";
 
 "lng_self_destruct_title" = "نابودی خودکار حساب کاربری";
-"lng_self_destruct_description" = "اگر شما حداقل یک بار در این بازه زمانی در تلگرام آنلاین نشوید، حساب کاربری شما به همراه تمامی گروه‌ها، پیام‌ها و مخاطبین شما پاک می‌شود.";
+"lng_self_destruct_description" = "اگر شما حداقل یک بار در این بازه زمانی در دلتاگرام آنلاین نشوید، حساب کاربری شما به همراه تمامی گروه‌ها، پیام‌ها و مخاطبین شما پاک می‌شود.";
 "lng_self_destruct_sessions_title" = "پایان نشست";
 "lng_self_destruct_sessions_description" = "در صورتی که در طول این مدت، حداقل یک بار از یک نشست خاص آنلاین نشوید، آن نشست پایان می‌یابد.";
 
 "lng_change_phone_new_submit" = "ثبت کردن";
 "lng_change_phone_code_title" = "کد را وارد کنید";
-"lng_change_phone_error" = "شما فقط می‌توانید با استفاده از برنامه‌های تلفن همراه تلگرام شماره تلفن خود را تغییر دهید. لطفاً برای به‌روزرسانی شماره تلفن خود، از برنامه رسمی تلگرام بر روی تلفن همراه خود استفاده کنید.";
+"lng_change_phone_error" = "شما فقط می‌توانید با استفاده از برنامه‌های تلفن همراه دلتاگرام شماره تلفن خود را تغییر دهید. لطفاً برای به‌روزرسانی شماره تلفن خود، از برنامه رسمی دلتاگرام بر روی تلفن همراه خود استفاده کنید.";
 
 "lng_mute_menu_mute" = "بی‌صدا کردن";
 "lng_mute_menu_unmute" = "صدادار کردن";
@@ -1707,7 +1707,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_saved_messages#other" = "{count} پیام ذخیره شده";
 "lng_profile_peer_gifts#one" = "{count} هدیه";
 "lng_profile_peer_gifts#other" = "{count} هدیه";
-"lng_profile_unofficial_warning" = "{icon} {name} از یک کلاینت غیررسمی تلگرام استفاده می‌کند — پیام‌ها به این کاربر ممکن است امنیت پایین‌تری داشته باشند.";
+"lng_profile_unofficial_warning" = "{icon} {name} از یک کلاینت غیررسمی دلتاگرام استفاده می‌کند — پیام‌ها به این کاربر ممکن است امنیت پایین‌تری داشته باشند.";
 "lng_profile_participants_section" = "اعضا";
 "lng_profile_subscribers_section" = "مشترکین";
 "lng_profile_add_contact" = "افزودن مخاطب";
@@ -1898,12 +1898,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_photo_reset_button" = "بازنشانی";
 "lng_profile_photo_reset_sure" = "آیا از بازنشانی عکس {user} به عکس اصلی اطمینان دارید؟";
 "lng_profile_photo_from_clipboard" = "از حافظه کپی";
-"lng_profile_suggest_sure" = "شما می‌توانید به {user} پیشنهاد دهید که این عکس را برای پروفایل تلگرام خود تنظیم کند.";
+"lng_profile_suggest_sure" = "شما می‌توانید به {user} پیشنهاد دهید که این عکس را برای پروفایل دلتاگرام خود تنظیم کند.";
 "lng_profile_suggest_button" = "پیشنهاد";
 "lng_profile_set_personal_sure" = "Only you will see this photo and it will replace any photo or video {user} sets for themselves.";
-"lng_profile_accept_photo_sure" = "{user} این عکس را برای پروفایل تلگرام شما پیشنهاد کرده است.";
+"lng_profile_accept_photo_sure" = "{user} این عکس را برای پروفایل دلتاگرام شما پیشنهاد کرده است.";
 "lng_profile_set_photo_button" = "تنظیم عکس";
-"lng_profile_accept_video_sure" = "{user} این عکس را برای پروفایل تلگرام شما پیشنهاد کرده است.";
+"lng_profile_accept_video_sure" = "{user} این عکس را برای پروفایل دلتاگرام شما پیشنهاد کرده است.";
 "lng_profile_set_video_button" = "تنظیم عکس";
 "lng_profile_video_confirm_button" = "تنظیم ویدیو";
 "lng_video_quality_original" = "اصلی";
@@ -2037,11 +2037,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_peer_reactions_max_about" = "تعداد واکنش‌های مختلفی که می‌توان به یک پست اضافه کرد، از جمله پست‌هایی که قبلاً منتشر شده‌اند را محدود کنید.";
 
 "lng_manage_peer_reactions_paid" = "فعال کردن واکنش‌های پولی";
-"lng_manage_peer_reactions_paid_about" = "این گزینه را فعال کنید تا به مشترکین خود امکان واکنش به پست‌ها با استفاده از ستاره‌های تلگرام را بدهید. شما می‌توانید این ستاره‌ها را در قالب Gram برداشت کنید. {link}";
+"lng_manage_peer_reactions_paid_about" = "این گزینه را فعال کنید تا به مشترکین خود امکان واکنش به پست‌ها با استفاده از ستاره‌های دلتاگرام را بدهید. شما می‌توانید این ستاره‌ها را در قالب Gram برداشت کنید. {link}";
 "lng_manage_peer_reactions_paid_link" = "بیشتر بدانید >";
 
 "lng_manage_peer_antispam" = "ضد هرزنامه قوی";
-"lng_manage_peer_antispam_about" = "تلگرام هرزنامه‌های بیشتری را فیلتر می‌کند، اما ممکن است گاهی اوقات پیام‌های معمولی را نیز فیلتر نماید. شما می‌توانید موارد اشتباه را در قسمت فعالیت‌های اخیر گزارش دهید.";
+"lng_manage_peer_antispam_about" = "دلتاگرام هرزنامه‌های بیشتری را فیلتر می‌کند، اما ممکن است گاهی اوقات پیام‌های معمولی را نیز فیلتر نماید. شما می‌توانید موارد اشتباه را در قسمت فعالیت‌های اخیر گزارش دهید.";
 "lng_manage_peer_antispam_not_enough#one" = "فیلتر قوی فقط می‌تواند در گروه‌هایی که بیش از **{count} عضو** دارند، فعال شود.";
 "lng_manage_peer_antispam_not_enough#other" = "فیلتر قوی فقط می‌تواند در گروه‌هایی که بیش از **{count} عضو** دارند، فعال شود.";
 
@@ -2089,7 +2089,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_disable_sharing_no_forwarding_about" = "فوروارد پیام به گفتگوهای دیگر را غیرفعال کنید.";
 "lng_disable_sharing_no_saving" = "بدون ذخیره کردن";
 "lng_disable_sharing_no_saving_about" = "کپی متن و ذخیره عکس یا ویدیو را غیرفعال کنید.";
-"lng_disable_sharing_unlock" = "دسترسی با تلگرام پرمیوم";
+"lng_disable_sharing_unlock" = "دسترسی با دلتاگرام پرمیوم";
 "lng_disable_sharing_button" = "غیرفعال کردن اشتراک گذاری";
 "lng_disable_sharing_toast" = "اشتراک گذاری برای این گفتگو غیرفعال شده است.";
 "lng_enable_sharing_toast" = "اشتراک گذاری برای این گفتگو فعال شد.";
@@ -2160,7 +2160,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_star_ref_share_title" = "به اشتراک گذاشتن درآمد با همکاران";
 "lng_star_ref_share_about" = "کمیسیون مربوط به درآمد حاصل از کاربران ارجاع داده شده به خود را مشخص کنید.";
 "lng_star_ref_launch_title" = "اجرای برنامه همکاری در فروش خود";
-"lng_star_ref_launch_about" = "تلگرام برنامه شما را برای میلیون‌ها همکار احتمالی نمایش می‌‌دهد.";
+"lng_star_ref_launch_about" = "دلتاگرام برنامه شما را برای میلیون‌ها همکار احتمالی نمایش می‌‌دهد.";
 "lng_star_ref_let_title" = "به همکاران اجازه دهید برای شما تبلیغ کنند";
 "lng_star_ref_let_about" = "همکاران، لینک ارجاع شما را با مخاطبین خود به اشتراک می‌گذارند.";
 "lng_star_ref_commission_title" = "کمیسیون";
@@ -2189,9 +2189,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_star_ref_warning_if_end3" = "باید **24** ساعت صبر کنید تا بتوانید برنامه همکاری در فروش جدیدی را شروع کنید.";
 "lng_star_ref_warning_end" = "پایان دادن";
 "lng_star_ref_created_title" = "برنامه همکاری در فروش آغاز شد";
-"lng_star_ref_created_text" = "هر کاربر تلگرام، مالک کانال یا توسعه دهنده مینی‌برنامه می‌تواند به برنامه شما بپیوندد.";
+"lng_star_ref_created_text" = "هر کاربر دلتاگرام، مالک کانال یا توسعه دهنده مینی‌برنامه می‌تواند به برنامه شما بپیوندد.";
 "lng_star_ref_updated_title" = "برنامه همکاری در فروش به‌روز شد";
-"lng_star_ref_updated_text" = "هر کاربر تلگرام، مالک کانال یا توسعه دهنده مینی‌برنامه می‌تواند به برنامه شما بپیوندد.";
+"lng_star_ref_updated_text" = "هر کاربر دلتاگرام، مالک کانال یا توسعه دهنده مینی‌برنامه می‌تواند به برنامه شما بپیوندد.";
 "lng_star_ref_ended_title" = "برنامه همکاری در فروش پایان یافت";
 "lng_star_ref_ended_text" = "به همکاران شرکت کننده اطلاع داده شد. تمامی لینک‌های ارجاع طی **24** ساعت غیرفعال خواهند شد.";
 "lng_star_ref_list_title" = "برنامه‌های همکاری در فروش";
@@ -2253,10 +2253,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_stars_rating_negative" = "رتبه منفی نشان دهنده این است که پرداخت‌های **{name}** غیر قابل اعتماد هستند.";
 "lng_stars_rating_negative_your#one" = "رتبه منفی نشان دهنده این است که پرداخت‌های شما غیر قابل اعتماد هستند. برای رفع این مشکل، **{count} ستاره** خرج کنید.";
 "lng_stars_rating_negative_your#other" = "رتبه منفی نشان دهنده این است که پرداخت‌های شما غیر قابل اعتماد هستند. برای رفع این مشکل، **{count} ستاره** خرج کنید.";
-"lng_stars_rating_about" = "این رتبه‌بندی نشان دهنده فعالیت **{name}** در تلگرام است. بر اساس:";
-"lng_stars_rating_about_your" = "این رتبه‌بندی نشان دهنده فعالیت شما در تلگرام است. بر اساس:";
-"lng_stars_title_gifts_telegram" = "هدیه‌های تلگرام";
-"lng_stars_about_gifts_telegram" = "{emoji} 100% ستاره‌هایی که صرف خرید هدیه از تلگرام شده است.";
+"lng_stars_rating_about" = "این رتبه‌بندی نشان دهنده فعالیت **{name}** در دلتاگرام است. بر اساس:";
+"lng_stars_rating_about_your" = "این رتبه‌بندی نشان دهنده فعالیت شما در دلتاگرام است. بر اساس:";
+"lng_stars_title_gifts_telegram" = "هدیه‌های دلتاگرام";
+"lng_stars_about_gifts_telegram" = "{emoji} 100% ستاره‌هایی که صرف خرید هدیه از دلتاگرام شده است.";
 "lng_stars_title_gifts_users" = "هدیه‌ها و پست‌های کاربران";
 "lng_stars_about_gifts_users" = "{emoji} 20% ستاره‌هایی که صرف هدیه‌های بازفروش شده، پیام‌های پولی و پست‌های کانال شده است.";
 "lng_stars_title_refunds" = "بازپرداخت‌ها و تبدیل‌ها";
@@ -2570,12 +2570,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_delete_selected_days#other" = "{count} روز انتخاب شده";
 
 "lng_message_empty" = "پیام خالی";
-"lng_message_unsupported" = "این پیام هنوز توسط نسخه فعلی تلگرام شما پشتیبانی نمی‌شود. لطفاً از قسمت تنظیمات > پیشرفته، تلگرام را به آخرین نسخه به‌روزرسانی کرده یا از لینک {link} آن را نصب کنید. اگر در حال حاضر از آخرین نسخه تلگرام استفاده می‌کنید، این پیام ممکن است مربوط به قابلیتی باشد که هنوز پیاده‌سازی نشده است.";
+"lng_message_unsupported" = "این پیام هنوز توسط نسخه فعلی دلتاگرام شما پشتیبانی نمی‌شود. لطفاً از قسمت تنظیمات > پیشرفته، دلتاگرام را به آخرین نسخه به‌روزرسانی کرده یا از لینک {link} آن را نصب کنید. اگر در حال حاضر از آخرین نسخه دلتاگرام استفاده می‌کنید، این پیام ممکن است مربوط به قابلیتی باشد که هنوز پیاده‌سازی نشده است.";
 "lng_unsupported_message_title" = "پیام پشتیبانی نشده";
-"lng_unsupported_message_text" = "برای مشاهده این پیام، تلگرام را به‌روزرسانی کنید";
+"lng_unsupported_message_text" = "برای مشاهده این پیام، دلتاگرام را به‌روزرسانی کنید";
 "lng_unsupported_message_update" = "به‌روزرسانی";
 "lng_unsupported_block_title" = "بلوک پشتیبانی نشده";
-"lng_unsupported_block_text" = "برای مشاهده این قسمت از پیام، تلگرام را به‌روزرسانی کنید";
+"lng_unsupported_block_text" = "برای مشاهده این قسمت از پیام، دلتاگرام را به‌روزرسانی کنید";
 "lng_message_not_found" = "پیام وجود ندارد.";
 
 "lng_duration_minsec_minutes#one" = "{count} دقیقه";
@@ -2611,7 +2611,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_you_joined_by_request_channel" = "با درخواست شما برای عضویت در کانال موافقت شد";
 "lng_action_user_joined_via_community" = "{from} از طریق انجمن {community} به گروه پیوست";
 "lng_action_user_joined_via_community_unknown" = "{from} از طریق یک انجمن به گروه پیوست";
-"lng_action_user_registered" = "{from} به تلگرام پیوست";
+"lng_action_user_registered" = "{from} به دلتاگرام پیوست";
 "lng_action_removed_photo" = "{from} عکس گروه را حذف کرد";
 "lng_action_removed_photo_channel" = "عکس کانال حذف شد";
 "lng_action_changed_photo" = "{from} عکس گروه را به‌روزرسانی کرد";
@@ -2770,7 +2770,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_gift_sent_upgradable" = "{user} می‌تواند این هدیه را به یک کلکسیونی منحصر به فرد تبدیل کند.";
 "lng_action_gift_premium_months#one" = "اشتراک پرمیوم {count} ماهه";
 "lng_action_gift_premium_months#other" = "اشتراک پرمیوم {count} ماهه";
-"lng_action_gift_premium_about" = "برای قابلیت‌های انحصاری تلگرام.";
+"lng_action_gift_premium_about" = "برای قابلیت‌های انحصاری دلتاگرام.";
 "lng_action_gift_refunded" = "ارتقاء این هدیه لغو شد، زیرا درخواستی برای بازپرداخت هزینه این هدیه ایجاد شده و مبلغ آن بازگشت داده شد.";
 "lng_action_gift_got_ton" = "از Gram برای خریداری هدیه و پیشنهاد پست به کانال‌ها استفاده کنید.";
 "lng_action_gift_offer_incoming" = "پیشنهادی برای خریداری این هدیه برای {amount}.";
@@ -2790,11 +2790,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_gift_offer_expired_your" = "پیشنهاد شما برای خریداری {name} به قیمت {cost} منقضی شده است.";
 "lng_action_gift_offer_declined" = "{user}، درخواست شما برای خریداری {name} به قیمت {cost} را رد کرد.";
 "lng_action_gift_offer_declined_you" = "شما پیشنهاد {user} برای خریداری {name} شما به قیمت {cost} را رد کردید.";
-"lng_action_suggested_photo_me" = "شما این عکس را برای پروفایل تلگرام {user} پیشنهاد دادید.";
-"lng_action_suggested_photo" = "{user} این عکس را برای پروفایل تلگرام شما پیشنهاد کرده است.";
+"lng_action_suggested_photo_me" = "شما این عکس را برای پروفایل دلتاگرام {user} پیشنهاد دادید.";
+"lng_action_suggested_photo" = "{user} این عکس را برای پروفایل دلتاگرام شما پیشنهاد کرده است.";
 "lng_action_suggested_photo_button" = "مشاهده عکس";
-"lng_action_suggested_video_me" = "شما این عکس را برای پروفایل تلگرام {user} پیشنهاد دادید.";
-"lng_action_suggested_video" = "{user} این عکس را برای پروفایل تلگرام شما پیشنهاد کرده است.";
+"lng_action_suggested_video_me" = "شما این عکس را برای پروفایل دلتاگرام {user} پیشنهاد دادید.";
+"lng_action_suggested_video" = "{user} این عکس را برای پروفایل دلتاگرام شما پیشنهاد کرده است.";
 "lng_action_suggested_video_button" = "مشاهده عکس";
 "lng_action_suggested_birthday_me" = "شما به {user} پیشنهاد دادید که تاریخ تولد خود را اضافه کند";
 "lng_action_suggested_birthday" = "{user} پیشنهاد داد که تاریخ تولدتان را اضافه کنید";
@@ -2833,18 +2833,18 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_story_mention_button" = "مشاهده استوری";
 "lng_action_story_mention_me_unavailable" = "استوری که در آن به {user} اشاره کردید، دیگر در دسترس نیست.";
 "lng_action_story_mention_unavailable" = "استوری که در آن {user} به شما اشاره کرده بود دیگر در دسترس نیست.";
-"lng_action_giveaway_started_group" = "{from} هم اکنون یک قرعه‌کشی اشتراک تلگرام پرمیوم را برای اعضای خود آغاز کرد.";
-"lng_action_giveaway_started" = "{from} هم اکنون یک قرعه‌کشی اشتراک تلگرام پرمیوم را برای دنبال کنندگان خود آغاز کرد.";
+"lng_action_giveaway_started_group" = "{from} هم اکنون یک قرعه‌کشی اشتراک دلتاگرام پرمیوم را برای اعضای خود آغاز کرد.";
+"lng_action_giveaway_started" = "{from} هم اکنون یک قرعه‌کشی اشتراک دلتاگرام پرمیوم را برای دنبال کنندگان خود آغاز کرد.";
 "lng_action_giveaway_credits_started_amount#one" = "{count} ستاره";
 "lng_action_giveaway_credits_started_amount#other" = "{count} ستاره";
 "lng_action_giveaway_credits_started_group" = "{from} هم اکنون یک قرعه‌کشی برای {amount} را برای اعضای خود آغاز کرد.";
 "lng_action_giveaway_credits_started" = "{from} هم اکنون یک قرعه‌کشی برای {amount} را برای دنبال کنندگان خود آغاز کرد.";
-"lng_action_giveaway_results#one" = "{count} برنده قرعه‌کشی به صورت تصادفی توسط تلگرام انتخاب شد و کد هدیه خود را از طریق پیام خصوصی دریافت کرد.";
-"lng_action_giveaway_results#other" = "{count} برنده قرعه‌کشی به صورت تصادفی توسط تلگرام انتخاب شدند و کد هدیه خود را از طریق پیام خصوصی دریافت کردند.";
-"lng_action_giveaway_results_some" = "برخی از برندگان قرعه‌کشی به صورت تصادفی توسط تلگرام انتخاب شده و کد هدیه خود را از طریق پیام خصوصی دریافت کردند.";
-"lng_action_giveaway_results_credits#one" = "{count} برنده قرعه‌کشی به صورت تصادفی توسط تلگرام انتخاب شده و جایزه خود را دریافت کرد.";
-"lng_action_giveaway_results_credits#other" = "{count} برنده قرعه‌کشی به صورت تصادفی توسط تلگرام انتخاب شده و جوایز خود را دریافت کردند.";
-"lng_action_giveaway_results_credits_some" = "برخی از برندگان قرعه‌کشی به صورت تصادفی توسط تلگرام انتخاب شده و جوایز خود را دریافت کردند.";
+"lng_action_giveaway_results#one" = "{count} برنده قرعه‌کشی به صورت تصادفی توسط دلتاگرام انتخاب شد و کد هدیه خود را از طریق پیام خصوصی دریافت کرد.";
+"lng_action_giveaway_results#other" = "{count} برنده قرعه‌کشی به صورت تصادفی توسط دلتاگرام انتخاب شدند و کد هدیه خود را از طریق پیام خصوصی دریافت کردند.";
+"lng_action_giveaway_results_some" = "برخی از برندگان قرعه‌کشی به صورت تصادفی توسط دلتاگرام انتخاب شده و کد هدیه خود را از طریق پیام خصوصی دریافت کردند.";
+"lng_action_giveaway_results_credits#one" = "{count} برنده قرعه‌کشی به صورت تصادفی توسط دلتاگرام انتخاب شده و جایزه خود را دریافت کرد.";
+"lng_action_giveaway_results_credits#other" = "{count} برنده قرعه‌کشی به صورت تصادفی توسط دلتاگرام انتخاب شده و جوایز خود را دریافت کردند.";
+"lng_action_giveaway_results_credits_some" = "برخی از برندگان قرعه‌کشی به صورت تصادفی توسط دلتاگرام انتخاب شده و جوایز خود را دریافت کردند.";
 "lng_action_giveaway_results_none" = "هیچ برنده‌ای از قرعه‌کشی قابل انتخاب نبود.";
 "lng_action_boost_apply_me" = "شما از گروه حمایت کردید";
 "lng_action_boost_apply#one" = "{from} از گروه حمایت کرد";
@@ -2940,7 +2940,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_stake_game_title" = "شرطبندی اموجی";
 "lng_stake_game_beta" = "بتا";
-"lng_stake_game_about" = "یک بازی اموجی برای کاربران **سطح 5** یا بالاتر. 💎‌های دریافت شده در بازی، فقط برای هدیه‌ها و پست‌های تلگرام قابل استفاده هستند.";
+"lng_stake_game_about" = "یک بازی اموجی برای کاربران **سطح 5** یا بالاتر. 💎‌های دریافت شده در بازی، فقط برای هدیه‌ها و پست‌های دلتاگرام قابل استفاده هستند.";
 "lng_stake_game_results" = "نتایج و سود";
 "lng_stake_game_resets" = "روند برد پس از 3 {emoji} یا با تغییر مبلغ شرطبندی بازنشانی می‌شود.";
 "lng_stake_game_your" = "مبلغ شرطبندی شما";
@@ -2953,7 +2953,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_similar_channels_more" = "کانال‌های بیشتر";
 "lng_similar_channels_premium_all#one" = "با خرید اشتراک {link}، به حداکثر **{count}** کانال مشابه دسترسی پیدا کنید.";
 "lng_similar_channels_premium_all#other" = "با خرید اشتراک {link}، به حداکثر **{count}** کانال مشابه دسترسی پیدا کنید.";
-"lng_similar_channels_premium_all_link" = "تلگرام پرمیوم";
+"lng_similar_channels_premium_all_link" = "دلتاگرام پرمیوم";
 "lng_similar_channels_show_more" = "نمایش کانال‌های بیشتر";
 
 "lng_similar_bots_title" = "ربات‌های مشابه";
@@ -2967,7 +2967,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_peer_gifts_empty_search" = "هدیه منطبقی وجود ندارد";
 "lng_peer_gifts_view_all" = "مشاهده تمامی هدیه‌ها";
 "lng_peer_gifts_notify" = "اطلاع‌رسانی درباره هدیه‌های جدید";
-"lng_peer_gifts_notify_enabled" = "هنگامی که کانال شما هدیه‌ای دریافت کند، تلگرام برای شما پیامی ارسال خواهد کرد.";
+"lng_peer_gifts_notify_enabled" = "هنگامی که کانال شما هدیه‌ای دریافت کند، دلتاگرام برای شما پیامی ارسال خواهد کرد.";
 "lng_peer_gifts_filter_by_value" = "مرتب‌سازی بر اساس ارزش";
 "lng_peer_gifts_filter_by_date" = "مرتب‌سازی بر اساس تاریخ";
 "lng_peer_gifts_filter_unlimited" = "نامحدود";
@@ -3058,8 +3058,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_invite_can_join#other" = "{count} می‌توانند بپیوندند";
 "lng_group_invite_days_left#one" = "{count} روز باقی مانده";
 "lng_group_invite_days_left#other" = "{count} روز باقی مانده";
-"lng_group_invite_about_permanent_group" = "هر کسی که تلگرام را نصب کرده باشد، می‌تواند با استفاده از این لینک به گروه شما بپیوندد.";
-"lng_group_invite_about_permanent_channel" = "هر کسی که تلگرام را نصب کرده باشد، می‌تواند با استفاده از این لینک به کانال شما بپیوندد.";
+"lng_group_invite_about_permanent_group" = "هر کسی که دلتاگرام را نصب کرده باشد، می‌تواند با استفاده از این لینک به گروه شما بپیوندد.";
+"lng_group_invite_about_permanent_channel" = "هر کسی که دلتاگرام را نصب کرده باشد، می‌تواند با استفاده از این لینک به کانال شما بپیوندد.";
 "lng_group_invite_title" = "لینک‌های دعوت";
 "lng_group_invite_add" = "ایجاد لینک جدید";
 "lng_group_invite_add_about" = "شما می‌توانید لینک‌های دعوتی ایجاد کنید که پس از استفاده منقضی شوند.";
@@ -3102,7 +3102,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_invite_can_join_via_link#one" = "{count} نفر می‌تواند از طریق این لینک بپیوندد.";
 "lng_group_invite_can_join_via_link#other" = "{count} نفر می‌توانند از طریق این لینک بپیوندند.";
 "lng_group_invite_qr_title" = "دعوت از طریق کد QR";
-"lng_group_invite_qr_about" = "همه افراد در تلگرام می‌توانند با اسکن این کد، به گروه شما بپیوندند.";
+"lng_group_invite_qr_about" = "همه افراد در دلتاگرام می‌توانند با اسکن این کد، به گروه شما بپیوندند.";
 "lng_group_invite_qr_copied" = "کد QR در حافظه کپی شد.";
 "lng_group_invite_request_approve" = "درخواست موافقت مدیر";
 "lng_group_invite_request_approve_channel" = "پذیرفتن مشترکین جدید";
@@ -3204,8 +3204,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cancel_edit_post_yes" = "بله";
 "lng_cancel_edit_post_no" = "خیر";
 
-"lng_bot_share_location_unavailable" = "متأسفانه به اشتراک گذاری موقعیت مکانی در تلگرام دسکتاپ در حال حاضر امکان‌پذیر نیست.";
-"lng_bot_share_phone" = "آیا می‌خواهید شماره تلفن خود را با این ربات به اشتراک بگذارید؟ این موضوع می‌تواند برای همگام‌سازی با سایر سرویس‌ها مفید باشد.\n\n⚠️ هشدار! هرگز کدهای ورود به حساب کاربری تلگرام خود را در مینی‌برنامه‌ها وارد نکنید.";
+"lng_bot_share_location_unavailable" = "متأسفانه به اشتراک گذاری موقعیت مکانی در دلتاگرام دسکتاپ در حال حاضر امکان‌پذیر نیست.";
+"lng_bot_share_phone" = "آیا می‌خواهید شماره تلفن خود را با این ربات به اشتراک بگذارید؟ این موضوع می‌تواند برای همگام‌سازی با سایر سرویس‌ها مفید باشد.\n\n⚠️ هشدار! هرگز کدهای ورود به حساب کاربری دلتاگرام خود را در مینی‌برنامه‌ها وارد نکنید.";
 "lng_bot_share_phone_confirm" = "به اشتراک گذاشتن";
 "lng_bot_allow_write_title" = "اجازه ارسال پیام";
 "lng_bot_allow_write" = "آیا می‌خواهید به این ربات اجازه دهید تا برای شما پیام ارسال کند؟";
@@ -3304,7 +3304,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_premium" = "پرمیوم";
 "lng_premium_free" = "رایگان";
-"lng_premium_more_about" = "درباره تلگرام پرمیوم";
+"lng_premium_more_about" = "درباره دلتاگرام پرمیوم";
 "lng_premium_unlock_reactions" = "دسترسی به واکنش‌های پرمیوم";
 "lng_premium_unlock_stickers" = "دسترسی به استیکرهای پرمیوم";
 "lng_premium_unlock_emoji" = "دسترسی به اموجی‌های متحرک";
@@ -3319,23 +3319,23 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_premium_emoji_status_title" = "{user} این اموجی از {link} را به عنوان وضعیت فعلی خود تنظیم کرده است.";
 "lng_premium_emoji_status_title_colored" = "{user}، این اموجی را به عنوان وضعیت فعلی خود تنظیم کرد.";
-"lng_premium_emoji_status_about" = "اموجی‌های وضعیت یک قابلیت پرمیوم هستند. سایر قابلیت‌های **تلگرام پرمیوم** عبارت‌اند از:";
+"lng_premium_emoji_status_about" = "اموجی‌های وضعیت یک قابلیت پرمیوم هستند. سایر قابلیت‌های **دلتاگرام پرمیوم** عبارت‌اند از:";
 "lng_premium_emoji_status_button" = "دسترسی به اموجی وضعیت";
 
-"lng_premium_summary_user_title" = "{user} مشترک تلگرام پرمیوم است.";
-"lng_premium_summary_user_about" = "دارندگان حساب کاربری تلگرام پرمیوم، به چندین قابلیت دیگر دسترسی انحصاری دارند.";
+"lng_premium_summary_user_title" = "{user} مشترک دلتاگرام پرمیوم است.";
+"lng_premium_summary_user_about" = "دارندگان حساب کاربری دلتاگرام پرمیوم، به چندین قابلیت دیگر دسترسی انحصاری دارند.";
 
-"lng_premium_summary_title" = "تلگرام پرمیوم";
-"lng_premium_summary_top_about" = "با خرید اشتراک **تلگرام پرمیوم**، از **محدودیت‌های کمتر** و **ده‌ها قابلیت انحصاری** بهره‌مند شوید.";
+"lng_premium_summary_title" = "دلتاگرام پرمیوم";
+"lng_premium_summary_top_about" = "با خرید اشتراک **دلتاگرام پرمیوم**، از **محدودیت‌های کمتر** و **ده‌ها قابلیت انحصاری** بهره‌مند شوید.";
 "lng_premium_summary_title_subscribed" = "شما آماده‌اید!";
-"lng_premium_summary_subtitle_gift#one" = "{user} اشتراک {count} ماهه تلگرام پرمیوم را به شما هدیه داده است.";
-"lng_premium_summary_subtitle_gift#other" = "{user} اشتراک {count} ماهه تلگرام پرمیوم را به شما هدیه داده است.";
-"lng_premium_summary_subtitle_gift_days#one" = "{user} اشتراک {count} روزه تلگرام پرمیوم را به شما هدیه داده است.";
-"lng_premium_summary_subtitle_gift_days#other" = "{user} اشتراک {count} روزه تلگرام پرمیوم را به شما هدیه داده است.";
-"lng_premium_summary_subtitle_gift_me#one" = "شما به **{user}** اشتراک {count} ماهه تلگرام پرمیوم را هدیه دادید.";
-"lng_premium_summary_subtitle_gift_me#other" = "شما به **{user}** اشتراک {count} ماهه تلگرام پرمیوم را هدیه دادید.";
-"lng_premium_summary_subtitle_gift_days_me#one" = "شما اشتراک {count} ماهه تلگرام پرمیوم را به {user} هدیه دادید.";
-"lng_premium_summary_subtitle_gift_days_me#other" = "شما اشتراک {count} ماهه تلگرام پرمیوم را به {user} هدیه دادید.";
+"lng_premium_summary_subtitle_gift#one" = "{user} اشتراک {count} ماهه دلتاگرام پرمیوم را به شما هدیه داده است.";
+"lng_premium_summary_subtitle_gift#other" = "{user} اشتراک {count} ماهه دلتاگرام پرمیوم را به شما هدیه داده است.";
+"lng_premium_summary_subtitle_gift_days#one" = "{user} اشتراک {count} روزه دلتاگرام پرمیوم را به شما هدیه داده است.";
+"lng_premium_summary_subtitle_gift_days#other" = "{user} اشتراک {count} روزه دلتاگرام پرمیوم را به شما هدیه داده است.";
+"lng_premium_summary_subtitle_gift_me#one" = "شما به **{user}** اشتراک {count} ماهه دلتاگرام پرمیوم را هدیه دادید.";
+"lng_premium_summary_subtitle_gift_me#other" = "شما به **{user}** اشتراک {count} ماهه دلتاگرام پرمیوم را هدیه دادید.";
+"lng_premium_summary_subtitle_gift_days_me#one" = "شما اشتراک {count} ماهه دلتاگرام پرمیوم را به {user} هدیه دادید.";
+"lng_premium_summary_subtitle_gift_days_me#other" = "شما اشتراک {count} ماهه دلتاگرام پرمیوم را به {user} هدیه دادید.";
 "lng_premium_summary_subtitle_wallpapers" = "پس‌زمینه برای هر دو طرف";
 "lng_premium_summary_about_wallpapers" = "برای خود و مخاطب گفتگویتان، پس‌زمینه‌های سفارشی تنظیم کنید.";
 "lng_premium_summary_subtitle_stories" = "استوری‌ها";
@@ -3349,7 +3349,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_premium_summary_subtitle_voice_to_text" = "تبدیل صدا به متن";
 "lng_premium_summary_about_voice_to_text" = "امکان مشاهده رونویسی هر پیام صوتی دریافتی.";
 "lng_premium_summary_subtitle_no_ads" = "بدون تبلیغات";
-"lng_premium_summary_about_no_ads" = "دیگر خبری از تبلیغاتی که گاهی اوقات تلگرام در کانال‌های عمومی نشان می‌دهد نیست.";
+"lng_premium_summary_about_no_ads" = "دیگر خبری از تبلیغاتی که گاهی اوقات دلتاگرام در کانال‌های عمومی نشان می‌دهد نیست.";
 "lng_premium_summary_subtitle_emoji_status" = "اموجی‌های وضعیت";
 "lng_premium_summary_about_emoji_status" = "از میان هزاران اموجی برای نمایش فعالیت فعلی در کنار نامتان انتخاب کنید.";
 "lng_premium_summary_subtitle_infinite_reactions" = "واکنش‌های بی‌نهایت";
@@ -3367,12 +3367,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_premium_summary_subtitle_advanced_chat_management" = "مدیریت گفتگوی پیشرفته";
 "lng_premium_summary_about_advanced_chat_management" = "ابزارهایی برای تنظیم پوشه پیش‌فرض، بایگانی خودکار و پنهان کردن گفتگوهای جدید از طرف افراد غیرمخاطب.";
 "lng_premium_summary_subtitle_profile_badge" = "نشانگر پروفایل";
-"lng_premium_summary_about_profile_badge" = "نشانگر انحصاری در کنار نام شما که نشان می‌دهد دارای اشتراک تلگرام پرمیوم هستید.";
+"lng_premium_summary_about_profile_badge" = "نشانگر انحصاری در کنار نام شما که نشان می‌دهد دارای اشتراک دلتاگرام پرمیوم هستید.";
 "lng_premium_summary_subtitle_animated_userpics" = "عکس‌های پروفایل متحرک";
 "lng_premium_summary_about_animated_userpics" = "ویدیوهای پروفایل متحرک در گفتگوها و لیست گفتگوها که قدرت بیان بیشتری را می‌دهند.";
 "lng_premium_summary_subtitle_translation" = "ترجمه آنی";
 "lng_premium_summary_about_translation" = "ترجمه آنی کانال‌ها و گفتگوها به زبان‌های دیگر.";
-"lng_premium_summary_subtitle_business" = "تلگرام بیزینس";
+"lng_premium_summary_subtitle_business" = "دلتاگرام بیزینس";
 "lng_premium_summary_about_business" = "حساب کاربری خود را با مشخصات کسب و کار خود مانند موقعیت مکانی، ساعات باز بودن و پاسخ‌های سریع، ارتقاء دهید.";
 "lng_premium_summary_subtitle_effects" = "جلوه‌های پیام";
 "lng_premium_summary_about_effects" = "بیش از 500 جلوه متحرک به پیام‌های خصوصی اضافه کنید.";
@@ -3382,7 +3382,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_premium_summary_about_todo_lists" = "کارها را به صورت یکپارچه و کارآمد برنامه‌ریزی کرده، اختصاص داده و کامل کنید.";
 "lng_premium_summary_subtitle_peer_colors" = "رنگ‌های نام و پروفایل";
 "lng_premium_summary_about_peer_colors" = "برای پروفایل و پاسخ‌ها به پیا‌م‌های خود، رنگ و لوگویی انتخاب کنید.";
-"lng_premium_summary_subtitle_gifts" = "هدیه‌های تلگرام";
+"lng_premium_summary_subtitle_gifts" = "هدیه‌های دلتاگرام";
 "lng_premium_summary_about_gifts" = "هدیه‌ها موارد کلکسیونی هستند که می‌توانید آن‌ها را معامله کنید یا در پروفایل خود به نمایش بگذارید.";
 "lng_premium_summary_subtitle_no_forwards" = "غیرفعال کردن اشتراک گذاری";
 "lng_premium_summary_about_no_forwards" = " فوروارد، کپی و ذخیره کردن محتوا از گفتگوهای خصوصی خود را محدود کنید.";
@@ -3390,15 +3390,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_premium_summary_about_ai_compose" = "پیام‌ها و کل گفتگوهای خود را به لحن و زبان دلخواه خود تبدیل کنید.";
 "lng_premium_summary_subtitle_rich_formatting" = "ابزار قالب‌بندی";
 "lng_premium_summary_about_rich_formatting" = "سربرگ، جدول، رسانه‌های درون‌خطی و محتوای هوش مصنوعی را به پیام‌ها اضافه کنید.";
-"lng_premium_summary_bottom_subtitle" = "درباره تلگرام پرمیوم";
-"lng_premium_summary_bottom_about" = "در حالی که نسخه رایگان تلگرام در حال حاضر قابلیت‌های بیشتری نسبت به سایر پیام‌رسان‌ها به کاربران خود ارائه می‌دهد، **تلگرام پرمیوم** قابلیت‌های خود را حتی بیشتر می‌کند.\n\n**تلگرام پرمیوم** یک گزینه پولی است، زیرا بیشتر قابلیت‌های پرمیوم به هزینه‌های اضافی از جانب تلگرام به اشخاص ثالثی مانند ارائه دهندگان مراکز داده و تولیدکنندگان سرور نیاز دارند. کمک مالی از جانب کاربران **تلگرام پرمیوم** به ما در پوشش چنین هزینه‌هایی کمک می‌کند و همین‌طور باعث می‌شود تلگرام همچنان برای همه رایگان بماند.";
+"lng_premium_summary_bottom_subtitle" = "درباره دلتاگرام پرمیوم";
+"lng_premium_summary_bottom_about" = "در حالی که نسخه رایگان دلتاگرام در حال حاضر قابلیت‌های بیشتری نسبت به سایر پیام‌رسان‌ها به کاربران خود ارائه می‌دهد، **دلتاگرام پرمیوم** قابلیت‌های خود را حتی بیشتر می‌کند.\n\n**دلتاگرام پرمیوم** یک گزینه پولی است، زیرا بیشتر قابلیت‌های پرمیوم به هزینه‌های اضافی از جانب دلتاگرام به اشخاص ثالثی مانند ارائه دهندگان مراکز داده و تولیدکنندگان سرور نیاز دارند. کمک مالی از جانب کاربران **دلتاگرام پرمیوم** به ما در پوشش چنین هزینه‌هایی کمک می‌کند و همین‌طور باعث می‌شود دلتاگرام همچنان برای همه رایگان بماند.";
 "lng_premium_summary_button" = "خرید اشتراک با {cost} در ماه";
 
 "lng_premium_summary_new_badge" = "جدید";
 "lng_soon_badge" = "به زودی";
 
-"lng_premium_success" = "شما با موفقیت به تلگرام پرمیوم پیوستید!";
-"lng_premium_unavailable" = "این قابلیت نیازمند خرید اشتراک **تلگرام پرمیوم** است.\n\nمتأسفانه **تلگرام پرمیوم** در منطقه شما در دسترس نیست.";
+"lng_premium_success" = "شما با موفقیت به دلتاگرام پرمیوم پیوستید!";
+"lng_premium_unavailable" = "این قابلیت نیازمند خرید اشتراک **دلتاگرام پرمیوم** است.\n\nمتأسفانه **دلتاگرام پرمیوم** در منطقه شما در دسترس نیست.";
 
 // Upgraded Stories.
 "lng_premium_stories_subtitle_order" = "ترتیب اولویت";
@@ -3422,7 +3422,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_premium_stories_subtitle_links" = "لینک‌ها و قالب‌بندی*";
 "lng_premium_stories_about_links" = "در توضیحات استوری خود، لینک‌ها و قالب‌بندی اضافه کنید.";
 
-"lng_premium_stories_about_mobile" = "* در هنگام پست استوری از برنامه‌های تلگرام iOS و اندروید در دسترس است.";
+"lng_premium_stories_about_mobile" = "* در هنگام پست استوری از برنامه‌های دلتاگرام iOS و اندروید در دسترس است.";
 
 // Doubled Limits.
 "lng_premium_double_limits_subtitle_channels" = "گروه‌ها و کانال‌ها";
@@ -3468,11 +3468,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_premium_double_limits_about_similar_channels#other" = "تا سقف {count} کانال مشابه را مشاهده کنید";
 //
 
-"lng_premium_gift_title" = "اهدای تلگرام پرمیوم";
-"lng_premium_gift_about" = "با **تلگرام پرمیوم**، به **{user}** امکان دسترسی به قابلیت‌های انحصاری را بدهید.";
+"lng_premium_gift_title" = "اهدای دلتاگرام پرمیوم";
+"lng_premium_gift_about" = "با **دلتاگرام پرمیوم**، به **{user}** امکان دسترسی به قابلیت‌های انحصاری را بدهید.";
 "lng_premium_gift_button" = "اهدای اشتراک با پرداخت {cost}";
 "lng_premium_gift_per" = "{cost} / ماه";
-"lng_premium_gift_terms" = "شما می‌توانید لیست قابلیت‌ها و جزئیات بیشتر درباره تلگرام پرمیوم را از {link} بررسی کنید.";
+"lng_premium_gift_terms" = "شما می‌توانید لیست قابلیت‌ها و جزئیات بیشتر درباره دلتاگرام پرمیوم را از {link} بررسی کنید.";
 "lng_premium_gift_terms_link" = "اینجا";
 "lng_premium_gifts_about_user1" = "به **{user}** امکان دسترسی به قابلیت‌های انحصاری را بدهید.";
 "lng_premium_gifts_about_user2" = "به **{user}** و **{second_user}** امکان دسترسی به قابلیت‌های انحصاری را بدهید.";
@@ -3490,10 +3490,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_premium_gifts_about_paid_below#one" = "او اکنون به قابلیت‌های بیشتری دسترسی دارد.";
 "lng_premium_gifts_about_paid_below#other" = "آن‌ها اکنون به قابلیت‌های بیشتری دسترسی دارند.";
 "lng_premium_gifts_summary_subtitle" = "چه چیزهایی شامل هستند";
-"lng_premium_gifts_terms" = "با اهدای تلگرام پرمیوم، شما با {link} و {policy} تلگرام موافقت می‌کنید.";
+"lng_premium_gifts_terms" = "با اهدای دلتاگرام پرمیوم، شما با {link} و {policy} دلتاگرام موافقت می‌کنید.";
 "lng_premium_gifts_terms_policy" = "سیاست حریم خصوصی";
 
-"lng_business_title" = "تلگرام بیزینس";
+"lng_business_title" = "دلتاگرام بیزینس";
 "lng_business_about" = "با این قابلیت‌های بیشتر، حساب کاربری خود را به صفحه کاری تبدیل کنید.";
 "lng_business_unlocked" = "شما اکنون به این قابلیت‌های کسب و کار بیشتر دسترسی پیدا کرده‌اید.";
 "lng_business_subtitle_location" = "موقعیت مکانی";
@@ -3514,14 +3514,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_business_about_chat_links" = "لینک‌هایی را برای شروع گفتگو با خود ایجاد کنید و اولین پیام را پیشنهاد دهید.";
 "lng_business_subtitle_sponsored" = "تبلیغات در کانال‌ها";
 "lng_business_button_sponsored" = "تبلیغات پنهان نشوند";
-"lng_business_about_sponsored" = "به عنوان یک مشترک پرمیوم، شما تبلیغاتی در تلگرام مشاهده نخواهید کرد، اما می‌توانید به عنوان مثال، برای مشاهده تبلیغات خودتان که در {link} راه‌اندازی کردید، آن‌ها را فعال کنید.";
-"lng_business_about_sponsored_link" = "پلتفرم تبلیغات تلگرام {emoji}";
+"lng_business_about_sponsored" = "به عنوان یک مشترک پرمیوم، شما تبلیغاتی در دلتاگرام مشاهده نخواهید کرد، اما می‌توانید به عنوان مثال، برای مشاهده تبلیغات خودتان که در {link} راه‌اندازی کردید، آن‌ها را فعال کنید.";
+"lng_business_about_sponsored_link" = "پلتفرم تبلیغات دلتاگرام {emoji}";
 "lng_business_about_sponsored_url" = "https://ads.telegram.org";
 
-"lng_credits_summary_title" = "ستاره‌های تلگرام";
-"lng_credits_summary_about" = "با خرید ستاره، به محتوا و سرویس‌ها در مینی‌برنامه‌های تلگرام دسترسی پیدا کنید.";
+"lng_credits_summary_title" = "ستاره‌های دلتاگرام";
+"lng_credits_summary_about" = "با خرید ستاره، به محتوا و سرویس‌ها در مینی‌برنامه‌های دلتاگرام دسترسی پیدا کنید.";
 "lng_credits_currency_summary_title" = "موجودی Gram";
-"lng_credits_currency_summary_about" = "برای ارسال پیشنهادهای پست به کانال‌ها در تلگرام، Gram پیشنهاد دهید.";
+"lng_credits_currency_summary_about" = "برای ارسال پیشنهادهای پست به کانال‌ها در دلتاگرام، Gram پیشنهاد دهید.";
 "lng_credits_currency_summary_subtitle" = "شما می‌توانید Gram خود را با استفاده از Fragment برداشت کنید.";
 "lng_credits_currency_summary_in_button" = "شارژ از طریق Fragment";
 "lng_credits_currency_summary_in_subtitle" = "شما می‌توانید موجودی Gram خود را از طریق Fragment، شارژ کنید.";
@@ -3605,8 +3605,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_credits_box_history_entry_gift_unavailable" = "غیر قابل دسترس";
 "lng_credits_box_history_entry_gift_released" = "منتشر شده توسط {name}";
 "lng_credits_box_history_entry_gift_sold_out" = "موجودی این هدیه به پایان رسیده است";
-"lng_credits_box_history_entry_gift_out_about" = "با استفاده از ستاره‌ها، **{user}** می‌تواند به محتوا و سرویس‌ها در تلگرام دسترسی پیدا کنید.\n{link}";
-"lng_credits_box_history_entry_gift_in_about" = "از ستاره‌ها برای دسترسی به محتوا و سرویس‌ها در تلگرام استفاده کنید. {link}";
+"lng_credits_box_history_entry_gift_out_about" = "با استفاده از ستاره‌ها، **{user}** می‌تواند به محتوا و سرویس‌ها در دلتاگرام دسترسی پیدا کنید.\n{link}";
+"lng_credits_box_history_entry_gift_in_about" = "از ستاره‌ها برای دسترسی به محتوا و سرویس‌ها در دلتاگرام استفاده کنید. {link}";
 "lng_credits_box_history_entry_gift_about_link" = "موارد نمونه را ببینید {emoji}";
 "lng_credits_box_history_entry_gift_examples" = "نمونه‌ها";
 "lng_credits_box_history_entry_ads" = "پلتفرم تبلیغات";
@@ -3681,13 +3681,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_credits_small_balance_for_suggest" = "با خرید **ستاره**، به {channel} پست پیشنهاد دهید.";
 "lng_credits_small_balance_for_offer" = "با خرید **ستاره**، برای خرید این هدیه پیشنهاد دهید.";
 "lng_credits_small_balance_for_search" = "با خرید **ستاره**، در پست‌های عمومی جستجو کنید.";
-"lng_credits_small_balance_fallback" = "با خرید **ستاره**، به محتوا و سرویس‌ها در تلگرام دسترسی پیدا کنید.";
-"lng_credits_purchase_blocked" = "متأسفانه نمی‌توانید این مورد را با استفاده از ستاره‌های تلگرام خریداری کنید.";
-"lng_credits_topup_disabled" = "متأسفانه موجودی ستاره‌های تلگرام شما کافی نیست.";
+"lng_credits_small_balance_fallback" = "با خرید **ستاره**، به محتوا و سرویس‌ها در دلتاگرام دسترسی پیدا کنید.";
+"lng_credits_purchase_blocked" = "متأسفانه نمی‌توانید این مورد را با استفاده از ستاره‌های دلتاگرام خریداری کنید.";
+"lng_credits_topup_disabled" = "متأسفانه موجودی ستاره‌های دلتاگرام شما کافی نیست.";
 "lng_credits_enough" = "شما در حال حاضر به اندازه کافی ستاره دارید. {link}";
 "lng_credits_enough_link" = "خریداری";
 
-"lng_credits_gift_title" = "اهدای ستاره‌های تلگرام";
+"lng_credits_gift_title" = "اهدای ستاره‌های دلتاگرام";
 
 "lng_location_title" = "موقعیت مکانی";
 "lng_location_about" = "موقعیت مکانی کسب و کارتان را در حساب کاربری خود نمایش دهید.";
@@ -3864,7 +3864,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_chat_link_name_about" = "نامی برای این لینک اضافه کنید که فقط خودتان آن را خواهید دید.";
 "lng_chat_link_delete_sure" = "آیا از حذف این لینک گفتگو اطمینان دارید؟";
 "lng_chat_link_qr_title" = "کد QR لینک گفتگو";
-"lng_chat_link_qr_about" = "همه افراد در تلگرام می‌توانند با اسکن این کد، با شما ارتباط برقرار کنید.";
+"lng_chat_link_qr_about" = "همه افراد در دلتاگرام می‌توانند با اسکن این کد، با شما ارتباط برقرار کنید.";
 "lng_chat_link_copied" = "لینک گفتگو در حافظه کپی شد.";
 
 "lng_boost_channel_button" = "حمایت از کانال";
@@ -3908,19 +3908,19 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_boost_group_lift_restrictions_many#one" = "از گروه **{count} بار** حمایت کنید تا محدودیت‌های پیام‌رسانی برداشته شوند.";
 "lng_boost_group_lift_restrictions_many#other" = "از گروه **{count} بار** حمایت کنید تا محدودیت‌های پیام‌رسانی برداشته شوند.";
 "lng_boost_error_gifted_title" = "نمی‌توانید با پرمیوم هدیه حمایت کنید!";
-"lng_boost_error_gifted_text" = "از آنجا که اشتراک **تلگرام پرمیوم** به شما هدیه داده شده است، نمی‌توانید از آن برای حمایت از کانال‌ها استفاده کنید.";
-"lng_boost_error_gifted_text_group" = "از آنجا که اشتراک **تلگرام پرمیوم** به شما هدیه داده شده است، نمی‌توانید از آن برای حمایت از گروه‌ها استفاده کنید.";
+"lng_boost_error_gifted_text" = "از آنجا که اشتراک **دلتاگرام پرمیوم** به شما هدیه داده شده است، نمی‌توانید از آن برای حمایت از کانال‌ها استفاده کنید.";
+"lng_boost_error_gifted_text_group" = "از آنجا که اشتراک **دلتاگرام پرمیوم** به شما هدیه داده شده است، نمی‌توانید از آن برای حمایت از گروه‌ها استفاده کنید.";
 "lng_boost_need_more" = "به حمایت‌های بیشتری نیاز است";
-"lng_boost_need_more_text#one" = "برای حمایت از {channel}، به یکی از دوستان خود **تلگرام پرمیوم** هدیه داده و **{count}** حمایت بیشتر دریافت کنید.";
-"lng_boost_need_more_text#other" = "برای حمایت از {channel}، به یکی از دوستان خود **تلگرام پرمیوم** هدیه داده و **{count}** حمایت بیشتر دریافت کنید.";
-"lng_boost_need_more_again#one" = "برای حمایت دوباره از {channel}، به یکی از دوستان خود **تلگرام پرمیوم** هدیه داده و **{count}** حمایت بیشتر دریافت کنید.";
-"lng_boost_need_more_again#other" = "برای حمایت دوباره از {channel}، به یکی از دوستان خود **تلگرام پرمیوم** هدیه داده و **{count}** حمایت بیشتر دریافت کنید.";
+"lng_boost_need_more_text#one" = "برای حمایت از {channel}، به یکی از دوستان خود **دلتاگرام پرمیوم** هدیه داده و **{count}** حمایت بیشتر دریافت کنید.";
+"lng_boost_need_more_text#other" = "برای حمایت از {channel}، به یکی از دوستان خود **دلتاگرام پرمیوم** هدیه داده و **{count}** حمایت بیشتر دریافت کنید.";
+"lng_boost_need_more_again#one" = "برای حمایت دوباره از {channel}، به یکی از دوستان خود **دلتاگرام پرمیوم** هدیه داده و **{count}** حمایت بیشتر دریافت کنید.";
+"lng_boost_need_more_again#other" = "برای حمایت دوباره از {channel}، به یکی از دوستان خود **دلتاگرام پرمیوم** هدیه داده و **{count}** حمایت بیشتر دریافت کنید.";
 "lng_boost_error_already_title" = "در حال حاضر حمایت کرده‌اید!";
 "lng_boost_error_already_text" = "شما در حال حاضر از این کانال حمایت می‌کنید.";
 "lng_boost_error_already_text_group" = "شما در حال حاضر از این گروه حمایت می‌کنید.";
 "lng_boost_error_premium_title" = "به اشتراک پرمیوم نیاز است";
-"lng_boost_error_premium_text_group" = "فقط مشترکین **تلگرام پرمیوم** می‌توانند از گروه‌ها حمایت کنند. آیا می‌خواهید اشتراک **تلگرام پرمیوم** خریداری کنید؟";
-"lng_boost_error_premium_text" = "فقط مشترکین **تلگرام پرمیوم** می‌توانند از کانال‌ها حمایت کنند. آیا می‌خواهید اشتراک **تلگرام پرمیوم** خریداری کنید؟";
+"lng_boost_error_premium_text_group" = "فقط مشترکین **دلتاگرام پرمیوم** می‌توانند از گروه‌ها حمایت کنند. آیا می‌خواهید اشتراک **دلتاگرام پرمیوم** خریداری کنید؟";
+"lng_boost_error_premium_text" = "فقط مشترکین **دلتاگرام پرمیوم** می‌توانند از کانال‌ها حمایت کنند. آیا می‌خواهید اشتراک **دلتاگرام پرمیوم** خریداری کنید؟";
 "lng_boost_error_premium_yes" = "بله";
 "lng_boost_error_flood_title" = "نمی‌توانید بیش از حد حمایت کنید!";
 "lng_boost_error_flood_text_group" = "شما فقط یک بار در روز می‌توانید گروهی که از آن حمایت می‌کنید را تغییر دهید. {left} دیگر قادر به حمایت خواهید بود.";
@@ -3929,13 +3929,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_boost_now_replace" = "جایگزین کردن";
 "lng_boost_reassign_title" = "انتقال حمایت";
 "lng_boost_reassign_text" = "برای حمایت از {channel}، یک حمایت قبلی را انتقال داده یا {gift}.";
-"lng_boost_reassign_gift#one" = "به یکی از دوستان خود **تلگرام پرمیوم** هدیه دهید تا **{count}** حمایت بیشتر دریافت کنید";
-"lng_boost_reassign_gift#other" = "به یکی از دوستان خود **تلگرام پرمیوم** هدیه دهید تا **{count}** حمایت بیشتر دریافت کنید";
+"lng_boost_reassign_gift#one" = "به یکی از دوستان خود **دلتاگرام پرمیوم** هدیه دهید تا **{count}** حمایت بیشتر دریافت کنید";
+"lng_boost_reassign_gift#other" = "به یکی از دوستان خود **دلتاگرام پرمیوم** هدیه دهید تا **{count}** حمایت بیشتر دریافت کنید";
 "lng_boost_remove_title" = "حذف حمایتتان از";
 "lng_boost_reassign_button" = "انتقال";
 "lng_boost_available_in" = "در دسترس پس از {duration}";
-"lng_boost_available_in_toast#one" = "تا در دسترس قرار گرفتن حمایت منتظر بمانید یا با هدیه دادن اشتراک **تلگرام پرمیوم**، **{count}** حمایت بیشتر دریافت کنید.";
-"lng_boost_available_in_toast#other" = "تا در دسترس قرار گرفتن حمایت منتظر بمانید یا با هدیه دادن اشتراک **تلگرام پرمیوم**، **{count}** حمایت بیشتر دریافت کنید.";
+"lng_boost_available_in_toast#one" = "تا در دسترس قرار گرفتن حمایت منتظر بمانید یا با هدیه دادن اشتراک **دلتاگرام پرمیوم**، **{count}** حمایت بیشتر دریافت کنید.";
+"lng_boost_available_in_toast#other" = "تا در دسترس قرار گرفتن حمایت منتظر بمانید یا با هدیه دادن اشتراک **دلتاگرام پرمیوم**، **{count}** حمایت بیشتر دریافت کنید.";
 "lng_boost_reassign_done#one" = "{count} حمایت از {channels} انتقال یافت.";
 "lng_boost_reassign_done#other" = "{count} حمایت از {channels} انتقال یافتند.";
 "lng_boost_reassign_channels#one" = "{count} کانال";
@@ -4061,10 +4061,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_giveaway_start_sure" = "آیا از شروع قرعه‌کشی در این لحظه اطمینان دارید؟ این عمل بازگشت‌ناپذیر است.";
 "lng_giveaway_date_title" = "تاریخ پایان قرعه‌کشی";
 "lng_giveaway_date" = "تاریخ و زمان";
-"lng_giveaway_date_about#one" = "انتخاب کنید که چه زمانی {count} مشترک از کانالتان به صورت تصادفی برای دریافت اشتراک تلگرام پرمیوم انتخاب شود.";
-"lng_giveaway_date_about#other" = "انتخاب کنید که چه زمانی {count} مشترک از کانالتان به صورت تصادفی برای دریافت اشتراک تلگرام پرمیوم انتخاب شوند.";
-"lng_giveaway_date_about_group#one" = "انتخاب کنید که چه زمانی {count} عضو از گروهتان به صورت تصادفی برای دریافت اشتراک تلگرام پرمیوم انتخاب شود.";
-"lng_giveaway_date_about_group#other" = "انتخاب کنید که چه زمانی {count} عضو از گروهتان به صورت تصادفی برای دریافت اشتراک تلگرام پرمیوم انتخاب شوند.";
+"lng_giveaway_date_about#one" = "انتخاب کنید که چه زمانی {count} مشترک از کانالتان به صورت تصادفی برای دریافت اشتراک دلتاگرام پرمیوم انتخاب شود.";
+"lng_giveaway_date_about#other" = "انتخاب کنید که چه زمانی {count} مشترک از کانالتان به صورت تصادفی برای دریافت اشتراک دلتاگرام پرمیوم انتخاب شوند.";
+"lng_giveaway_date_about_group#one" = "انتخاب کنید که چه زمانی {count} عضو از گروهتان به صورت تصادفی برای دریافت اشتراک دلتاگرام پرمیوم انتخاب شود.";
+"lng_giveaway_date_about_group#other" = "انتخاب کنید که چه زمانی {count} عضو از گروهتان به صورت تصادفی برای دریافت اشتراک دلتاگرام پرمیوم انتخاب شوند.";
 "lng_giveaway_duration_title#one" = "مدت زمان اشتراک پرمیوم";
 "lng_giveaway_duration_title#other" = "مدت زمان اشتراک‌های پرمیوم";
 "lng_giveaway_duration_price" = "{price} x {amount}";
@@ -4083,10 +4083,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_giveaway_additional_prizes" = "جوایز بیشتر";
 "lng_giveaway_additional_about" = "در صورتی که می‌خواهید علاوه بر اشتراک پرمیوم، جوایز مورد نظر خودتان را به برندگان اهدا کنید، این گزینه را فعال کنید.";
 "lng_giveaway_additional_prizes_ph" = "جایزه خود را وارد کنید";
-"lng_giveaway_prizes_just_premium#one" = "مجموع جوایز: **{count}** اشتراک تلگرام پرمیوم به مدت {duration}.";
-"lng_giveaway_prizes_just_premium#other" = "مجموع جوایز: **{count}** اشتراک تلگرام پرمیوم به مدت {duration}.";
-"lng_giveaway_prizes_additional#one" = "تمامی جوایز: **{count}** {prize} به همراه اشتراک‌های تلگرام پرمیوم به مدت {duration}";
-"lng_giveaway_prizes_additional#other" = "تمامی جوایز: **{count}** {prize} به همراه اشتراک‌های تلگرام پرمیوم به مدت {duration}";
+"lng_giveaway_prizes_just_premium#one" = "مجموع جوایز: **{count}** اشتراک دلتاگرام پرمیوم به مدت {duration}.";
+"lng_giveaway_prizes_just_premium#other" = "مجموع جوایز: **{count}** اشتراک دلتاگرام پرمیوم به مدت {duration}.";
+"lng_giveaway_prizes_additional#one" = "تمامی جوایز: **{count}** {prize} به همراه اشتراک‌های دلتاگرام پرمیوم به مدت {duration}";
+"lng_giveaway_prizes_additional#other" = "تمامی جوایز: **{count}** {prize} به همراه اشتراک‌های دلتاگرام پرمیوم به مدت {duration}";
 "lng_giveaway_additional_credits_about" = "در صورتی که می‌خواهید علاوه بر ستاره، جوایز مورد نظر خودتان را به برندگان اهدا کنید، این گزینه را فعال کنید.";
 "lng_giveaway_prizes_just_credits#one" = "مجموع جوایز: **{count} ستاره**.";
 "lng_giveaway_prizes_just_credits#other" = "مجموع جوایز: **{count} ستاره**.";
@@ -4114,24 +4114,24 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_prize_title" = "تبریک!";
 "lng_prize_about" = "شما در قرعه‌کشی که توسط {channel} برگزار شد، یک جایزه برنده شدید.";
-"lng_prize_duration" = "جایزه شما، اشتراک **تلگرام پرمیوم** {duration} است.";
+"lng_prize_duration" = "جایزه شما، اشتراک **دلتاگرام پرمیوم** {duration} است.";
 "lng_prize_credits" = "جایزه شما {amount} است.";
 "lng_prize_credits_amount#one" = "{count} ستاره";
 "lng_prize_credits_amount#other" = "{count} ستاره";
 "lng_prize_gift_about" = "شما یک هدیه از {channel} دریافت کرده‌اید.";
-"lng_prize_gift_duration" = "هدیه شما، اشتراک **تلگرام پرمیوم** به مدت {duration} است.";
+"lng_prize_gift_duration" = "هدیه شما، اشتراک **دلتاگرام پرمیوم** به مدت {duration} است.";
 "lng_prize_open" = "باز کردن لینک هدیه";
 "lng_prize_unclaimed_title" = "جایزه دریافت نشده";
 "lng_prize_unclaimed_about" = "شما یک جایزه دریافت نشده از یک قرعه‌کشی توسط **{channel}** دارید.";
-"lng_prize_unclaimed_duration" = "این جایزه، اشتراک **تلگرام پرمیوم** به مدت {duration} است.";
+"lng_prize_unclaimed_duration" = "این جایزه، اشتراک **دلتاگرام پرمیوم** به مدت {duration} است.";
 
 "lng_prizes_title#one" = "جایزه قرعه‌کشی";
 "lng_prizes_title#other" = "جوایز قرعه‌کشی";
 "lng_prizes_additional#one" = "**{count}** {prize}";
 "lng_prizes_additional#other" = "**{count}** {prize}";
 "lng_prizes_additional_with" = "به همراه";
-"lng_prizes_about#one" = "**{count}** اشتراک تلگرام پرمیوم به مدت {duration}";
-"lng_prizes_about#other" = "**{count}** اشتراک تلگرام پرمیوم به مدت {duration}";
+"lng_prizes_about#one" = "**{count}** اشتراک دلتاگرام پرمیوم به مدت {duration}";
+"lng_prizes_about#other" = "**{count}** اشتراک دلتاگرام پرمیوم به مدت {duration}";
 "lng_prizes_credits_about_single" = "**{amount}** به **1** برنده توزیع خواهد شد.";
 "lng_prizes_credits_about#one" = "**{amount}** بین {count} برنده توزیع خواهد شد.";
 "lng_prizes_credits_about#other" = "**{amount}** بین {count} برنده توزیع خواهد شد.";
@@ -4159,10 +4159,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_prizes_end_title" = "قرعه‌کشی پایان یافت";
 "lng_prizes_how_text" = "حامیان این قرعه‌کشی {admins}.";
 "lng_prizes_end_text" = "حامی این قرعه‌کشی {admins}.";
-"lng_prizes_admins#one" = "مدیران {channel} هستند که **{count} اشتراک تلگرام پرمیوم** به مدت {duration} را برای دنبال کنندگان خود تهیه نموده‌اند";
-"lng_prizes_admins#other" = "مدیران {channel} هستند که **{count} اشتراک تلگرام پرمیوم** به مدت {duration} را برای دنبال کنندگان خود تهیه نموده‌اند";
-"lng_prizes_admins_group#one" = "مدیران {channel} هستند که **{count} اشتراک تلگرام پرمیوم** به مدت {duration} را برای اعضای خود تهیه نموده‌اند";
-"lng_prizes_admins_group#other" = "مدیران {channel} هستند که **{count} اشتراک تلگرام پرمیوم** به مدت {duration} را برای اعضای خود تهیه نموده‌اند";
+"lng_prizes_admins#one" = "مدیران {channel} هستند که **{count} اشتراک دلتاگرام پرمیوم** به مدت {duration} را برای دنبال کنندگان خود تهیه نموده‌اند";
+"lng_prizes_admins#other" = "مدیران {channel} هستند که **{count} اشتراک دلتاگرام پرمیوم** به مدت {duration} را برای دنبال کنندگان خود تهیه نموده‌اند";
+"lng_prizes_admins_group#one" = "مدیران {channel} هستند که **{count} اشتراک دلتاگرام پرمیوم** به مدت {duration} را برای اعضای خود تهیه نموده‌اند";
+"lng_prizes_admins_group#other" = "مدیران {channel} هستند که **{count} اشتراک دلتاگرام پرمیوم** به مدت {duration} را برای اعضای خود تهیه نموده‌اند";
 "lng_prizes_credits_admins" = "مدیران {channel} بودند که **{amount}** را برای دنبال کنندگان خود تهیه نمودند";
 "lng_prizes_credits_admins_group" = "مدیران {channel} بودند که **{amount}** را برای اعضای خود تهیه نمودند";
 "lng_prizes_credits_admins_amount#one" = "{count} ستاره";
@@ -4171,8 +4171,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_prizes_additional_added#other" = "{channel}، **{count} {prize}** را نیز به جوایز اضافه کرد. مدیران کانال مسئولیت اهدای این جوایز را بر عهده دارند.";
 "lng_prizes_additional_added_group#one" = "{channel}، **{count} {prize}** را نیز به جوایز اضافه کرد. مدیران گروه مسئولیت اهدای این جوایز را بر عهده دارند.";
 "lng_prizes_additional_added_group#other" = "{channel}، **{count} {prize}** را نیز به جوایز اضافه کرد. مدیران گروه مسئولیت اهدای این جوایز را بر عهده دارند.";
-"lng_prizes_how_when_finish" = "در تاریخ {date}، تلگرام به صورت خودکار {winners} را انتخاب خواهد کرد.";
-"lng_prizes_end_when_finish" = "در تاریخ {date}، تلگرام به صورت خودکار {winners} را انتخاب کرد.";
+"lng_prizes_how_when_finish" = "در تاریخ {date}، دلتاگرام به صورت خودکار {winners} را انتخاب خواهد کرد.";
+"lng_prizes_end_when_finish" = "در تاریخ {date}، دلتاگرام به صورت خودکار {winners} را انتخاب کرد.";
 "lng_prizes_end_activated#one" = "**{count}** نفر از برندگان در حال حاضر از لینک هدیه خود استفاده نموده است.";
 "lng_prizes_end_activated#other" = "**{count}** نفر از برندگان در حال حاضر از لینک‌های هدیه خود استفاده نموده‌اند.";
 "lng_prizes_winners_all_of_one#one" = "{count} مشترک تصادفی از {channel}";
@@ -4208,8 +4208,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_prizes_results_title" = "برندگان انتخاب شدند!";
 "lng_prizes_results_title_one" = "برنده انتخاب شد!";
-"lng_prizes_results_about#one" = "**{count}** برنده {link} به صورت تصادفی توسط تلگرام انتخاب شد.";
-"lng_prizes_results_about#other" = "**{count}** برنده {link} به صورت تصادفی توسط تلگرام انتخاب شدند.";
+"lng_prizes_results_about#one" = "**{count}** برنده {link} به صورت تصادفی توسط دلتاگرام انتخاب شد.";
+"lng_prizes_results_about#other" = "**{count}** برنده {link} به صورت تصادفی توسط دلتاگرام انتخاب شدند.";
 "lng_prizes_results_link" = "قرعه‌کشی";
 "lng_prizes_results_winner" = "برنده";
 "lng_prizes_results_winners" = "برندگان";
@@ -4224,12 +4224,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_prizes_results_some" = "برخی از برندگان قرعه‌کشی قابل انتخاب نبودند.";
 
 "lng_gift_link_title" = "لینک هدیه";
-"lng_gift_link_about" = "این لینک به شما امکان فعال کردن\nیک اشتراک **تلگرام پرمیوم** را می‌دهد.";
+"lng_gift_link_about" = "این لینک به شما امکان فعال کردن\nیک اشتراک **دلتاگرام پرمیوم** را می‌دهد.";
 "lng_gift_link_label_from" = "از طرف";
 "lng_gift_link_label_to" = "به";
 "lng_gift_link_label_to_unclaimed" = "بدون دریافت کننده";
 "lng_gift_link_label_gift" = "هدیه";
-"lng_gift_link_gift_premium" = "تلگرام پرمیوم {duration}";
+"lng_gift_link_gift_premium" = "دلتاگرام پرمیوم {duration}";
 "lng_gift_link_label_reason" = "دلیل";
 "lng_gift_link_reason_giveaway" = "قرعه‌کشی";
 "lng_gift_link_reason_unclaimed" = "قرعه‌کشی ناتمام";
@@ -4241,32 +4241,32 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gift_link_also_send" = "همچنین می‌توانید {link} را به عنوان هدیه برای یکی از دوستان خود ارسال کنید.";
 "lng_gift_link_also_send_link" = "این لینک";
 "lng_gift_link_use" = "استفاده از لینک";
-"lng_gift_link_already_title" = "شما در حال حاضر دارای اشتراک تلگرام پرمیوم هستید";
+"lng_gift_link_already_title" = "شما در حال حاضر دارای اشتراک دلتاگرام پرمیوم هستید";
 "lng_gift_link_already_about" = "شما می‌توانید پس از {date} این لینک را فعال کرده یا لینک را برای یکی از دوستان خود {link}.";
 "lng_gift_link_already_link" = "ارسال کنید";
 "lng_gift_link_used_title" = "لینک هدیه استفاده شده";
-"lng_gift_link_used_about" = "از این لینک برای فعال کردن یک اشتراک\n**تلگرام پرمیوم** استفاده شده است.";
+"lng_gift_link_used_about" = "از این لینک برای فعال کردن یک اشتراک\n**دلتاگرام پرمیوم** استفاده شده است.";
 "lng_gift_link_used_footer" = "این لینک در تاریخ {date} استفاده شده است.";
 "lng_gift_link_expired" = "لینک کد هدیه منقضی شده است";
-"lng_gift_link_pending_about" = "این لینک به {user} امکان فعال کردن\nیک اشتراک **تلگرام پرمیوم** را می‌دهد.";
+"lng_gift_link_pending_about" = "این لینک به {user} امکان فعال کردن\nیک اشتراک **دلتاگرام پرمیوم** را می‌دهد.";
 "lng_gift_link_pending_toast" = "فقط دریافت کننده می‌تواند لینک را مشاهده کند.";
 "lng_gift_link_pending_footer" = "این لینک هنوز فعال نشده است.";
 
 "lng_gift_stars_title#one" = "{count} ستاره";
 "lng_gift_stars_title#other" = "{count} ستاره";
-"lng_gift_stars_outgoing" = "با استفاده از ستاره‌ها، {user} می‌تواند به محتوا و سرویس‌ها در تلگرام دسترسی پیدا کند.";
-"lng_gift_stars_incoming" = "از ستاره‌ها برای دسترسی به محتوا و سرویس‌ها در تلگرام استفاده کنید.";
+"lng_gift_stars_outgoing" = "با استفاده از ستاره‌ها، {user} می‌تواند به محتوا و سرویس‌ها در دلتاگرام دسترسی پیدا کند.";
+"lng_gift_stars_incoming" = "از ستاره‌ها برای دسترسی به محتوا و سرویس‌ها در دلتاگرام استفاده کنید.";
 "lng_gift_until" = "تا";
 
 "lng_gift_ton_amount#one" = "{count} Gram";
 "lng_gift_ton_amount#other" = "{count} Gram";
 
 "lng_gift_premium_title" = "هدیه پرمیوم";
-"lng_gift_premium_text#one" = "با خرید اشتراک **تلگرام پرمیوم**، تا حداکثر **{count}** عدد از این هدیه‌ها را ارسال کرده و به قابلیت‌های قدرتمند دسترسی پیدا کنید.";
-"lng_gift_premium_text#other" = "با خرید اشتراک **تلگرام پرمیوم**، تا حداکثر **{count}** عدد از این هدیه‌ها را ارسال کرده و به قابلیت‌های قدرتمند دسترسی پیدا کنید.";
+"lng_gift_premium_text#one" = "با خرید اشتراک **دلتاگرام پرمیوم**، تا حداکثر **{count}** عدد از این هدیه‌ها را ارسال کرده و به قابلیت‌های قدرتمند دسترسی پیدا کنید.";
+"lng_gift_premium_text#other" = "با خرید اشتراک **دلتاگرام پرمیوم**، تا حداکثر **{count}** عدد از این هدیه‌ها را ارسال کرده و به قابلیت‌های قدرتمند دسترسی پیدا کنید.";
 "lng_gift_premium_or_stars" = "ارسال هدیه";
 "lng_gift_premium_subtitle" = "اهدای پرمیوم";
-"lng_gift_premium_about" = "با تلگرام پرمیوم، به {name} امکان دسترسی به قابلیت‌های انحصاری را بدهید. {features}";
+"lng_gift_premium_about" = "با دلتاگرام پرمیوم، به {name} امکان دسترسی به قابلیت‌های انحصاری را بدهید. {features}";
 "lng_gift_premium_features" = "مشاهده قابلیت‌ها >";
 "lng_gift_premium_label" = "پرمیوم";
 "lng_gift_premium_by_stars" = "یا {amount}";
@@ -4374,7 +4374,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gift_released_by" = "منتشر شده توسط {name}";
 "lng_gift_unique_owner" = "مالک";
 "lng_gift_unique_address_copied" = "آدرس کیف پول در حافظه کپی شد.";
-"lng_gift_unique_telegram" = "تلگرام";
+"lng_gift_unique_telegram" = "دلتاگرام";
 "lng_gift_unique_status" = "وضعیت";
 "lng_gift_unique_status_non" = "غیر منحصر به فرد";
 "lng_gift_unique_upgrade" = "ارتقاء";
@@ -4406,7 +4406,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gift_availability_left#one" = "{count} از {amount} باقی مانده";
 "lng_gift_availability_left#other" = "{count} از {amount} باقی مانده";
 "lng_gift_availability_none" = "0 از {amount} باقی مانده";
-"lng_gift_value_about_average" = "این میانگین قیمت فروش هدیه‌های {gift} در تلگرام و Fragment، در طول ماه گذشته است.";
+"lng_gift_value_about_average" = "این میانگین قیمت فروش هدیه‌های {gift} در دلتاگرام و Fragment، در طول ماه گذشته است.";
 "lng_gift_value_about_last" = "**{gift}** آخرین بار با این قیمت در {platform} فروخته شده است.";
 "lng_gift_value_initial_sale" = "فروش اولیه";
 "lng_gift_value_initial_price" = "قیمت اولیه";
@@ -4414,12 +4414,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gift_value_last_sale" = "آخرین فروش";
 "lng_gift_value_last_price" = "آخرین قیمت";
 "lng_gift_value_minimum_price" = "حداقل قیمت";
-"lng_gift_value_minimum_price_tooltip" = "{amount}، قیمت پایه هدیه‌های {gift} است که در تلگرام و Fragment لیست شده‌اند.";
+"lng_gift_value_minimum_price_tooltip" = "{amount}، قیمت پایه هدیه‌های {gift} است که در دلتاگرام و Fragment لیست شده‌اند.";
 "lng_gift_vlaue_average_price" = "میانگین قیمت";
-"lng_gift_value_average_price_tooltip" = "{amount}، میانگین قیمت فروش {gift} در تلگرام و Fragment، در طول ماه گذشته است.";
+"lng_gift_value_average_price_tooltip" = "{amount}، میانگین قیمت فروش {gift} در دلتاگرام و Fragment، در طول ماه گذشته است.";
 "lng_gift_value_availability#one" = "{count} {emoji} برای فروش در {platform} {arrow}";
 "lng_gift_value_availability#other" = "{count} {emoji} برای فروش در {platform} {arrow}";
-"lng_gift_value_telegram" = "تلگرام";
+"lng_gift_value_telegram" = "دلتاگرام";
 "lng_gift_value_fragment" = "Fragment";
 "lng_gift_convert_to_stars#one" = "تبدیل به {count} ستاره";
 "lng_gift_convert_to_stars#other" = "تبدیل به {count} ستاره";
@@ -4460,13 +4460,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gift_upgrade_unique_about_user" = "{name}، شماره، مدل، پس‌زمینه و نماد منحصر به فردی را برای هدیه دریافت خواهد کرد.";
 "lng_gift_upgrade_unique_about_channel" = "مدیران {name}، نام، مدل، پس‌زمینه و نماد منحصر به فردی را برای هدیه دریافت خواهند کرد.";
 "lng_gift_upgrade_transferable_title" = "قابل انتقال";
-"lng_gift_upgrade_transferable_about" = "هدیه ارتقاء یافته خود را به هر یک از دوستان خود در تلگرام ارسال کنید.";
-"lng_gift_upgrade_transferable_about_user" = "{name} قادر خواهد بود این هدیه را برای هر کسی در تلگرام ارسال کنید.";
-"lng_gift_upgrade_transferable_about_channel" = "مدیران {name} قادر خواهد بود این هدیه را برای هر کسی در تلگرام ارسال کنید.";
+"lng_gift_upgrade_transferable_about" = "هدیه ارتقاء یافته خود را به هر یک از دوستان خود در دلتاگرام ارسال کنید.";
+"lng_gift_upgrade_transferable_about_user" = "{name} قادر خواهد بود این هدیه را برای هر کسی در دلتاگرام ارسال کنید.";
+"lng_gift_upgrade_transferable_about_channel" = "مدیران {name} قادر خواهد بود این هدیه را برای هر کسی در دلتاگرام ارسال کنید.";
 "lng_gift_upgrade_tradable_title" = "قابل معاوضه";
 "lng_gift_upgrade_tradable_about" = "هدیه خود را در بازارهای NFT شخص ثالث به فروش یا مزایده بگذارید.";
-"lng_gift_upgrade_tradable_about_user" = "{name} قادر خواهد بود هدیه را درتلگرام یا بازارهای NFT شخص ثالث بفروشد.";
-"lng_gift_upgrade_tradable_about_channel" = "مدیران {name} قادر خواهند بود هدیه را در تلگرام و بازارهای NFT به فروش بگذارند.";
+"lng_gift_upgrade_tradable_about_user" = "{name} قادر خواهد بود هدیه را دردلتاگرام یا بازارهای NFT شخص ثالث بفروشد.";
+"lng_gift_upgrade_tradable_about_channel" = "مدیران {name} قادر خواهند بود هدیه را در دلتاگرام و بازارهای NFT به فروش بگذارند.";
 "lng_gift_upgrade_wearable_title" = "قابل اعمال";
 "lng_gift_upgrade_wearable_about" = "هدیه‌ها را در پروفایل خود نمایش داده و آن‌ها را به عنوان کاور یا وضعیت خود تنظیم کنید.";
 "lng_gift_upgrade_button" = "ارتقاء با {price}";
@@ -4494,20 +4494,20 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gift_transfer_password_description" = "لطفاً برای انتقال، گذرواژه خود را وارد کنید.";
 "lng_gift_transfer_password_about" = "شما فقط در صورتی می‌توانید برداشت کنید که:";
 "lng_gift_transfer_confirm_title" = "مدیریت با Fragment";
-"lng_gift_transfer_confirm_text" = "شما می‌توانید از Fragment که یک سرویس شخص ثالث است، برای انتقال {name} به بلاکچین TON استفاده کنید. پس از آن، می‌توانید آن را به عنوان یک NFT با هر برنامه کیف پول TON مدیریت کنید.\n\nهمچنین می‌توانید چنین NFT‌هایی را از طریق Fragment، به حساب کاربری تلگرام خود بازگردانید.";
+"lng_gift_transfer_confirm_text" = "شما می‌توانید از Fragment که یک سرویس شخص ثالث است، برای انتقال {name} به بلاکچین TON استفاده کنید. پس از آن، می‌توانید آن را به عنوان یک NFT با هر برنامه کیف پول TON مدیریت کنید.\n\nهمچنین می‌توانید چنین NFT‌هایی را از طریق Fragment، به حساب کاربری دلتاگرام خود بازگردانید.";
 "lng_gift_transfer_confirm_button" = "باز کردن Fragment";
 "lng_gift_transfer_unlocks_days#one" = "قابل دسترس پس از {count} روز";
 "lng_gift_transfer_unlocks_days#other" = "قابل دسترس پس از {count} روز";
 "lng_gift_transfer_unlocks_hours#one" = "قابل دسترس پس از {count} ساعت";
 "lng_gift_transfer_unlocks_hours#other" = "قابل دسترس پس از {count} ساعت";
 "lng_gift_transfer_unlocks_title" = "در حال باز شدن";
-"lng_gift_transfer_unlocks_about" = "{when} قادر خواهید بود این کلکسیونی را به هر آدرس بلاکچین TON خارج از تلگرام، برای فروش یا مزایده ارسال کنید.";
+"lng_gift_transfer_unlocks_about" = "{when} قادر خواهید بود این کلکسیونی را به هر آدرس بلاکچین TON خارج از دلتاگرام، برای فروش یا مزایده ارسال کنید.";
 "lng_gift_transfer_unlocks_when_days#one" = "{count} روز دیگر";
 "lng_gift_transfer_unlocks_when_days#other" = "{count} روز دیگر";
 "lng_gift_transfer_unlocks_when_hours#one" = "{count} ساعت دیگر";
 "lng_gift_transfer_unlocks_when_hours#other" = "{count} ساعت دیگر";
 "lng_gift_transfer_unlocks_update_title" = "نیازمند به‌روزرسانی";
-"lng_gift_transfer_unlocks_update_about" = "لطفاً برنامه تلگرام خود را به آخرین نسخه به‌روزرسانی کنید.";
+"lng_gift_transfer_unlocks_update_about" = "لطفاً برنامه دلتاگرام خود را به آخرین نسخه به‌روزرسانی کنید.";
 "lng_gift_transfer_sure" = "آیا می‌خواهید مالکیت {name} را به {recipient} انتقال دهید؟";
 "lng_gift_transfer_sure_for" = "آیا می‌خواهید با پرداخت {price}، مالکیت {name} را به {recipient} انتقال دهید؟";
 "lng_gift_transfer_button" = "انتقال";
@@ -4520,7 +4520,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gift_transfer_update" = "تغییر قیمت";
 "lng_gift_transfer_unlist" = "حذف از لیست";
 "lng_gift_transfer_locked_title" = "اقدام قفل است";
-"lng_gift_transfer_locked_text" = "برای دسترسی به این اقدام، این هدیه را به حساب کاربری تلگرام خود در Fragment انتقال دهید.";
+"lng_gift_transfer_locked_text" = "برای دسترسی به این اقدام، این هدیه را به حساب کاربری دلتاگرام خود در Fragment انتقال دهید.";
 "lng_gift_offer_button" = "پیشنهاد خرید";
 "lng_gift_offer_title" = "پیشنهاد خرید";
 "lng_gift_offer_stars_about" = "تعداد ستاره‌هایی که می‌خواهید برای {name} پیشنهاد دهید را انتخاب کنید.";
@@ -4777,7 +4777,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_auction_change_already_me" = "شما در حال حاضر برای این هدیه به خودتان، پیشنهادی ثبت کرده‌اید.";
 "lng_auction_change_to_me" = "آیا می‌خواهید پیشنهاد خود را افزایش داده و دریافت کننده را به خودتان تغییر دهید؟";
 "lng_auction_preview_name" = "مزایده بعدی";
-"lng_auction_preview_learn_gifts" = "درباره هدیه‌های تلگرام بیشتر بدانید {arrow}";
+"lng_auction_preview_learn_gifts" = "درباره هدیه‌های دلتاگرام بیشتر بدانید {arrow}";
 "lng_auction_preview_variants#one" = "مشاهده {emoji} {count} نسخه {arrow}";
 "lng_auction_preview_variants#other" = "مشاهده {emoji} {count} نسخه {arrow}";
 "lng_auction_preview_random" = "ویژگی‌های تصادفی";
@@ -4805,7 +4805,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_accounts_limit_title" = "به سقف مجاز رسیده‌اید";
 "lng_accounts_limit1#one" = "شما به سقف محدودیت **{count}** حساب کاربری متصل شده رسیده‌اید.";
 "lng_accounts_limit1#other" = "شما به سقف محدودیت **{count}** حساب کاربری متصل شده رسیده‌اید.";
-"lng_accounts_limit2" = "می‌توانید با خرید اشتراک **تلگرام پرمیوم** با یکی از حساب‌های کاربری متصل شده زیر، یک حساب کاربری دیگر اضافه کنید:";
+"lng_accounts_limit2" = "می‌توانید با خرید اشتراک **دلتاگرام پرمیوم** با یکی از حساب‌های کاربری متصل شده زیر، یک حساب کاربری دیگر اضافه کنید:";
 
 "lng_emoji_status_for_title" = "تنظیم وضعیت به مدت...";
 "lng_emoji_status_for_submit" = "تنظیم وضعیت";
@@ -5048,7 +5048,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_schedule_repeat_every_month#other" = "هر {count} ماه";
 "lng_schedule_repeat_yearly" = "هر سال";
 "lng_schedule_repeat_promo" = "با خرید اشتراک {link}، پیام‌های تکرار شونده را زمان‌بندی کنید.";
-"lng_schedule_repeat_promo_link" = "تلگرام پرمیوم";
+"lng_schedule_repeat_promo_link" = "دلتاگرام پرمیوم";
 "lng_schedule_at" = "در";
 "lng_message_ph" = "پیامی بنویسید...";
 "lng_broadcast_ph" = "اطلاع‌رسانی پیام...";
@@ -5084,7 +5084,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_send_as_title" = "ارسال پیام به عنوان...";
 "lng_send_as_anonymous_admin" = "مدیر ناشناس";
 "lng_send_as_premium_required" = "با خرید اشتراک {link}، می‌توانید از طرف کانال‌های خود در گفتگوهای گروهی دیدگاه بگذارید.";
-"lng_send_as_premium_required_link" = "تلگرام پرمیوم";
+"lng_send_as_premium_required_link" = "دلتاگرام پرمیوم";
 "lng_record_cancel" = "برای لغو کردن، این قسمت را به بیرون رها کنید";
 "lng_record_cancel_stories" = "برای لغو کردن، به بیرون رها کنید";
 "lng_record_lock_cancel_sure" = "آیا می‌خواهید ضبط را متوقف کرده و پیام صوتی خود را حذف کنید؟";
@@ -5179,7 +5179,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_replies_no_comments" = "هنوز دیدگاهی ارسال نشده است...";
 
 "lng_verification_codes" = "کدهای تأیید";
-"lng_verification_codes_about" = "سرویس‌های شخص ثالث، مانند وبسایت‌ها و فروشگاه‌ها، می‌توانند کدهای تأیید را به جای پیامک، از طریق تلگرام به شماره تلفن شما ارسال کنند. این کدها در این گفتگو نمایش داده می‌شوند.\n\nدر صورتی که کدی درخواست نکردید، نگران نباشید! احتمالاً کسی در هنگام وارد کردن شماره تلفن خود اشتباه کرده است.";
+"lng_verification_codes_about" = "سرویس‌های شخص ثالث، مانند وبسایت‌ها و فروشگاه‌ها، می‌توانند کدهای تأیید را به جای پیامک، از طریق دلتاگرام به شماره تلفن شما ارسال کنند. این کدها در این گفتگو نمایش داده می‌شوند.\n\nدر صورتی که کدی درخواست نکردید، نگران نباشید! احتمالاً کسی در هنگام وارد کردن شماره تلفن خود اشتباه کرده است.";
 
 "lng_archived_name" = "گفتگوهای بایگانی شده";
 "lng_archived_add" = "بایگانی کردن";
@@ -5204,12 +5204,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dialogs_suggestions_birthday_contacts_title#other" = "امروز **تولد** {count} نفر از مخاطبین شماست! 🎂";
 "lng_dialogs_suggestions_birthday_contacts_about" = "برای آن‌ها هدیه‌ای ارسال کنید.";
 "lng_dialogs_suggestions_birthday_contact_dismiss" = "می‌توانید بعداً از قسمت تنظیمات هدیه‌ای ارسال کنید";
-"lng_dialogs_suggestions_premium_annual_title" = "تلگرام پرمیوم با {text} تخفیف";
-"lng_dialogs_suggestions_premium_annual_about" = "هم اکنون برای برنامه پرداخت سالانه تلگرام پرمیوم ثبت نام کنید تا از تخفیف بهره‌مند شوید.";
-"lng_dialogs_suggestions_premium_upgrade_title" = "تلگرام پرمیوم با {text} تخفیف";
-"lng_dialogs_suggestions_premium_upgrade_about" = "به برنامه پرداخت سالانه برای تلگرام پرمیوم ارتقاء دهید تا از تخفیف بهره‌مند شوید.";
+"lng_dialogs_suggestions_premium_annual_title" = "دلتاگرام پرمیوم با {text} تخفیف";
+"lng_dialogs_suggestions_premium_annual_about" = "هم اکنون برای برنامه پرداخت سالانه دلتاگرام پرمیوم ثبت نام کنید تا از تخفیف بهره‌مند شوید.";
+"lng_dialogs_suggestions_premium_upgrade_title" = "دلتاگرام پرمیوم با {text} تخفیف";
+"lng_dialogs_suggestions_premium_upgrade_about" = "به برنامه پرداخت سالانه برای دلتاگرام پرمیوم ارتقاء دهید تا از تخفیف بهره‌مند شوید.";
 "lng_dialogs_suggestions_premium_restore_title" = "دریافت مجدد اشتراک پرمیوم با {text} تخفیف";
-"lng_dialogs_suggestions_premium_restore_about" = "اشتراک تلگرام پرمیوم شما اخیراً منقضی شده است. لطفاً برای تمدید آن، بر روی اینجا کلیک کنید.";
+"lng_dialogs_suggestions_premium_restore_about" = "اشتراک دلتاگرام پرمیوم شما اخیراً منقضی شده است. لطفاً برای تمدید آن، بر روی اینجا کلیک کنید.";
 "lng_dialogs_suggestions_premium_grace_title" = "⚠️ اشتراک پرمیوم شما در حال منقضی شدن است!";
 "lng_dialogs_suggestions_premium_grace_about" = "دسترسی خود به قابلیت‌های انحصاری را از دست ندهید.";
 "lng_dialogs_suggestions_userpics_title" = "عکستان را اضافه کنید! 📸";
@@ -5230,7 +5230,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_unconfirmed_auth_denied_title#other" = "از ورودهای جدید به حساب کاربری جلوگیری شد";
 "lng_unconfirmed_auth_denied_single" = "ما تلاش برای ورود به حساب کاربری از {country} را متوقف کردیم.";
 "lng_unconfirmed_auth_denied_multiple" = "ما تلاش برای ورود به حساب کاربری از {country} را متوقف کردیم.";
-"lng_unconfirmed_auth_denied_warning" = "هرگز کد ورود به حساب کاربری خود را در اختیار کسی قرار ندهید، در غیر این صورت ممکن است حساب کاربری تلگرام خود را از دست بدهید!";
+"lng_unconfirmed_auth_denied_warning" = "هرگز کد ورود به حساب کاربری خود را در اختیار کسی قرار ندهید، در غیر این صورت ممکن است حساب کاربری دلتاگرام خود را از دست بدهید!";
 "lng_unconfirmed_auth_confirmed" = "ورود جدید مجاز شد";
 "lng_unconfirmed_auth_confirmed_message" = "شما می‌توانید لیست ورودهای فعال به حساب کاربری خود را در قسمت {link} بررسی کنید.";
 
@@ -5242,7 +5242,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_open_this_link" = "این لینک را باز می‌کنید؟";
 "lng_open_link" = "باز کردن";
 
-"lng_allow_bot_pass" = "آیا به {bot_name} اجازه می‌دهید تا نام و شناسه تلگرام شما (نه شماره تلفنتان) را به صفحه‌های وبی که توسط این ربات باز می‌کنید، ارسال کند؟";
+"lng_allow_bot_pass" = "آیا به {bot_name} اجازه می‌دهید تا نام و شناسه دلتاگرام شما (نه شماره تلفنتان) را به صفحه‌های وبی که توسط این ربات باز می‌کنید، ارسال کند؟";
 "lng_allow_bot" = "اجازه دادن";
 "lng_allow_bot_webview_details" = "اطلاعات بیشتر درباره این ربات {emoji}";
 "lng_allow_bot_webview_details_about" = "برای باز کردن این برنامه وب، به وبسایت آن متصل خواهید شد.\n\nاین ربات قادر به دسترسی به **آدرس IP** و اطلاعات ابتدایی مربوط به دستگاه شما خواهد بود.";
@@ -5317,8 +5317,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bot_close_warning_sure" = "بستن";
 "lng_bot_add_to_side_menu" = "{bot} از شما اجازه می‌خواهد تا به عنوان گزینه‌ای در منوی اصلی شما اضافه شود تا بتوانید در هر زمانی به آن دسترسی داشته باشید.";
 "lng_bot_add_to_side_menu_done" = "ربات به منوی اصلی اضافه شد.";
-"lng_bot_no_scan_qr" = "از کد‌های QR برای ربات‌ها در دسکتاپ پشتیبانی نمی‌شود. لطفاً از یکی از برنامه‌های تلفن همراه تلگرام استفاده کنید.";
-"lng_bot_no_share_story" = "از اشتراک گذاری در استوری در دسکتاپ پشتیبانی نمی‌شود. لطفاً از یکی از برنامه‌های تلفن همراه تلگرام استفاده کنید.";
+"lng_bot_no_scan_qr" = "از کد‌های QR برای ربات‌ها در دسکتاپ پشتیبانی نمی‌شود. لطفاً از یکی از برنامه‌های تلفن همراه دلتاگرام استفاده کنید.";
+"lng_bot_no_share_story" = "از اشتراک گذاری در استوری در دسکتاپ پشتیبانی نمی‌شود. لطفاً از یکی از برنامه‌های تلفن همراه دلتاگرام استفاده کنید.";
 "lng_bot_emoji_status_confirm" = "تأیید";
 "lng_bot_emoji_status_title" = "تنظیم اموجی وضعیت";
 "lng_bot_emoji_status_text" = "آیا می‌خواهید این اموجی وضعیت پیشنهاد شده توسط {bot} را تنظیم کنید؟";
@@ -5626,11 +5626,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_factcheck_title" = "راستی‌آزمایی";
 "lng_factcheck_placeholder" = "افزودن حقیقت یا مضمون";
 "lng_factcheck_whats_this" = "این چیست؟";
-"lng_factcheck_about" = "این شفاف‌سازی توسط تلگرام ارائه شده است.";
+"lng_factcheck_about" = "این شفاف‌سازی توسط دلتاگرام ارائه شده است.";
 "lng_factcheck_add_done" = "راستی‌آزمایی اضافه شد.";
 "lng_factcheck_edit_done" = "راستی‌آزمایی ویرایش شد.";
 "lng_factcheck_remove_done" = "راستی‌آزمایی حذف شد.";
-"lng_factcheck_bottom" = "این توضیح توسط تلگرام ارائه شد.";
+"lng_factcheck_bottom" = "این توضیح توسط دلتاگرام ارائه شد.";
 "lng_factcheck_links" = "فقط لینک‌های **t.me/** مجاز هستند.";
 
 "lng_paid_title" = "محتوای پولی";
@@ -5705,7 +5705,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_translate_cocoon_private_text" = "هیچ شخص ثالثی نمی‌تواند به هیچ داده‌ای، از جمله ترجمه‌ها، در {mention} دسترسی داشته باشد.";
 "lng_translate_cocoon_private_mention" = "@cocoon";
 "lng_translate_cocoon_efficient_title" = "کارآمد";
-"lng_translate_cocoon_efficient_text" = "Cocoon به تلگرام اجازه داده تا هزینه ترجمه‌ها را تا 6 برابر کاهش دهد.";
+"lng_translate_cocoon_efficient_text" = "Cocoon به دلتاگرام اجازه داده تا هزینه ترجمه‌ها را تا 6 برابر کاهش دهد.";
 "lng_translate_cocoon_everyone_title" = "برای همه";
 "lng_translate_cocoon_everyone_text" = "هر توسعه‌دهنده‌ای می‌تواند از Cocoon برای قابلیت‌های هوش مصنوعی استفاده کند. برای اطلاعات بیشتر به {domain} مراجعه کنید.";
 "lng_translate_cocoon_everyone_domain" = "cocoon.org";
@@ -5956,13 +5956,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_add_contact" = "ایجاد";
 "lng_add_contact_button" = "مخاطب جدید";
 "lng_contacts_header" = "مخاطبین";
-"lng_menu_not_contact" = "این شماره در تلگرام نیست";
+"lng_menu_not_contact" = "این شماره در دلتاگرام نیست";
 "lng_contacts_hidden_stories" = "استوری‌های پنهان شده";
 "lng_contacts_stories_status#one" = "{count} استوری";
 "lng_contacts_stories_status#other" = "{count} استوری";
 "lng_contacts_stories_status_new#one" = "{count} استوری جدید";
 "lng_contacts_stories_status_new#other" = "{count} استوری جدید";
-"lng_contact_not_joined" = "متأسفانه {name} هنوز به تلگرام نپیوسته‌ است، اما شما می‌توانید برای او دعوت‌نامه‌ای بفرستید.\n\nهنگامی یک از مخاطبینتان به تلگرام بپیوندد، به شما اطلاع می‌دهیم.";
+"lng_contact_not_joined" = "متأسفانه {name} هنوز به دلتاگرام نپیوسته‌ است، اما شما می‌توانید برای او دعوت‌نامه‌ای بفرستید.\n\nهنگامی یک از مخاطبینتان به دلتاگرام بپیوندد، به شما اطلاع می‌دهیم.";
 "lng_try_other_contact" = "شخص دیگری را امتحان کنید";
 "lng_create_group_link" = "لینک";
 "lng_create_group_invite_link" = "لینک دعوت";
@@ -6035,11 +6035,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_upload_show_file" = "نمایش فایل";
 
 "lng_about_version" = "نسخه {version}";
-"lng_about_text1" = "برنامه پیام‌رسانی رسمی و رایگان بر پایه {api_link}\nجهت تأمین سرعت و امنیت.";
-"lng_about_text1_api" = "رابط برنامه‌نویسی تلگرام";
+"lng_about_text1" = "دلتاگرام، یک کلاینت دلتاچت.";
+"lng_about_text1_api" = "دلتاگرام";
 "lng_about_text2" = "این برنامه تحت لیسانس {gpl_link} نسخه 3 است.\nکد منبع در {github_link} قابل دسترسی است.";
 "lng_about_text3" = "برای اطلاعات بیشتر به {faq_link} مراجعه کنید.";
-"lng_about_text3_faq" = "پرسش‌های متداول تلگرام";
+"lng_about_text3_faq" = "پرسش‌های متداول دلتاگرام";
 "lng_about_done" = "تأیید";
 
 "lng_search_no_results" = "پیامی پیدا نشد";
@@ -6234,7 +6234,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_preview_users#one" = "{count} نفر از این پوسته استفاده می‌کند";
 "lng_theme_preview_users#other" = "{count} نفر از این پوسته استفاده می‌کنند";
 
-"lng_new_version_wrap" = "تلگرام دسکتاپ به نسخه {version} به‌روزرسانی شد.\n\n{changes}\n\nتاریخچه نسخه کامل در اینجا در دسترس است:\n{link}";
+"lng_new_version_wrap" = "دلتاگرام دسکتاپ به نسخه {version} به‌روزرسانی شد.\n\n{changes}\n\nتاریخچه نسخه کامل در اینجا در دسترس است:\n{link}";
 "lng_new_version_minor" = "— رفع اشکالات و سایر بهبودهای جزئی";
 
 "lng_menu_insert_unicode" = "درج کاراکتر کنترلی یونیکد";
@@ -6331,7 +6331,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_confirm_phone_link_invalid" = "این لینک خراب یا منقضی است.";
 "lng_confirm_phone_title" = "لغو بازنشانی حساب کاربری ";
-"lng_confirm_phone_about" = "شخصی با دسترسی به شماره تلفن شما {phone} درخواست حذف حساب کاربری تلگرام و بازنشانی گذرواژه‌ تأیید دو مرحله‌ای شما را داده است.\n\nاگر این درخواست از جانب شما نبوده، لطفاً کدی که هم اکنون از طریق پیامک به شماره شما ارسال کرده‌ایم را وارد کنید. شما همچنین می‌توانید با تغییر شماره تلفن خود به شماره دیگری که در اختیار دارید این درخواست را لغو کنید.";
+"lng_confirm_phone_about" = "شخصی با دسترسی به شماره تلفن شما {phone} درخواست حذف حساب کاربری دلتاگرام و بازنشانی گذرواژه‌ تأیید دو مرحله‌ای شما را داده است.\n\nاگر این درخواست از جانب شما نبوده، لطفاً کدی که هم اکنون از طریق پیامک به شماره شما ارسال کرده‌ایم را وارد کنید. شما همچنین می‌توانید با تغییر شماره تلفن خود به شماره دیگری که در اختیار دارید این درخواست را لغو کنید.";
 "lng_confirm_phone_success" = "عملیات با موفقیت انجام شد!\n\nفرآیند حذف حساب کاربری شما {phone} لغو شد. اکنون می‌توانید این پنجره را ببندید.";
 "lng_confirm_phone_send" = "ارسال";
 "lng_confirm_phone_enter_code" = "لطفاً کد را وارد کنید.";
@@ -6348,7 +6348,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_editor_error" = "ویرایشگر با خطا مواجه شد :( برای جزئیات بیشتر «log.txt» را مشاهده کنید.";
 "lng_theme_editor_sure_close" = "آیا از بستن ویرایشگر اطمینان دارید؟ تغییرات شما ذخیره نخواهد شد.";
 "lng_theme_editor_need_auth" = " برای ذخیره پوسته خود باید وارد حساب کاربری خود شوید.";
-"lng_theme_editor_need_unlock" = "برای ذخیره پوسته خود باید قفل تلگرام را باز کنید.";
+"lng_theme_editor_need_unlock" = "برای ذخیره پوسته خود باید قفل دلتاگرام را باز کنید.";
 "lng_theme_editor_done" = "پوسته با موفقیت صادر شد!";
 "lng_theme_editor_title" = "ویرایش پالت رنگ";
 "lng_theme_editor_save_button" = "ذخیره پوسته";
@@ -6402,7 +6402,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_payments_to_provider_phone" = "شماره تلفن به عنوان اطلاعات صدور قبض به {provider} ارسال خواهد شد.";
 "lng_payments_processed_by" = "پردازش شده توسط {provider}";
 "lng_payments_warning_title" = "هشدار";
-"lng_payments_warning_body" = "تلگرام و {bot1} به اطلاعات کارت اعتباری شما دسترسی نخواهند داشت. جزئیات مربوط به کارت اعتباری تنها توسط سیستم پرداخت {provider} مورد استفاده قرار خواهند گرفت.\n\nپرداخت‌ها مستقیماً به توسعه‌دهنده {bot2} ارسال خواهند شد. تلگرام هیچ تضمینی در این خصوص ارائه نمی‌دهد، بنابراین با مسئولیت خودتان ادامه دهید. لطفاً در صورت بروز هر گونه مشکل، با توسعه‌دهنده {bot3} یا بانک خود ارتباط برقرار کنید.";
+"lng_payments_warning_body" = "دلتاگرام و {bot1} به اطلاعات کارت اعتباری شما دسترسی نخواهند داشت. جزئیات مربوط به کارت اعتباری تنها توسط سیستم پرداخت {provider} مورد استفاده قرار خواهند گرفت.\n\nپرداخت‌ها مستقیماً به توسعه‌دهنده {bot2} ارسال خواهند شد. دلتاگرام هیچ تضمینی در این خصوص ارائه نمی‌دهد، بنابراین با مسئولیت خودتان ادامه دهید. لطفاً در صورت بروز هر گونه مشکل، با توسعه‌دهنده {bot3} یا بانک خود ارتباط برقرار کنید.";
 "lng_payments_shipping_address_title" = "اطلاعات ارسال";
 "lng_payments_card_title" = "کارت جدید";
 "lng_payments_card_number" = "شماره کارت";
@@ -6447,7 +6447,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_call_status_failed" = "اتصال انجام نشد";
 "lng_call_status_ringing" = "در حال زنگ خوردن...";
 "lng_call_status_busy" = "خط مشغول است";
-"lng_call_status_group_invite" = "تماس گروهی تلگرامی";
+"lng_call_status_group_invite" = "تماس گروهی دلتاگرامی";
 "lng_call_status_sure" = "در صورت تمایل به شروع تماس ویدیویی، بر روی آیکون دوربین کلیک کنید.";
 "lng_call_fingerprint_tooltip" = "در صورتی که اموجی‌های روی صفحه {user} با این اموجی‌ها یکسان باشد، این تماس %100 امن است.";
 
@@ -6464,7 +6464,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_call_leave_to_other_sure_channel" = "آیا می‌خواهید به تماس فعال خود پایان داده و به یک پخش زنده در این کانال بپیوندید؟";
 
 "lng_call_box_title" = "تماس‌ها";
-"lng_call_box_about" = "شما هنوز تماس تلگرامی برقرار نکرده‌اید.";
+"lng_call_box_about" = "شما هنوز تماس دلتاگرامی برقرار نکرده‌اید.";
 "lng_call_box_status_today" = "{time}";
 "lng_call_box_status_yesterday" = "دیروز در {time}";
 "lng_call_box_status_date" = "{date} در {time}";
@@ -6629,11 +6629,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_call_context_ban_from_call" = "محروم کردن از تماس";
 "lng_group_call_remove_channel" = "{channel} از گفتگوی ویدیویی حذف شود؟";
 "lng_group_call_remove_channel_from_channel" = "{channel} از پخش زنده حذف شود؟";
-"lng_group_call_mac_access" = "تلگرام دسکتاپ به ورودی کیبورد سیستمی مورد نیاز برای قابلیت زدن برای صحبت دسترسی ندارد.";
-"lng_group_call_mac_input" = "لطفاً در تنظیمات Privacy دستگاه خود، **Input Monitoring** را برای تلگرام فعال کنید.";
-"lng_group_call_mac_accessibility" = "لطفاً در تنظیمات Privacy دستگاه خود، **Accessibility** را برای تلگرام فعال کنید.\n\nممکن است لازم باشد برنامه را مجدداً راه‌اندازی کنید.";
-"lng_group_call_mac_screencast_access" = "تلگرام دسکتاپ به ضبط صفحه نمایش که برای به اشتراک گذاری صفحه نمایش لازم است، دسترسی ندارد.";
-"lng_group_call_mac_recording" = "لطفاً در قسمت تنظیمات حریم خصوصی، **ضبط صفحه نمایش** را برای تلگرام فعال کنید.";
+"lng_group_call_mac_access" = "دلتاگرام دسکتاپ به ورودی کیبورد سیستمی مورد نیاز برای قابلیت زدن برای صحبت دسترسی ندارد.";
+"lng_group_call_mac_input" = "لطفاً در تنظیمات Privacy دستگاه خود، **Input Monitoring** را برای دلتاگرام فعال کنید.";
+"lng_group_call_mac_accessibility" = "لطفاً در تنظیمات Privacy دستگاه خود، **Accessibility** را برای دلتاگرام فعال کنید.\n\nممکن است لازم باشد برنامه را مجدداً راه‌اندازی کنید.";
+"lng_group_call_mac_screencast_access" = "دلتاگرام دسکتاپ به ضبط صفحه نمایش که برای به اشتراک گذاری صفحه نمایش لازم است، دسترسی ندارد.";
+"lng_group_call_mac_recording" = "لطفاً در قسمت تنظیمات حریم خصوصی، **ضبط صفحه نمایش** را برای دلتاگرام فعال کنید.";
 "lng_group_call_mac_settings" = "باز کردن تنظیمات";
 
 "lng_group_call_start_as_header" = "شروع گفتگوی ویدیویی به عنوان ...";
@@ -6710,8 +6710,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_call_title_changed_channel" = "عنوان پخش زنده به {title} تغییر یافت";
 "lng_group_call_join_as_changed" = "شرکت کنندگان این گفتگوی ویدیویی از این پس شما را به عنوان {name} خواهند دید";
 "lng_group_call_join_as_changed_channel" = "شرکت کنندگان این پخش زنده از این پس شما را به عنوان {name} خواهند دید";
-"lng_group_call_no_stream_admin" = "متأسفیم! تلگرام هیچ استریمی از برنامه استریم شما مشاهده نمی‌کند. لطفاً اطمینان حاصل کنید که URL سرور و کلید استریم درستی را در برنامه خود وارد کرده‌اید.";
-"lng_group_call_no_stream" = "{group} در حال حاضر داده‌های پخش زنده را به تلگرام منتشر نمی‌کند.";
+"lng_group_call_no_stream_admin" = "متأسفیم! دلتاگرام هیچ استریمی از برنامه استریم شما مشاهده نمی‌کند. لطفاً اطمینان حاصل کنید که URL سرور و کلید استریم درستی را در برنامه خود وارد کرده‌اید.";
+"lng_group_call_no_stream" = "{group} در حال حاضر داده‌های پخش زنده را به دلتاگرام منتشر نمی‌کند.";
 
 "lng_menu_start_group_call" = "شروع گفتگوی ویدیویی";
 "lng_menu_start_group_call_scheduled" = "زمان‌بندی گفتگوی ویدیویی";
@@ -6738,8 +6738,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_call_rtmp_viewers#other" = "{count} بیننده";
 
 "lng_confcall_join_title" = "تماس گروهی";
-"lng_confcall_join_text" = "شما به یک تماس تلگرامی دعوت شده‌اید.";
-"lng_confcall_join_text_inviter" = "{user} شما را به یک تماس تلگرامی دعوت کرده است.";
+"lng_confcall_join_text" = "شما به یک تماس دلتاگرامی دعوت شده‌اید.";
+"lng_confcall_join_text_inviter" = "{user} شما را به یک تماس دلتاگرامی دعوت کرده است.";
 "lng_confcall_already_joined_one" = "{user} در حال حاضر به این تماس پیوسته است.";
 "lng_confcall_already_joined_two" = "{user} و {other} در حال حاضر به این تماس پیوسته‌اند.";
 "lng_confcall_already_joined_three" = "{user}، {other} و {third} در حال حاضر به این تماس پیوسته‌اند.";
@@ -6751,13 +6751,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_confcall_create_call_description#other" = "شما می‌توانید تا حداکثر {count} شرکت کننده را به یک تماس اضافه کنید.";
 "lng_confcall_create_title" = "تماس جدید";
 "lng_confcall_create_link" = "ایجاد لینک تماس";
-"lng_confcall_create_link_description" = "شما می‌توانید لینکی را ایجاد کنید که به دوستانتان در تلگرام امکان پیوستن به تماس را بدهد.";
+"lng_confcall_create_link_description" = "شما می‌توانید لینکی را ایجاد کنید که به دوستانتان در دلتاگرام امکان پیوستن به تماس را بدهد.";
 "lng_confcall_link_revoke" = "باطل کردن لینک";
 "lng_confcall_link_revoked_title" = "لینک باطل شد";
 "lng_confcall_link_inactive" = "این لینک دیگر فعال نیست.";
 "lng_confcall_link_revoked_text" = "لینک جدیدی ایجاد شد.";
 "lng_confcall_link_title" = "لینک تماس";
-"lng_confcall_link_about" = "هر کسی در تلگرام می‌تواند با استفاده از لینک زیر به تماس شما بپیوندد.";
+"lng_confcall_link_about" = "هر کسی در دلتاگرام می‌تواند با استفاده از لینک زیر به تماس شما بپیوندد.";
 "lng_confcall_link_or" = "یا";
 "lng_confcall_link_join" = "اولین کسی باشید که به این تماس می‌پیوندید و از آنجا دیگران را اضافه کنید. {link}";
 "lng_confcall_link_join_link" = "باز کردن تماس {arrow}";
@@ -6785,7 +6785,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_confcall_e2e_badge_small" = "رمزنگاری شده به صورت E2E";
 "lng_confcall_e2e_about" = "این اموجی‌ها نمایانگر کلید رمزنگاری هستند. آن‌ها باید برای تمامی شرکت کنندگان یکسان باشند و هرگاه کسی به تماس بپیوندد یا آن را ترک کند، تغییر خواهند کرد.";
 
-"lng_no_mic_permission" = "تلگرام باید به میکروفن دسترسی داشته باشد تا بتوانید تماس برقرار کنید و پیام‌های صوتی ضبط کنید.";
+"lng_no_mic_permission" = "دلتاگرام باید به میکروفن دسترسی داشته باشد تا بتوانید تماس برقرار کنید و پیام‌های صوتی ضبط کنید.";
 "lng_player_message_today" = "امروز در {time}";
 "lng_player_message_yesterday" = "دیروز در {time}";
 "lng_player_message_date" = "{date} در {time}";
@@ -7035,7 +7035,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_send_non_premium_story" = "پاسخ‌ها محدود شده‌اند";
 "lng_send_non_premium_unlock" = "دسترسی";
 "lng_send_non_premium_message_toast" = "**{user}** فقط پیام‌های مخاطبین و مشترکین {link} را قبول می‌کند.";
-"lng_send_non_premium_message_toast_link" = "تلگرام پرمیوم";
+"lng_send_non_premium_message_toast_link" = "دلتاگرام پرمیوم";
 
 "lng_send_charges_stars_channel" = "{channel} برای هر پیام به مدیرش، {amount} دریافت می‌کند.";
 "lng_send_free_channel" = "به مدیر {channel} پیام مستقیم ارسال کنید.";
@@ -7287,11 +7287,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_terms_age#other" = "تأیید می‌کنم که {count} سال یا بیشتر دارم.";
 "lng_terms_agree" = "موافقت و ادامه";
 "lng_terms_decline" = "رد کردن";
-"lng_terms_signup_sorry" = "متأسفانه این یعنی شما نمی‌توانید در تلگرام ثبت نام کنید.\n\nبرخلاف سایر برنامه‌ها، تلگرام از داده‌های کاربران برای تبلیغات یا سایر اهداف تجاری استفاده نمی‌کند. تلگرام فقط اطلاعاتی را ذخیره می‌کند که برای عملکرد به عنوان یک سرویس ابری با قابلیت‌های زیاد به آن‌ها نیاز دارد. شما می‌توانید در قسمت تنظیمات حریم خصوصی و امنیت، نحوه استفاده ما از داده‌های خود را تنظیم کنید (برای مثال، با حذف مخاطبین همگام‌سازی شده).\n\nاما اگر با نیازهای ساده تلگرام راحت نیستید، ما قادر به ارائه این سرویس به شما نخواهیم بود.";
-"lng_terms_update_sorry" = "متأسفانه این یعنی ما مجبوریم در اینجا راهمان را از هم جدا کنیم. برخلاف دیگران، ما از داده‌های شما برای تبلیغات یا سایر اهداف تجاری استفاده نمی‌کنیم. تلگرام فقط اطلاعاتی را ذخیره می‌کند که برای عملکرد به عنوان یک سرویس ابری با قابلیت‌های زیاد به آن‌ها نیاز دارد. شما می‌توانید در تنظیمات حریم خصوصی و امنیت نحوه استفاده ما از داده‌های خود را تنظیم کنید.\n\nاما اگر در حالت کلی با نیازهای نسبتاً کم تلگرام مشکل دارید، ارائه این سرویس برای ما امکان‌پذیر نخواهد بود. شما می‌توانید همین حالا حساب کاربری خود را حذف کنید — یا کمی صبر کرده و بعداً در صورتی که همچنان از نحوه استفاده ما از داده‌های خود راضی نیستید آن را حذف کنید.";
+"lng_terms_signup_sorry" = "متأسفانه این یعنی شما نمی‌توانید در دلتاگرام ثبت نام کنید.\n\nبرخلاف سایر برنامه‌ها، دلتاگرام از داده‌های کاربران برای تبلیغات یا سایر اهداف تجاری استفاده نمی‌کند. دلتاگرام فقط اطلاعاتی را ذخیره می‌کند که برای عملکرد به عنوان یک سرویس ابری با قابلیت‌های زیاد به آن‌ها نیاز دارد. شما می‌توانید در قسمت تنظیمات حریم خصوصی و امنیت، نحوه استفاده ما از داده‌های خود را تنظیم کنید (برای مثال، با حذف مخاطبین همگام‌سازی شده).\n\nاما اگر با نیازهای ساده دلتاگرام راحت نیستید، ما قادر به ارائه این سرویس به شما نخواهیم بود.";
+"lng_terms_update_sorry" = "متأسفانه این یعنی ما مجبوریم در اینجا راهمان را از هم جدا کنیم. برخلاف دیگران، ما از داده‌های شما برای تبلیغات یا سایر اهداف تجاری استفاده نمی‌کنیم. دلتاگرام فقط اطلاعاتی را ذخیره می‌کند که برای عملکرد به عنوان یک سرویس ابری با قابلیت‌های زیاد به آن‌ها نیاز دارد. شما می‌توانید در تنظیمات حریم خصوصی و امنیت نحوه استفاده ما از داده‌های خود را تنظیم کنید.\n\nاما اگر در حالت کلی با نیازهای نسبتاً کم دلتاگرام مشکل دارید، ارائه این سرویس برای ما امکان‌پذیر نخواهد بود. شما می‌توانید همین حالا حساب کاربری خود را حذف کنید — یا کمی صبر کرده و بعداً در صورتی که همچنان از نحوه استفاده ما از داده‌های خود راضی نیستید آن را حذف کنید.";
 "lng_terms_decline_and_delete" = "رد کردن و حذف";
 "lng_terms_back" = "بازگشت";
-"lng_terms_delete_warning" = "هشدار، با این کار حساب کاربری تلگرام شما و تمامی داده‌هایی که در ابر تلگرام ذخیره کرده‌اید، به صورت بازگشت‌ناپذیری حذف خواهند شد.\n\nتوجه: شما می‌توانید همین الان این عمل را لغو کرده و به جای از دست دادن تمامی داده‌های خود، ابتدا آن‌ها را صادر کنید. (جهت انجام این کار، آخرین نسخه تلگرام دسکتاپ را باز کرده و به قسمت تنظیمات > پیشرفته  > صدور داده‌های تلگرام مراجعه کنید.)";
+"lng_terms_delete_warning" = "هشدار، با این کار حساب کاربری دلتاگرام شما و تمامی داده‌هایی که در ابر دلتاگرام ذخیره کرده‌اید، به صورت بازگشت‌ناپذیری حذف خواهند شد.\n\nتوجه: شما می‌توانید همین الان این عمل را لغو کرده و به جای از دست دادن تمامی داده‌های خود، ابتدا آن‌ها را صادر کنید. (جهت انجام این کار، آخرین نسخه دلتاگرام دسکتاپ را باز کرده و به قسمت تنظیمات > پیشرفته  > صدور داده‌های دلتاگرام مراجعه کنید.)";
 "lng_terms_delete_now" = "حذف همین الان";
 "lng_terms_agree_to_proceed" = "با شرایط موافقت نموده و وارد {bot} شوید.";
 
@@ -7322,7 +7322,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_forward_action_change_recipient" = "تغییر دریافت کننده";
 "lng_forward_action_remove" = "فوروارد نشود";
 
-"lng_passport_title" = "پاسپورت تلگرام";
+"lng_passport_title" = "پاسپورت دلتاگرام";
 "lng_passport_request1" = "{bot} اجازه دسترسی به داده‌های شخصی شما را می‌خواهد";
 "lng_passport_request2" = "تا شما را برای دریافت سرویس‌های خود ثبت نام کند";
 "lng_passport_create_password" = "لطفاً گذرواژه‌ای ایجاد کنید تا جهت\nرمزنگاری داده‌های شخصی شما از آن استفاده شود.";
@@ -7423,10 +7423,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_postcode" = "کد پستی";
 "lng_passport_translation" = "ترجمه";
 "lng_passport_use_existing" = "استفاده از {existing}";
-"lng_passport_use_existing_phone" = "از شماره تلفن استفاده شده در تلگرام استفاده کنید.";
+"lng_passport_use_existing_phone" = "از شماره تلفن استفاده شده در دلتاگرام استفاده کنید.";
 "lng_passport_new_phone" = "یا شماره تلفن جدیدی را وارد کنید";
 "lng_passport_new_phone_code" = "توجه: شما کد تأییدی را در شماره تلفنی که ارائه می‌کنید دریافت خواهید کرد.";
-"lng_passport_use_existing_email" = "از آدرس ایمیل استفاده شده در تلگرام استفاده کنید.";
+"lng_passport_use_existing_email" = "از آدرس ایمیل استفاده شده در دلتاگرام استفاده کنید.";
 "lng_passport_new_email" = "یا ایمیل دیگری را وارد کنید";
 "lng_passport_new_email_code" = "توجه: شما کد تأییدی را در آدرس ایمیلی که ارائه می‌کنید دریافت خواهید کرد.";
 "lng_passport_confirm_phone" = "ما پیامکی حاوی کد فعال‌سازی به شماره تلفن شما {phone} ارسال کرده‌ایم.";
@@ -7446,23 +7446,23 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_success" = "اعطای مجوز با موفقیت انجام شد!";
 "lng_passport_stop_sure" = "آیا از متوقف کردن این فرآیند اعطای مجوز اطمینان دارید؟";
 "lng_passport_stop" = "متوقف کردن";
-"lng_passport_restart_sure" = "خطای غیرمنتظره‌ای رخ داده است. ممکن است تغییراتی از یک برنامه تلگرام دیگر انجام شده باشد. آیا تمایل دارید این فرآیند اعطای مجوز را بازنشانی کنید؟";
+"lng_passport_restart_sure" = "خطای غیرمنتظره‌ای رخ داده است. ممکن است تغییراتی از یک برنامه دلتاگرام دیگر انجام شده باشد. آیا تمایل دارید این فرآیند اعطای مجوز را بازنشانی کنید؟";
 "lng_passport_restart" = "راه‌اندازی مجدد";
 "lng_passport_error_too_large" = "متأسفانه این فایل بسیار بزرگ است.";
 "lng_passport_error_bad_size" = "متأسفانه این تصویر دارای ابعاد نادرستی است.";
 "lng_passport_error_cant_read" = "این فایل قابل خواندن نیست. لطفاً یک تصویر انتخاب کنید.";
 "lng_passport_bad_name" = "لطفاً فقط از کاراکترهای لاتین استفاده کنید.";
 "lng_passport_wait_upload" = "لطفاً تا اتمام آپلود فایل منتظر بمانید.";
-"lng_passport_app_out_of_date" = "متأسفانه برنامه تلگرام شما به‌روز نیست و نمی‌تواند این درخواست را انجام دهد. لطفاً تلگرام را به‌روزرسانی کنید.";
+"lng_passport_app_out_of_date" = "متأسفانه برنامه دلتاگرام شما به‌روز نیست و نمی‌تواند این درخواست را انجام دهد. لطفاً دلتاگرام را به‌روزرسانی کنید.";
 
 "lng_export_title" = "صدور داده‌های شما";
 "lng_export_progress_title" = "در حال صدور داده‌های شما";
 "lng_export_option_info" = "اطلاعات حساب کاربری";
 "lng_export_option_info_about" = "نام نمایشی، نام کاربری، شماره تلفن و تصاویر پروفایل انتخابی شما.";
 "lng_export_option_contacts" = "لیست مخاطبین";
-"lng_export_option_contacts_about" = "در صورتی که اجازه دسترسی بدهید‌، مخاطبین شما به طور مداوم با تلگرام همگام‌سازی می‌شوند. شما می‌توانید این تنظیمات را در قسمت تنظیمات > حریم خصوصی و امنیت در دستگاه‌های تلفن همراه تغییر دهید.";
+"lng_export_option_contacts_about" = "در صورتی که اجازه دسترسی بدهید‌، مخاطبین شما به طور مداوم با دلتاگرام همگام‌سازی می‌شوند. شما می‌توانید این تنظیمات را در قسمت تنظیمات > حریم خصوصی و امنیت در دستگاه‌های تلفن همراه تغییر دهید.";
 "lng_export_option_stories" = "بایگانی استوری";
-"lng_export_option_stories_about" = "تمامی استوری‌هایی که از برنامه‌های تلفن همراه تلگرام پست کردید.";
+"lng_export_option_stories_about" = "تمامی استوری‌هایی که از برنامه‌های تلفن همراه دلتاگرام پست کردید.";
 "lng_export_option_profile_music" = "موزیک‌های پروفایل";
 "lng_export_option_profile_music_about" = "تمامی قطعه‌هایی که در لیست پخش خود ذخیره کرده‌اید.";
 "lng_export_option_sessions" = "نشست‌های فعال";
@@ -7506,7 +7506,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_state_chats_list" = "در حال پردازش گفتگوها...";
 "lng_export_state_chats" = "گفتگوها";
 "lng_export_skip_file" = "نادیده گرفتن این پرونده";
-"lng_export_progress" = "شما اکنون می‌توانید این پنجره را ببندید. لطفاً تا زمانی که صدور داده به پایان نرسیده است از تلگرام خارج نشوید.";
+"lng_export_progress" = "شما اکنون می‌توانید این پنجره را ببندید. لطفاً تا زمانی که صدور داده به پایان نرسیده است از دلتاگرام خارج نشوید.";
 "lng_export_stop" = "متوقف کردن";
 "lng_export_sure_stop" = "آیا از متوقف کردن صدور داده‌های خود اطمینان دارید؟\n\nدر این صورت باید از نو شروع کنید.";
 "lng_export_about_done" = "داده‌های شما با موفقیت صادر شدند.";
@@ -7521,11 +7521,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_suggest_title" = "صدور داده آماده است";
 "lng_export_suggest_text" = "شما اکنون می‌توانید داده‌ای که درخواست داده بودید را دانلود کنید. صدور داده شروع شود؟";
 "lng_export_suggest_cancel" = "الان نه";
-"lng_export_about_telegram" = "داده‌های درخواستی شما در اینجا قرار دارد. به خاطر داشته باشید: برخلاف سایر برنامه‌ها، تلگرام هرگز از داده‌های خصوصی شما برای اهداف تبلیغاتی استفاده نمی‌کند. تلگرام فقط اطلاعاتی را نگه می‌دارد که برای عملکرد به عنوان یک سرویس ابری امن و با قابلیت‌های زیاد به آن‌ها نیاز دارد.";
-"lng_export_about_contacts" = "در صورتی که اجازه دسترسی بدهید‌، مخاطبین شما به طور مداوم با تلگرام همگام‌سازی می‌شوند. به لطف این کار، شما می‌توانید به راحتی وارد تلگرام شوید و بلافاصله در تمامی دستگاه‌هایتان با دوستانتان ارتباط برقرار کنید. ما از داده‌های مربوط به مخاطبین شما استفاده می‌کنیم تا هرگاه آن‌ها به تلگرام پیوستند شما را مطلع سازیم، و آن‌ها را با نام‌هایی که شما در دستگاه خود ذخیره کرده‌اید نمایش دهیم.\n\nشما می‌توانید همگام‌سازی مخاطبین را غیرفعال کرده یا مخاطبین ذخیره شده خود را از قسمت تنظیمات > حریم خصوصی و امنیت در برنامه‌های تلفن همراه تلگرام حذف کنید.";
-"lng_export_about_frequent" = "این رتبه‌بندی، افرادی که احتمال دارد شما به آن‌ها مکرراً پیام ارسال کنید را نشان می‌دهد. تلگرام از این داده‌ها برای پر کردن جعبه «افراد» در بالای قسمت جستجو استفاده می‌کند. همچنین این رتبه‌بندی برای ربات‌های درون‌خطی محاسبه می‌شود تا برنامه بتواند ربات‌هایی که احتمال دارد شما بیشتر از آن‌ها استفاده کنید را در منوی پیوست (یا وقتی که شما پیام جدیدی را با «@» شروع می‌کنید) پیشنهاد دهد.\n\nبرای حذف این داده‌ها، به قسمت تنظیمات > حریم خصوصی و امنیت مراجعه کرده و «پیشنهاد مخاطبین پرتکرار» را غیرفعال کنید.";
+"lng_export_about_telegram" = "داده‌های درخواستی شما در اینجا قرار دارد. به خاطر داشته باشید: برخلاف سایر برنامه‌ها، دلتاگرام هرگز از داده‌های خصوصی شما برای اهداف تبلیغاتی استفاده نمی‌کند. دلتاگرام فقط اطلاعاتی را نگه می‌دارد که برای عملکرد به عنوان یک سرویس ابری امن و با قابلیت‌های زیاد به آن‌ها نیاز دارد.";
+"lng_export_about_contacts" = "در صورتی که اجازه دسترسی بدهید‌، مخاطبین شما به طور مداوم با دلتاگرام همگام‌سازی می‌شوند. به لطف این کار، شما می‌توانید به راحتی وارد دلتاگرام شوید و بلافاصله در تمامی دستگاه‌هایتان با دوستانتان ارتباط برقرار کنید. ما از داده‌های مربوط به مخاطبین شما استفاده می‌کنیم تا هرگاه آن‌ها به دلتاگرام پیوستند شما را مطلع سازیم، و آن‌ها را با نام‌هایی که شما در دستگاه خود ذخیره کرده‌اید نمایش دهیم.\n\nشما می‌توانید همگام‌سازی مخاطبین را غیرفعال کرده یا مخاطبین ذخیره شده خود را از قسمت تنظیمات > حریم خصوصی و امنیت در برنامه‌های تلفن همراه دلتاگرام حذف کنید.";
+"lng_export_about_frequent" = "این رتبه‌بندی، افرادی که احتمال دارد شما به آن‌ها مکرراً پیام ارسال کنید را نشان می‌دهد. دلتاگرام از این داده‌ها برای پر کردن جعبه «افراد» در بالای قسمت جستجو استفاده می‌کند. همچنین این رتبه‌بندی برای ربات‌های درون‌خطی محاسبه می‌شود تا برنامه بتواند ربات‌هایی که احتمال دارد شما بیشتر از آن‌ها استفاده کنید را در منوی پیوست (یا وقتی که شما پیام جدیدی را با «@» شروع می‌کنید) پیشنهاد دهد.\n\nبرای حذف این داده‌ها، به قسمت تنظیمات > حریم خصوصی و امنیت مراجعه کرده و «پیشنهاد مخاطبین پرتکرار» را غیرفعال کنید.";
 "lng_export_about_sessions" = "ما اطلاعات نشست را برای نمایش دستگاه‌های متصل شما در قسمت تنظیمات > حریم خصوصی و امنیت > نشست‌های فعال ذخیره می‌کنیم.";
-"lng_export_about_web_sessions" = "ما این اطلاعات را ذخیره می‌کنیم تا وبسایت‌هایی که شما با احراز هویت از طریق تلگرام در آن‌ها وارد حساب کاربری خود شده‌اید را نمایش دهیم. این اطلاعات در قسمت تنظیمات > حریم خصوصی و امنیت > نشست‌های فعال مشاهده می‌شود.";
+"lng_export_about_web_sessions" = "ما این اطلاعات را ذخیره می‌کنیم تا وبسایت‌هایی که شما با احراز هویت از طریق دلتاگرام در آن‌ها وارد حساب کاربری خود شده‌اید را نمایش دهیم. این اطلاعات در قسمت تنظیمات > حریم خصوصی و امنیت > نشست‌های فعال مشاهده می‌شود.";
 "lng_export_about_chats" = "این صفحه تمامی گفتگوهای این فایل صدور را لیست می‌کند.";
 "lng_export_about_left_chats" = "در پایین سوپرگروه‌ها و کانال‌های این فایل صدور که شما آن‌ها را ترک کردید یا در آن‌ها محروم شدید وجود دارد.\n\nتوجه داشته باشید هنگامی که شما کانال یا سوپرگروهی که خودتان ایجاد کرده‌اید را ترک می‌کنید، این انتخاب را دارید که یا آن‌ها را حذف کنید یا به سادگی آن‌ها را ترک کنید (در صورتی که بخواهید بعداً دوباره به آن‌ها بپیوندید، یا با این که عضو آن‌ها نیستید فعالیت آن‌ها را زنده نگه دارید).";
 
@@ -7537,7 +7537,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_not_found" = "متأسفاده به نظر می‌رسد چنین بسته زبانی وجود ندارد.";
 "lng_language_already" = "شما در حال حاضر از این بسته زبان استفاده می‌کنید. شما می‌توانید زبان خود را در هر زمانی در قسمت تنظیمات تغییر دهید.";
 "lng_language_not_ready_title" = "اطلاعات ناکافی";
-"lng_language_not_ready_about" = "متأسفانه این بسته‌ زبان سفارشی ({lang_name}) حاوی اطلاعاتی برای تلگرام دسکتاپ نیست. شما می‌توانید با استفاده از {link} در ترجمه این بسته زبان همکاری کنید.";
+"lng_language_not_ready_about" = "متأسفانه این بسته‌ زبان سفارشی ({lang_name}) حاوی اطلاعاتی برای دلتاگرام دسکتاپ نیست. شما می‌توانید با استفاده از {link} در ترجمه این بسته زبان همکاری کنید.";
 "lng_language_not_ready_link" = "پلتفرم ترجمه";
 
 "lng_translate_box_error" = "ترجمه انحام نشد.";
@@ -7653,10 +7653,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_article_paste_truncated" = "محتوای چسبانده شده جا نشد و بخشی از آن بریده شد.";
 "lng_article_submit_empty" = "مقاله نمی‌تواند خالی باشد.";
 "lng_article_premium_required" = "با خرید اشتراک {link}، می‌توانید مقاله‌های پیشرفته ارسال کنید.";
-"lng_article_premium_required_link" = "تلگرام پرمیوم";
+"lng_article_premium_required_link" = "دلتاگرام پرمیوم";
 "lng_article_premium_choice_title" = "حذف قالب‌بندی";
 "lng_article_premium_choice_about" = "این پیام از قالب‌بندی پیشرفته استفاده می‌کند که نیازمند {link} است.";
-"lng_article_premium_choice_about_link" = "تلگرام پرمیوم";
+"lng_article_premium_choice_about_link" = "دلتاگرام پرمیوم";
 "lng_article_premium_choice_plain" = "ارسال بدون قالب‌بندی";
 "lng_article_premium_choice_plain_save" = "ذخیره بدون قالب‌بندی";
 "lng_article_table_change" = "تغییر جدول";
@@ -7803,18 +7803,18 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_todo_create_premium" = "فقط مشترکین {link} می‌توانند چک‌لیست ایجاد کنند.";
 "lng_todo_add_premium" = "فقط مشترکین {link} می‌توانند کار اضافه کنند.";
 "lng_todo_mark_premium" = "فقط مشترکین {link} می‌توانند کارها را به عنوان کامل شده علامت بزنند.";
-"lng_todo_premium_link" = "تلگرام پرمیوم";
+"lng_todo_premium_link" = "دلتاگرام پرمیوم";
 "lng_todo_mark_restricted" = "{user}، دیگران را از علامت زدن کارها به عنوان انجام شده محدود کرده است.";
 "lng_todo_mark_forwarded" = "نمی‌توانید چک‌لیست‌های فوروارد شده را ویرایش کنید.";
 
 "lng_outdated_title" = "لطفاً سیستم عامل خود را به‌روزرسانی کنید.";
 "lng_outdated_title_bits" = "لطفاً از سیستم عامل 64 بیتی استفاده کنید.";
-"lng_outdated_soon" = "در غیر این صورت، به‌روزرسانی تلگرام دسکتاپ در تاریخ {date} متوقف خواهد شد.";
-"lng_outdated_now" = "تا تلگرام دسکتاپ بتواند به نسخه‌های جدیدتر به‌روزرسانی شود.";
+"lng_outdated_soon" = "در غیر این صورت، به‌روزرسانی دلتاگرام دسکتاپ در تاریخ {date} متوقف خواهد شد.";
+"lng_outdated_now" = "تا دلتاگرام دسکتاپ بتواند به نسخه‌های جدیدتر به‌روزرسانی شود.";
 
-"lng_screen_reader_bar_text" = "تلگرام در حال اجرا در حالت صفحه‌خوان است.";
+"lng_screen_reader_bar_text" = "دلتاگرام در حال اجرا در حالت صفحه‌خوان است.";
 "lng_screen_reader_bar_disable" = "غیرفعال کردن";
-"lng_screen_reader_confirm_text" = "تلگرام تشخیص داده است که در سیستم شما از نرم‌افزارهای دسترسی‌پذیری استفاده شده و در حالت سازگار با صفحه‌خوان اجرا می‌شود.\n\nاین موضوع ممکن است باعث تغییرات غیرمنتظره در نحوه عملکرد رابط کاربری تلگرام شود.\n\nاگر از نرم‌افزار صفحه‌خوان همراه تلگرام استفاده نمی‌کنید، لطفاً این حالت را غیرفعال کنید.";
+"lng_screen_reader_confirm_text" = "دلتاگرام تشخیص داده است که در سیستم شما از نرم‌افزارهای دسترسی‌پذیری استفاده شده و در حالت سازگار با صفحه‌خوان اجرا می‌شود.\n\nاین موضوع ممکن است باعث تغییرات غیرمنتظره در نحوه عملکرد رابط کاربری دلتاگرام شود.\n\nاگر از نرم‌افزار صفحه‌خوان همراه دلتاگرام استفاده نمی‌کنید، لطفاً این حالت را غیرفعال کنید.";
 "lng_screen_reader_confirm_disable" = "غیرفعال کردن";
 "lng_screen_reader_settings_title" = "صفحه‌خوان";
 "lng_screen_reader_settings_disable" = "غیرفعال کردن حالت صفحه‌خوان";
@@ -7926,7 +7926,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_filters_link_chats_no_about" = "شما فقط می‌توانید گروه‌ها و کانال‌هایی که در آن‌ها اجازه ایجاد لینک‌های دعوت دارید را به اشتراک بگذارید.";
 "lng_filters_link_name_it" = "نام‌گذاری لینک";
 "lng_filters_link_delete_sure" = "آیا از حذف این لینک اطمینان دارید؟";
-"lng_filters_link_qr_about" = "هر کسی در تلگرام می‌تواند با اسکن این کد، پوشه را اضافه نموده و به تمامی گفتگوهای شامل شده در لینک دعوت آن بپیوندد.";
+"lng_filters_link_qr_about" = "هر کسی در دلتاگرام می‌تواند با اسکن این کد، پوشه را اضافه نموده و به تمامی گفتگوهای شامل شده در لینک دعوت آن بپیوندد.";
 "lng_filters_link_group_admin_error" = "یکی از گروه‌ها در این پوشه نمی‌تواند اضافه شود، زیرا یکی از مدیران آن، گروه‌ها و کانال‌های بسیار زیادی دارد.";
 "lng_filters_by_link_title" = "افزودن پوشه";
 "lng_filters_by_link_sure" = "آیا می‌خواهید پوشه گفتگوی {folder} را اضافه نموده و به گروه‌ها و کانال‌های آن بپیوندید؟";
@@ -8088,39 +8088,39 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_sponsored_hide_ads" = "پنهان کردن";
 "lng_sponsored_title" = "پیام‌های حمایت شده چه هستند؟";
-"lng_sponsored_info_description1_linked" = "برخلاف سایر برنامه‌ها، تلگرام هرگز از اطلاعات خصوصی شما برای اهداف تبلیغاتی استفاده نمی‌کند. {link}\n\nبرخلاف سایر برنامه‌ها، تلگرام اینکه شما بر روی یک پیام حمایت شده زده‌اید یا نه را ردیابی نمی‌کند و بر اساس فعالیت شما برایتان پروفایل‌سازی نمی‌کند. ما همچنین از لینک‌های خارجی در پیام‌های حمایت شده جلوگیری می‌کنیم تا اطمینان حاصل کنیم که اشخاص ثالث قادر به جاسوسی از کاربران ما نباشند. ما باور داریم که همه افراد حق داشتن حریم خصوصی را دارند، و پلتفرم‌های مربوط به تکنولوژی باید به این حق احترام بگذارند.\n\nتلگرام به صدها میلیون کاربر خدمات رایگان و نامحدودی را ارائه می‌کند که هزینه‌های قابل توجهی برای سرور و ترافیک را شامل می‌شود. تلگرام برای اینکه مستقل باقی مانده و به ارزش‌های خود وفادار بماند، ابزار پرداخت شده‌ای را برای تبلیغ پیام‌ها با حفظ حریم خصوصی کاربر توسعه داده است. ما از تبلیغ کنندگان مربوطه در آدرس زیر استقبال می‌کنیم:";
+"lng_sponsored_info_description1_linked" = "برخلاف سایر برنامه‌ها، دلتاگرام هرگز از اطلاعات خصوصی شما برای اهداف تبلیغاتی استفاده نمی‌کند. {link}\n\nبرخلاف سایر برنامه‌ها، دلتاگرام اینکه شما بر روی یک پیام حمایت شده زده‌اید یا نه را ردیابی نمی‌کند و بر اساس فعالیت شما برایتان پروفایل‌سازی نمی‌کند. ما همچنین از لینک‌های خارجی در پیام‌های حمایت شده جلوگیری می‌کنیم تا اطمینان حاصل کنیم که اشخاص ثالث قادر به جاسوسی از کاربران ما نباشند. ما باور داریم که همه افراد حق داشتن حریم خصوصی را دارند، و پلتفرم‌های مربوط به تکنولوژی باید به این حق احترام بگذارند.\n\nدلتاگرام به صدها میلیون کاربر خدمات رایگان و نامحدودی را ارائه می‌کند که هزینه‌های قابل توجهی برای سرور و ترافیک را شامل می‌شود. دلتاگرام برای اینکه مستقل باقی مانده و به ارزش‌های خود وفادار بماند، ابزار پرداخت شده‌ای را برای تبلیغ پیام‌ها با حفظ حریم خصوصی کاربر توسعه داده است. ما از تبلیغ کنندگان مربوطه در آدرس زیر استقبال می‌کنیم:";
 "lng_sponsored_info_description1_link" = "برای اطلاعات بیشتر، به سیاست‌های حریم خصوصی مراجعه کنید";
 "lng_sponsored_info_description1_url" = "https://telegram.org/privacy#5-6-no-ads-based-on-user-data";
-"lng_sponsored_info_description2" = "پیام‌های حمایت شده در حال حاضر در حالت آزمایشی قرار دارند. هنگامی که به طور کامل راه‌اندازی شوند و به تلگرام امکان پوشش هزینه‌های پایه خود را بدهند، ما درآمد حاصل از تبلیغات را با مالکان کانال‌های عمومی که تبلیغات حمایت شده در آن‌ها نمایش داده می‌شوند، به اشتراک می‌گذاریم.\n\nتبلیغات آنلاین دیگر نباید به معنی سوء استفاده از حریم خصوصی کاربر باشند. بیایید با هم دوباره تعریف کنیم که یک شرکت فناوری باید چگونه فعالیت کند.";
+"lng_sponsored_info_description2" = "پیام‌های حمایت شده در حال حاضر در حالت آزمایشی قرار دارند. هنگامی که به طور کامل راه‌اندازی شوند و به دلتاگرام امکان پوشش هزینه‌های پایه خود را بدهند، ما درآمد حاصل از تبلیغات را با مالکان کانال‌های عمومی که تبلیغات حمایت شده در آن‌ها نمایش داده می‌شوند، به اشتراک می‌گذاریم.\n\nتبلیغات آنلاین دیگر نباید به معنی سوء استفاده از حریم خصوصی کاربر باشند. بیایید با هم دوباره تعریف کنیم که یک شرکت فناوری باید چگونه فعالیت کند.";
 "lng_sponsored_info_menu" = "اطلاعات تبلیغ کننده";
 "lng_sponsored_info_submenu" = "{text}";
 "lng_sponsored_menu_revenued_about" = "درباره این تبلیغات";
 "lng_sponsored_menu_revenued_report" = "گزارش تبلیغ";
-"lng_sponsored_revenued_subtitle" = "تبلیغات تلگرام از تبلیغات پلتفرم‌های دیگر بسیار متفاوت هستند. تبلیغاتی مانند این:";
+"lng_sponsored_revenued_subtitle" = "تبلیغات دلتاگرام از تبلیغات پلتفرم‌های دیگر بسیار متفاوت هستند. تبلیغاتی مانند این:";
 "lng_sponsored_revenued_info1_title" = "احترام به حریم خصوصی شما";
 "lng_sponsored_revenued_info1_description" = "ما از محتوای گفتگوهای خصوصی یا لیست مخاطبین شما برای تبلیغات یا سایر اهداف تجاری استفاده نمی‌کنیم.";
 "lng_sponsored_revenued_info1_bot_description" = "ما از محتوای گفتگوهای خصوصی یا لیست مخاطبین شما برای تبلیغات یا سایر اهداف تجاری استفاده نمی‌کنیم.";
 "lng_sponsored_revenued_info1_search_description" = "ما از محتوای گفتگوهای خصوصی یا لیست مخاطبین شما برای تبلیغات یا سایر اهداف تجاری استفاده نمی‌کنیم.";
 "lng_sponsored_revenued_info2_title" = "کمک به ایجاد کننده کانال";
 "lng_sponsored_revenued_info2_bot_title" = "به توسعه دهنده ربات کمک کنید";
-"lng_sponsored_revenued_info2_description" = "50% درآمد حاصل از تبلیغات تلگرام به مالک کانالی که تبلیغات در آن نمایش داده می‌شود، تعلق می‌گیرد.";
-"lng_sponsored_revenued_info2_bot_description" = "50% درآمد حاصل از تبلیغات تلگرام به توسعه دهنده رباتی که تبلیغات در آن نمایش داده می‌شود، تعلق می‌گیرد.";
+"lng_sponsored_revenued_info2_description" = "50% درآمد حاصل از تبلیغات دلتاگرام به مالک کانالی که تبلیغات در آن نمایش داده می‌شود، تعلق می‌گیرد.";
+"lng_sponsored_revenued_info2_bot_description" = "50% درآمد حاصل از تبلیغات دلتاگرام به توسعه دهنده رباتی که تبلیغات در آن نمایش داده می‌شود، تعلق می‌گیرد.";
 "lng_sponsored_revenued_info3_title" = "قابل حذف";
 "lng_sponsored_revenued_info3_description#one" = "شما می‌توانید با خرید اشتراک {link}، تبلیغات را غیرفعال کنید، همچنین کانال‌های سطح {count} می‌توانند آن‌ها را برای مشترکین خود حذف کنند.";
 "lng_sponsored_revenued_info3_description#other" = "شما می‌توانید با خرید اشتراک {link}، تبلیغات را غیرفعال کنید، همچنین کانال‌های سطح {count} می‌توانند آن‌ها را برای مشترکین خود حذف کنند.";
 "lng_sponsored_revenued_info3_bot_description" = "با خرید اشتراک {link}، می‌توانید تبلیغات را غیرفعال کنید.";
-"lng_sponsored_revenued_info3_search_description" = "شما می‌توانید با خرید اشتراک تلگرام پرمیوم، تبلیغات را غیرفعال کنید. {link}";
+"lng_sponsored_revenued_info3_search_description" = "شما می‌توانید با خرید اشتراک دلتاگرام پرمیوم، تبلیغات را غیرفعال کنید. {link}";
 "lng_sponsored_revenued_info3_search_link" = "اشتراک {arrow}";
 "lng_sponsored_revenued_footer_title" = "آیا من می‌توانم تبلیغی اجرا کنم؟";
-"lng_sponsored_revenued_footer_description" = "هر کسی می‌تواند با کمترین هزینه در تلگرام تبلیغات پست کند. برای جزئیات بیشتر، **پلتفرم تبلیغات تلگرام** را بررسی کنید. {link}";
-"lng_sponsored_revenued_footer_bot_description" = "هر کسی می‌تواند با کمترین هزینه، تبلیغی را برای نمایش در این ربات ایجاد کند. برای جزئیات بیشتر، **پلتفرم تبلیغات تلگرام** را بررسی کنید. {link}";
-"lng_sponsored_revenued_footer_search_description" = "هر کسی می‌تواند تبلیغی را ایجاد کند که در نتایج مربوط به هر عبارت مورد جستجویی نمایش داده شود. برای جزئیات بیشتر، **پلتفرم تبلیغات تلگرام** را بررسی کنید. {link}";
+"lng_sponsored_revenued_footer_description" = "هر کسی می‌تواند با کمترین هزینه در دلتاگرام تبلیغات پست کند. برای جزئیات بیشتر، **پلتفرم تبلیغات دلتاگرام** را بررسی کنید. {link}";
+"lng_sponsored_revenued_footer_bot_description" = "هر کسی می‌تواند با کمترین هزینه، تبلیغی را برای نمایش در این ربات ایجاد کند. برای جزئیات بیشتر، **پلتفرم تبلیغات دلتاگرام** را بررسی کنید. {link}";
+"lng_sponsored_revenued_footer_search_description" = "هر کسی می‌تواند تبلیغی را ایجاد کند که در نتایج مربوط به هر عبارت مورد جستجویی نمایش داده شود. برای جزئیات بیشتر، **پلتفرم تبلیغات دلتاگرام** را بررسی کنید. {link}";
 "lng_sponsored_top_bar_hide" = "حذف";
 
-"lng_telegram_features_url" = "https://t.me/TelegramTipsFA";
+"lng_telegram_features_url" = "https://t.me/DeltagramTipsFA";
 
 "lng_mini_apps_disclaimer_title" = "هشدار";
-"lng_mini_apps_disclaimer_text" = "شما می‌خواهید از یک مینی‌برنامه استفاده کنید که توسط شخص یا شرکت مستقلی اداره می‌شود که **به تلگرام وابسته نیست**. باید برای ادامه، با شرایط و ضوابط استفاده از مینی‌برنامه‌ها موافقت کنید.";
+"lng_mini_apps_disclaimer_text" = "شما می‌خواهید از یک مینی‌برنامه استفاده کنید که توسط شخص یا شرکت مستقلی اداره می‌شود که **به دلتاگرام وابسته نیست**. باید برای ادامه، با شرایط و ضوابط استفاده از مینی‌برنامه‌ها موافقت کنید.";
 "lng_mini_apps_disclaimer_button" = "من با {link} موافقت می‌کنم";
 "lng_mini_apps_disclaimer_link" = "شرایط و ضوابط استفاده";
 "lng_mini_apps_tos_url" = "https://telegram.org/tos/mini-apps";
@@ -8236,7 +8236,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_stories_views#other" = "{count} مشاهده";
 "lng_stories_no_views" = "هنوز مشاهده‌ای وجود ندارد";
 "lng_stories_view_reactions" = "مشاهده واکنش‌ها";
-"lng_stories_unsupported" = "این استوری توسط نسخه\nتلگرام شما پشتیبانی نمی‌شود.";
+"lng_stories_unsupported" = "این استوری توسط نسخه\nدلتاگرام شما پشتیبانی نمی‌شود.";
 "lng_stories_cant_reply" = "شما نمی‌توانید به این استوری پاسخ دهید.";
 "lng_stories_about_silent" = "این ویدیو صدا ندارد.";
 "lng_stories_about_close_friends" = "از آنجا که {user} شما را به لیست **دوستان نزدیک** خود اضافه کرده است، می‌توانید این استوری را مشاهده کنید.";
@@ -8316,7 +8316,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_stealth_mode_menu_item" = "پنهان کردن مشاهده من";
 "lng_stealth_mode_title" = "حالت پنهان";
-"lng_stealth_mode_unlock_about" = "با خرید اشتراک تلگرام پرمیوم، استوری‌ها را بدون اینکه در لیست مشاهده کنندگان ظاهر شوید، مشاهده کنید.";
+"lng_stealth_mode_unlock_about" = "با خرید اشتراک دلتاگرام پرمیوم، استوری‌ها را بدون اینکه در لیست مشاهده کنندگان ظاهر شوید، مشاهده کنید.";
 "lng_stealth_mode_about" = "برای مشاهده استوری‌ها بدون ظاهر شدن در لیست مشاهده کنندگان، حالت پنهان را فعال کنید.";
 "lng_stealth_mode_past_title" = "پنهان کردن مشاهده‌های اخیر";
 "lng_stealth_mode_past_about" = "مشاهده‌های من در 5 دقیقه گذشته پنهان شود.";
@@ -8435,8 +8435,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_boosts_link_subtext" = "برای دریافت حمایت‌های بیشتر، این لینک را با مشترکین خود به اشتراک بگذارید.";
 "lng_boosts_link_subtext_group" = "برای دریافت حمایت‌های بیشتر، این لینک را با اعضای گروه خود به اشتراک بگذارید.";
 "lng_boosts_get_boosts" = "دریافت حمایت از طریق هدیه دادن";
-"lng_boosts_get_boosts_subtext" = "با اهدای اشتراک تلگرام پرمیوم به مشترکین خود، حمایت‌های بیشتری برای کانالتان دریافت کنید.";
-"lng_boosts_get_boosts_subtext_group" = "با اهدای اشتراک تلگرام پرمیوم به اعضا، حمایت‌های بیشتری برای گروهتان دریافت کنید.";
+"lng_boosts_get_boosts_subtext" = "با اهدای اشتراک دلتاگرام پرمیوم به مشترکین خود، حمایت‌های بیشتری برای کانالتان دریافت کنید.";
+"lng_boosts_get_boosts_subtext_group" = "با اهدای اشتراک دلتاگرام پرمیوم به اعضا، حمایت‌های بیشتری برای گروهتان دریافت کنید.";
 "lng_boosts_list_unclaimed" = "دریافت نشده";
 "lng_boosts_list_pending" = "آماده توزیع";
 "lng_boosts_list_pending_about" = "دریافت کننده پس از پایان قرعه‌کشی انتخاب خواهد شد.";
@@ -8446,8 +8446,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_boosts_prepaid_giveaway_title" = "قرعه‌کشی‌های پیش‌پرداخت شده";
 "lng_boosts_prepaid_giveaway_title_subtext" = "یک قرعه‌کشی که قبلاً هزینه آن را پرداخت کرده‌اید را انتخاب نموده تا آن را آماده‌سازی کنید.";
 "lng_boosts_prepaid_giveaway_single" = "قرعه‌کشی پیش‌پرداخت شده";
-"lng_boosts_prepaid_giveaway_quantity#one" = "{count} اشتراک تلگرام پرمیوم";
-"lng_boosts_prepaid_giveaway_quantity#other" = "{count} اشتراک تلگرام پرمیوم";
+"lng_boosts_prepaid_giveaway_quantity#one" = "{count} اشتراک دلتاگرام پرمیوم";
+"lng_boosts_prepaid_giveaway_quantity#other" = "{count} اشتراک دلتاگرام پرمیوم";
 "lng_boosts_prepaid_giveaway_moths#one" = "اشتراک‌های {count} ماهه";
 "lng_boosts_prepaid_giveaway_moths#other" = "اشتراک‌های {count} ماهه";
 "lng_boosts_prepaid_giveaway_status#one" = "{count} اشتراک {duration}";
@@ -8456,8 +8456,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_boosts_prepaid_giveaway_credits_status#other" = "{amount} بین {count} برنده.";
 
 "lng_channel_earn_title" = "کسب درآمد";
-"lng_channel_earn_about" = "50% درآمد حاصل از تبلیغاتی که در کانال شما نمایش داده می‌شود، به عنوان پاداش به تلگرام تعلق می‌گیرد. {link}";
-"lng_channel_earn_about_bot" = "50% درآمد حاصل از تبلیغاتی که در ربات شما نمایش داده می‌شود، به عنوان پاداش به تلگرام تعلق می‌گیرد. {link}";
+"lng_channel_earn_about" = "50% درآمد حاصل از تبلیغاتی که در کانال شما نمایش داده می‌شود، به عنوان پاداش به دلتاگرام تعلق می‌گیرد. {link}";
+"lng_channel_earn_about_bot" = "50% درآمد حاصل از تبلیغاتی که در ربات شما نمایش داده می‌شود، به عنوان پاداش به دلتاگرام تعلق می‌گیرد. {link}";
 "lng_channel_earn_about_link" = "بیشتر بدانید {emoji}";
 "lng_channel_earn_overview_title" = "نمای کلی پاداش";
 "lng_channel_earn_available" = "پاداش قابل برداشت";
@@ -8491,15 +8491,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channel_earn_cpm#other" = "{emoji} {count} CPM";
 "lng_channel_earn_learn_title" = "از کانال خود درآمد کسب کنید";
 "lng_channel_earn_bot_learn_title" = "کسب درآمد از ربات خود";
-"lng_channel_earn_learn_in_subtitle" = "تبلیغات تلگرام";
-"lng_channel_earn_learn_in_about" = "تلگرام می‌تواند در کانال شما تبلیغات نمایش دهد.";
-"lng_channel_earn_learn_bot_in_about" = "تلگرام می‌تواند در ربات شما تبلیغات نمایش دهد.";
+"lng_channel_earn_learn_in_subtitle" = "تبلیغات دلتاگرام";
+"lng_channel_earn_learn_in_about" = "دلتاگرام می‌تواند در کانال شما تبلیغات نمایش دهد.";
+"lng_channel_earn_learn_bot_in_about" = "دلتاگرام می‌تواند در ربات شما تبلیغات نمایش دهد.";
 "lng_channel_earn_learn_split_subtitle" = "تقسیم درآمد 50:50";
 "lng_channel_earn_learn_split_about" = "شما می‌توانید 50% درآمد حاصل از تبلیغات را به عنوان پاداش در واحد Gram دریافت کنید.";
 "lng_channel_earn_learn_out_subtitle" = "برداشت‌های انعطاف‌پذیر";
 "lng_channel_earn_learn_out_about" = "می‌توانید هر زمان که خواستید، Gram‌های خود را برداشت کنید.";
 "lng_channel_earn_learn_coin_title" = "{emoji} Gram چیست؟";
-"lng_channel_earn_learn_coin_about" = "Gram رمزارز پلتفرم بلاکچین TON است که تلگرام از آن به دلیل سرعت بالا و کارمزد پایین تراکنش‌هایش استفاده می‌کند. {link}";
+"lng_channel_earn_learn_coin_about" = "Gram رمزارز پلتفرم بلاکچین TON است که دلتاگرام از آن به دلیل سرعت بالا و کارمزد پایین تراکنش‌هایش استفاده می‌کند. {link}";
 "lng_channel_earn_learn_close" = "متوجه شدم";
 "lng_channel_earn_learn_coin_link" = "https://telegram.org/blog/monetization-for-channels/fa";
 "lng_channel_earn_chart_top_hours" = "تأثیرات تبلیغات";
@@ -8558,13 +8558,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_limit_download_increase_times#one" = "**{count}** برابر";
 "lng_limit_download_increase_times#other" = "**{count}** برابر";
 "lng_limit_download_increase_speed" = "**{percent}**";
-"lng_limit_download_subscribe_link" = "تلگرام پرمیوم";
+"lng_limit_download_subscribe_link" = "دلتاگرام پرمیوم";
 "lng_limit_upload_title" = "سرعت آپلود محدود است";
 "lng_limit_upload_subscribe" = "با خرید اشتراک {link}، سرعت آپلود را {increase} افزایش دهید.";
 "lng_limit_upload_increase_times#one" = "**{count}** برابر";
 "lng_limit_upload_increase_times#other" = "**{count}** برابر";
 "lng_limit_upload_increase_speed" = "**{percent}**";
-"lng_limit_upload_subscribe_link" = "تلگرام پرمیوم";
+"lng_limit_upload_subscribe_link" = "دلتاگرام پرمیوم";
 
 "lng_recent_frequent" = "مخاطبین پرتکرار";
 "lng_recent_frequent_all" = "نمایش همه";
@@ -8606,7 +8606,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_posts_search_button" = "جستجوی {query}";
 "lng_posts_remaining#one" = "{count} جستجوی رایگان برای امروز باقی مانده است";
 "lng_posts_remaining#other" = "{count} جستجوی رایگان برای امروز باقی مانده است";
-"lng_posts_subtitle_empty" = "اخبار تلگرام";
+"lng_posts_subtitle_empty" = "اخبار دلتاگرام";
 "lng_posts_subtitle" = "پست‌های عمومی";
 "lng_posts_limit_reached" = "به سقف مجاز رسیده‌اید";
 "lng_posts_limit_about#one" = "شما می‌توانید حداکثر {count} جستجو در روز انجام دهید.";
@@ -8670,7 +8670,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_frozen_restrict_text" = "برای مشاهده جزئیات، کلیک کنید";
 "lng_frozen_title" = "حساب کاربری شما مسدود است";
 "lng_frozen_subtitle1" = "نقض شرایط و ضوابط";
-"lng_frozen_text1" = "حساب کاربری شما به دلیل نقض شرایط و ضوابط خدمات تلگرام مسدود شده است.";
+"lng_frozen_text1" = "حساب کاربری شما به دلیل نقض شرایط و ضوابط خدمات دلتاگرام مسدود شده است.";
 "lng_frozen_subtitle2" = "حالت فقط خواندن";
 "lng_frozen_text2" = "شما می‌توانید به حساب کاربری خود دسترسی داشته باشید، اما نمی‌توانید پیام ارسال کرده یا فعالیتی انجام دهید.";
 "lng_frozen_subtitle3" = "درخواست تجدید نظر پیش از غیرفعال شدن";
@@ -8678,8 +8678,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_frozen_appeal_button" = "درخواست تجدید نظر";
 
 "lng_age_verify_title" = "تأیید سن";
-"lng_age_verify_mobile" = "لطفاً برای تأیید سن خود، این رسانه را در برنامه رسمی تلگرام برای اندروید یا iOS باز کنید.";
-"lng_age_verify_here" = "این فرآیند تنها یک بار و با استفاده از دوربین تلفن همراه شما انجام می‌شود. سلفی شما توسط تلگرام ذخیره نخواهد شد.";
+"lng_age_verify_mobile" = "لطفاً برای تأیید سن خود، این رسانه را در برنامه رسمی دلتاگرام برای اندروید یا iOS باز کنید.";
+"lng_age_verify_here" = "این فرآیند تنها یک بار و با استفاده از دوربین تلفن همراه شما انجام می‌شود. سلفی شما توسط دلتاگرام ذخیره نخواهد شد.";
 "lng_age_verify_button" = "تأیید سن من";
 "lng_age_verify_sorry_title" = "بررسی سن ناموفق بود";
 "lng_age_verify_sorry_text" = "متأسفانه نمی‌توانید محتوای 18+ را مشاهده کنید.";
@@ -8733,7 +8733,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_ai_compose_tooltip" = "با استفاده از هوش مصنوعی، متن خود را بازنویسی، ترجمه و اصلاح کنید.";
 "lng_ai_compose_flood_title" = "به سقف محدودیت روزانه رسیده‌اید";
 "lng_ai_compose_flood_text" = "با دریافت {link}، به **50 برابر** تبدیل متن با هوش مصنوعی بیشتر دسترسی پیدا کنید.";
-"lng_ai_compose_flood_link" = "تلگرام پرمیوم";
+"lng_ai_compose_flood_link" = "دلتاگرام پرمیوم";
 "lng_ai_compose_increase_limit" = "تغییر محدودیت";
 "lng_ai_compose_select_style" = "انتخاب لحن";
 "lng_ai_compose_apply_style" = "اعمال لحن";
@@ -9137,7 +9137,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mac_menu_add_contact" = "افزودن مخاطب";
 "lng_mac_menu_new_group" = "گروه جدید";
 "lng_mac_menu_new_channel" = "کانال جدید";
-"lng_mac_menu_show" = "نمایش تلگرام";
+"lng_mac_menu_show" = "نمایش دلتاگرام";
 "lng_mac_menu_emoji_and_symbols" = "اموجی‌ها و نمادها";
 "lng_mac_menu_fullscreen" = "فعال/غیرفعال کردن حالت تمام‌صفحه";
 
@@ -9162,7 +9162,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rich_paste_toast_markdown" = "چسبانده شده با قالب‌بندی Markdown";
 "lng_rich_paste_toast_plain" = "در عوض، به صورت متن ساده بچسبانید";
 "lng_rich_paste_toast_premium" = "{link}، قالب‌بندی را هنگام چسباندن حفظ کنید.";
-"lng_rich_paste_toast_premium_link" = "با خرید اشتراک تلگرام پرمیوم";
+"lng_rich_paste_toast_premium_link" = "با خرید اشتراک دلتاگرام پرمیوم";
 "lng_rich_paste_toast_open" = "باز کردن";
 "lng_rich_paste_toast_undo" = "بازگردانی";
 "lng_rich_paste_toast_apply" = "اعمال";
@@ -9187,7 +9187,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 /* new from translations.telegram.org */
 
 "cloud_lng_about_psa_covid" = "این پیام، اطلاعیه خدمات عمومی مربوط به بیماری فراگیر کووید-19 (کرونا)‌ کنونی را به شما ارائه می‌دهد. برای حذف آن از لیست گفتگوی خود، بر روی آن کلیک راست کرده و **پنهان کردن** را انتخاب کنید.";
-"cloud_lng_about_psa_psa" = "این یک پیام رسمی از طرف مدیر عامل تلگرام در رابطه با درگیری‌های کنونی است.";
+"cloud_lng_about_psa_psa" = "این یک پیام رسمی از طرف مدیر عامل دلتاگرام در رابطه با درگیری‌های کنونی است.";
 "cloud_lng_age_verify_about_gb#one" = "برای دسترسی به چنین محتوایی، طبق الزامات قانون بریتانیا، باید تأیید کنید که حداقل **18** سال سن دارید.";
 "cloud_lng_age_verify_about_gb#other" = "برای دسترسی به چنین محتوایی، طبق الزامات قانون بریتانیا، باید تأیید کنید که حداقل **18** سال سن دارید.";
 "cloud_lng_badge_psa_covid" = "کووید-19 (کرونا)";
@@ -9351,7 +9351,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "cloud_lng_passport_in_uz" = "ازبکی";
 "cloud_lng_passport_in_vi" = "ویتنامی";
 "cloud_lng_tooltip_psa_covid" = "این پیام، اطلاعیه خدمات عمومی مربوط به بیماری فراگیر کووید-19 (کرونا)‌ کنونی را به شما ارائه می‌دهد. برای اطلاعات بیشتر درباره این نوآوری به لینک زیر مراجعه کنید:\nhttps://telegram.org/blog/coronavirus";
-"cloud_lng_tooltip_psa_psa" = "این یک پیام رسمی از طرف مدیر عامل تلگرام در رابطه با درگیری‌های کنونی است.";
+"cloud_lng_tooltip_psa_psa" = "این یک پیام رسمی از طرف مدیر عامل دلتاگرام در رابطه با درگیری‌های کنونی است.";
 "cloud_lng_topup_purpose_subs" = "با خرید **ستاره**، اشتراک کانال‌های خود را حفظ کنید.";
 "cloud_lng_translate_to_ar" = "عربی";
 "cloud_lng_translate_to_az" = "آذربایجانی";
@@ -9396,10 +9396,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "cloud_lng_translate_to_uk" = "اوکراینی";
 "cloud_lng_translate_to_uz" = "ازبکی";
 "cloud_lng_translate_to_vi" = "ویتنامی";
-"lng_about_dice" = "اموجی 🎲 را به هر گفتگویی ارسال کنید تا عددی تصادفی از تلگرام دریافت کنید. ";
-"lng_about_text_1" = "برنامه پیام‌رسانی رسمی و رایگان بر پایه [a href=\"https://core.telegram.org/api\"]رابط برنامه‌نویسی تلگرام[/a]\nجهت تأمین سرعت و امنیت.";
+"lng_about_dice" = "اموجی 🎲 را به هر گفتگویی ارسال کنید تا عددی تصادفی از دلتاگرام دریافت کنید. ";
+"lng_about_text_1" = "برنامه پیام‌رسانی رسمی و رایگان بر پایه [a href=\"https://core.telegram.org/api\"]رابط برنامه‌نویسی دلتاگرام[/a]\nجهت تأمین سرعت و امنیت.";
 "lng_about_text_2" = "این برنامه تحت لیسانس [a href=\"https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE\"]GNU GPL[/a] نسخه 3 است.\nکد منبع در [a href=\"https://github.com/telegramdesktop/tdesktop\"]GitHub[/a] قابل دسترسی است.";
-"lng_about_text_3" = "برای اطلاعات بیشتر به {faq_open}پرسش‌های متداول تلگرام{faq_close} مراجعه کنید.";
+"lng_about_text_3" = "برای اطلاعات بیشتر به {faq_open}پرسش‌های متداول دلتاگرام{faq_close} مراجعه کنید.";
 "lng_action_gift_auction" = "شما با موفقیت هدیه‌ای به قیمت {cost} برای {name}، در مزایده خریداری کردید.";
 "lng_action_gift_offer" = "{user} به شما {cost} برای {name} پیشنهاد داد.";
 "lng_action_gift_received_me" = "شما یک هدیه به ارزش {cost} برای {user} ارسال کردید";
@@ -9424,13 +9424,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_article_table_add_row" = "افزودن ردیف";
 "lng_auction_bought_round" = "دور #{n}";
 "lng_background_apply" = "اعمال";
-"lng_background_gradient_unsupported" = "تلگرام دسکتاپ هنوز از پس‌زمینه‌های تدریجی پشتیبانی نمی‌کند.";
+"lng_background_gradient_unsupported" = "دلتاگرام دسکتاپ هنوز از پس‌زمینه‌های تدریجی پشتیبانی نمی‌کند.";
 "lng_bad_phone_noreg" = "شماره تلفن ثبت نشده است.";
 "lng_banned_list_title" = "کاربران محروم";
 "lng_bio_about" = "شما می‌توانید چند خط درباره خودتان اضافه کنید. هرکسی که پروفایل شما را باز کند، این متن را مشاهده خواهد کرد.";
 "lng_bio_title" = "بیوگرافی خود را ویرایش کنید";
 "lng_blocked_list_restart" = "راه‌اندازی مجدد";
-"lng_boost_channel_gifting" = "با اهدای اشتراک تلگرام پرمیوم به مشترکین خود، از کانالتان حمایت کنید. {link}";
+"lng_boost_channel_gifting" = "با اهدای اشتراک دلتاگرام پرمیوم به مشترکین خود، از کانالتان حمایت کنید. {link}";
 "lng_boost_channel_gifting_link" = "دریافت حمایت >";
 "lng_boost_channel_needs_first#one" = "{channel} به **{count}** حمایت دیگر برای فعال کردن قابلیت پست استوری نیاز دارد. به تحقق آن کمک کنید!";
 "lng_boost_channel_needs_first#other" = "{channel} به **{count}** حمایت دیگر برای فعال کردن قابلیت پست استوری نیاز دارد. به تحقق آن کمک کنید!";
@@ -9452,7 +9452,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_change_phone_description" = "شما می‌توانید شماره تلفن خود را در اینجا تغییر\nدهید. حساب کاربری شما و تمامی داده‌های ابری\nاز جمله پیام‌ها، رسانه‌ها، مخاطبین و...\nبه شماره جدید انتقال خواهند یافت.";
 "lng_change_phone_new_description" = "شماره جدید شما کد تأیید را از طریق تماس یا پیامک دریافت خواهد کرد.";
 "lng_change_phone_new_title" = "شماره جدید را وارد کنید";
-"lng_change_phone_occupied" = "شماره تلفن {phone} در حال حاضر به یک حساب کاربری تلگرام متصل شده است. لطفاً پیش از استفاده از شماره جدید، آن حساب کاربری را حذف کنید.";
+"lng_change_phone_occupied" = "شماره تلفن {phone} در حال حاضر به یک حساب کاربری دلتاگرام متصل شده است. لطفاً پیش از استفاده از شماره جدید، آن حساب کاربری را حذف کنید.";
 "lng_change_phone_success" = "شماره تلفن شما تغییر یافت.";
 "lng_change_phone_title" = "تغییر شماره تلفن";
 "lng_change_phone_warning" = "کاربران در صورتی شماره تلفن جدید شما را می‌بینند که آن را در دفترچه تلفن خود ذخیره داشته باشند یا تنظیمات حریم خصوصی شما به آن‌ها اجازه دیدن شماره تلفنتان را بدهد. شما می‌توانید این گزینه را در قسمت تنظیمات > حریم خصوصی و امنیت > شماره تلفن تنظیم کنید.";
@@ -9485,8 +9485,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cloud_password_reset_title" = "بازنشانی گذرواژه";
 "lng_cloud_password_set" = "فعال کردن تأیید دو مرحله‌ای";
 "lng_cloud_password_waiting" = "لینک تأیید به {email} ارسال شد...";
-"lng_code_register_phone" = "در صورتی که قبلاً در تلگرام ثبت نام کرده‌اید، لطفاً کدی که به برنامه تلفن همراه شما ارسال شده است را وارد کنید.\n\nاگر هنوز ثبت نام نکرده‌اید، لطفاً ابتدا از تلفن همراه یا تبلت خود ثبت نام کنید.";
-"lng_code_telegram" = "ما کدی را [b]از طریق تلگرام[/b] به سایر دستگاه‌های شما ارسال کرده‌ایم. لطفاً آن را در قسمت زیر وارد کنید.";
+"lng_code_register_phone" = "در صورتی که قبلاً در دلتاگرام ثبت نام کرده‌اید، لطفاً کدی که به برنامه تلفن همراه شما ارسال شده است را وارد کنید.\n\nاگر هنوز ثبت نام نکرده‌اید، لطفاً ابتدا از تلفن همراه یا تبلت خود ثبت نام کنید.";
+"lng_code_telegram" = "ما کدی را [b]از طریق دلتاگرام[/b] به سایر دستگاه‌های شما ارسال کرده‌ایم. لطفاً آن را در قسمت زیر وارد کنید.";
 "lng_connecting_settings" = "تنظیمات";
 "lng_connecting_to_proxy" = "در حال اتصال به پروکسی...";
 "lng_connection_auto_rb" = "خودکار (در صورت دسترسی TCP، در غیر اینصورت HTTP)";
@@ -9551,7 +9551,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_state_video_message" = "پیام ویدیویی دایره‌ای";
 "lng_export_state_voice_message" = "پیام صوتی";
 "lng_export_total_files" = "مجموع فایل‌ها: {count}";
-"lng_failed_add_not_mutual_channel" = "در صورتی که شخصی قبلاً کانال را ترک کرده باشد، جهت بازگرداندن او، شما باید در لیست مخاطبین تلگرام او باشید.\n\nاو تا زمانی که در لیست کاربران حذف شده نباشد، می‌تواند همچنان از طریق یک لینک دعوت به کانال بپیوندد.";
+"lng_failed_add_not_mutual_channel" = "در صورتی که شخصی قبلاً کانال را ترک کرده باشد، جهت بازگرداندن او، شما باید در لیست مخاطبین دلتاگرام او باشید.\n\nاو تا زمانی که در لیست کاربران حذف شده نباشد، می‌تواند همچنان از طریق یک لینک دعوت به کانال بپیوندد.";
 "lng_filters_add" = "تأیید";
 "lng_filters_add_box_title" = "افزودن به...";
 "lng_filters_by_link_join_button" = "پیوستن به گفتگوها";
@@ -9590,7 +9590,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gift_visible_hide" = "پنهان کردن >";
 "lng_giveaway_channels_select#one" = "حداکثر {count} کانال را انتخاب کنید";
 "lng_giveaway_channels_select#other" = "حداکثر {count} کانال را انتخاب کنید";
-"lng_giveaway_duration_about" = "شما می‌توانید لیست قابلیت‌ها و جزئیات بیشتر درباره تلگرام پرمیوم را از {link} مشاهده کنید.";
+"lng_giveaway_duration_about" = "شما می‌توانید لیست قابلیت‌ها و جزئیات بیشتر درباره دلتاگرام پرمیوم را از {link} مشاهده کنید.";
 "lng_giveaway_duration_about_link" = "اینجا";
 "lng_group_blocked_list_about" = "کاربران محروم از گروه حذف می‌شوند و فقط با اضافه شدن توسط مدیر می‌توانند به گروه بازگردند.\nلینک‌های دعوت برای این افراد کار نمی‌کند.";
 "lng_group_call_duration_days#one" = "{count} روز";
@@ -9602,8 +9602,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_call_duration_seconds#one" = "{count} ثانیه";
 "lng_group_call_duration_seconds#other" = "{count} ثانیه";
 "lng_group_call_edit_title_header" = "عنوان گفتگوی ویدیویی";
-"lng_group_call_limit#one" = "برای مشاهده استریم ویدیویی، تلگرام را\nبه آخرین نسخه به‌روزرسانی کنید.";
-"lng_group_call_limit#other" = "برای مشاهده استریم ویدیویی، تلگرام را\nبه آخرین نسخه به‌روزرسانی کنید.";
+"lng_group_call_limit#one" = "برای مشاهده استریم ویدیویی، دلتاگرام را\nبه آخرین نسخه به‌روزرسانی کنید.";
+"lng_group_call_limit#other" = "برای مشاهده استریم ویدیویی، دلتاگرام را\nبه آخرین نسخه به‌روزرسانی کنید.";
 "lng_group_call_more" = "بیشتر";
 "lng_group_call_no_anonymous" = "متأسفانه شما نمی‌توانید به عنوان مدیر ناشناس به گفتگوهای ویدیویی بپیوندید.";
 "lng_group_call_over_limit#one" = "گفتگوی ویدیویی بیش از {count} عضو دارد.\nشرکت کنندگان جدید فقط به استریم صوتی دسترسی دارند.";
@@ -9614,8 +9614,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_call_switch_done" = "شرکت کنندگان این گفتگوی ویدیویی از این پس شما را به عنوان **{user}** خواهند دید";
 "lng_group_call_too_many" = "متأسفانه در حال حاضر این گفتگوی ویدیویی دارای شرکت کنندگان زیادی است.";
 "lng_group_call_unmute_small" = "صدادار کردن";
-"lng_group_invite_about" = "کاربران تلگرام می‌توانند با استفاده از\nاین لینک به گروه شما بپیوندنند.";
-"lng_group_invite_about_channel" = "کاربران تلگرام می‌توانند با استفاده از\nاین لینک به کانال شما بپیوندند.";
+"lng_group_invite_about" = "کاربران دلتاگرام می‌توانند با استفاده از\nاین لینک به گروه شما بپیوندنند.";
+"lng_group_invite_about_channel" = "کاربران دلتاگرام می‌توانند با استفاده از\nاین لینک به کانال شما بپیوندند.";
 "lng_group_invite_create_new" = "باطل کردن لینک";
 "lng_group_invite_expired_already" = "این لینک منقضی شده است.";
 "lng_group_invite_join" = "پیوستن";
@@ -9682,13 +9682,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_saving" = "در حال ذخیره...";
 "lng_passport_selfie_name" = "عکس";
 "lng_passport_uploading" = "در حال آپلود...";
-"lng_payments_not_supported" = "متأسفانه تلگرام دسکتاپ هنوز از خدمات پرداخت پشتیبانی نمی‌کند. لطفاً برای انجام این کار، از یکی از برنامه‌های تلفن همراه ما استفاده کنید.";
+"lng_payments_not_supported" = "متأسفانه دلتاگرام دسکتاپ هنوز از خدمات پرداخت پشتیبانی نمی‌کند. لطفاً برای انجام این کار، از یکی از برنامه‌های تلفن همراه ما استفاده کنید.";
 "lng_payments_webview_enable_opengl" = "لطفاً OpenGL را در تنظیمات برنامه فعال کنید.";
 "lng_payments_webview_no_card" = "متأسفانه نمی‌توانید کارت جدیدی را با پیکربندی فعلی سیستم اضافه کنید.";
 "lng_payments_webview_switch_mutter" = "درج پنجره Qt با مدیر پنجره Mutter به خوبی کار نمی‌کند. لطفاً از مدیر پنجره یا محیط دسکتاپ دیگری استفاده کنید.";
 "lng_payments_webview_switch_wayland" = "درج پنجره WebView بر روی Wayland امکان‌پذیر نیست. لطفاً از X11 استفاده کنید.";
 "lng_payments_webview_switch_x11" = "از سرور نمایش پشتیبانی نمی‌شود. لطفاً به X11 تغییر دهید.";
-"lng_phone_notreg" = "اگر هنوز حساب کاربری تلگرام ندارید،\nلطفاً از طریق دستگاه {link_start}اندروید/ آیفون{link_end} یا {signup_start}اینجا{signup_end} [b]ثبت نام[/b] کنید";
+"lng_phone_notreg" = "اگر هنوز حساب کاربری دلتاگرام ندارید،\nلطفاً از طریق دستگاه {link_start}اندروید/ آیفون{link_end} یا {signup_start}اینجا{signup_end} [b]ثبت نام[/b] کنید";
 "lng_pinned_poll" = "نظرسنجی سنجاق شده";
 "lng_pinned_quiz" = "آزمون سنجاق شده";
 "lng_polls_create_hint" = "برای انتخاب پاسخ درست کلیک کنید";
@@ -9800,7 +9800,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_choose_username" = "انتخاب نام کاربری";
 "lng_settings_close_sure" = "آیا از بستن این صفحه اطمینان دارید؟ شما تغییرات خود را ذخیره نکرده‌اید.";
 "lng_settings_color_subscribe" = "با خرید اشتراک {link}، برای نام خود یک رنگ سفارشی انتخاب کنید.";
-"lng_settings_connected_about" = "برای قطع اتصال از حساب کاربری تلگرام خود، کلیک کنید.";
+"lng_settings_connected_about" = "برای قطع اتصال از حساب کاربری دلتاگرام خود، کلیک کنید.";
 "lng_settings_crop_profile" = "برای عکس پروفایل خود محدوده‌ای انتخاب کنید";
 "lng_settings_current_version_label" = "نسخه {version}:";
 "lng_settings_disable_night_theme" = "غیرفعال کردن حالت شب";
@@ -9816,7 +9816,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_images_cached#one" = "{count} تصویر، {size}";
 "lng_settings_images_cached#other" = "{count} تصویر، {size}";
 "lng_settings_last_seen_privacy" = "حریم خصوصی آخرین بازدید";
-"lng_settings_logged_in_about" = "وبسایت‌هایی که از تلگرام برای ورود به آن‌ها استفاده کرده‌اید.";
+"lng_settings_logged_in_about" = "وبسایت‌هایی که از دلتاگرام برای ورود به آن‌ها استفاده کرده‌اید.";
 "lng_settings_network_proxy" = "پروکسی و شبکه";
 "lng_settings_no_data_cached" = "داده کش شده‌ای پیدا نشد!";
 "lng_settings_password_reenter_email" = "ایمیل بازیابی را دوباره وارد کنید";
@@ -9853,11 +9853,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signin_reset_minutes#one" = "{count} دقیقه";
 "lng_signin_reset_minutes#other" = "{count} دقیقه";
 "lng_sponsored" = "تبلیغ";
-"lng_sponsored_info_description1" = "برخلاف سایر برنامه‌ها، تلگرام هرگز از اطلاعات خصوصی شما برای اهداف تبلیغاتی استفاده نمی‌کند. پیام‌های حمایت شده در تلگرام فقط مرتبط به موضوع کانال‌های عمومی هستند که در آن‌ها نمایش داده می‌شوند. این یعنی اطلاعات کاربران برای نمایش تبلیغات، مورد داده‌کاوی یا تحلیل قرار نمی‌گیرد، و هر کاربری که در حال مشاهده کانالی در تلگرام باشد، یک پیام حمایت شده یکسان را می‌بیند.\n\nبرخلاف سایر برنامه‌ها، تلگرام اینکه شما بر روی یک پیام حمایت شده زده‌اید یا نه را ردیابی نمی‌کند و بر اساس فعالیت شما برایتان پروفایل‌سازی نمی‌کند. ما همچنین از لینک‌های خارجی در پیام‌های حمایت شده جلوگیری می‌کنیم تا اطمینان حاصل کنیم که اشخاص ثالث قادر به جاسوسی از کاربران ما نباشند. ما باور داریم که همه افراد حق داشتن حریم خصوصی را دارند، و پلتفرم‌های مربوط به تکنولوژی باید به این حق احترام بگذارند.\n\nتلگرام به صدها میلیون کاربر خدمات رایگان و نامحدودی را ارائه می‌کند که هزینه‌های قابل توجهی برای سرور و ترافیک را شامل می‌شود. تلگرام برای اینکه مستقل باقی مانده و به ارزش‌های خود وفادار بماند، ابزار پرداخت شده‌ای را برای تبلیغ پیام‌ها با حفظ حریم خصوصی کاربر توسعه داده است. ما از تبلیغ کنندگان مربوطه در آدرس زیر استقبال می‌کنیم:";
+"lng_sponsored_info_description1" = "برخلاف سایر برنامه‌ها، دلتاگرام هرگز از اطلاعات خصوصی شما برای اهداف تبلیغاتی استفاده نمی‌کند. پیام‌های حمایت شده در دلتاگرام فقط مرتبط به موضوع کانال‌های عمومی هستند که در آن‌ها نمایش داده می‌شوند. این یعنی اطلاعات کاربران برای نمایش تبلیغات، مورد داده‌کاوی یا تحلیل قرار نمی‌گیرد، و هر کاربری که در حال مشاهده کانالی در دلتاگرام باشد، یک پیام حمایت شده یکسان را می‌بیند.\n\nبرخلاف سایر برنامه‌ها، دلتاگرام اینکه شما بر روی یک پیام حمایت شده زده‌اید یا نه را ردیابی نمی‌کند و بر اساس فعالیت شما برایتان پروفایل‌سازی نمی‌کند. ما همچنین از لینک‌های خارجی در پیام‌های حمایت شده جلوگیری می‌کنیم تا اطمینان حاصل کنیم که اشخاص ثالث قادر به جاسوسی از کاربران ما نباشند. ما باور داریم که همه افراد حق داشتن حریم خصوصی را دارند، و پلتفرم‌های مربوط به تکنولوژی باید به این حق احترام بگذارند.\n\nدلتاگرام به صدها میلیون کاربر خدمات رایگان و نامحدودی را ارائه می‌کند که هزینه‌های قابل توجهی برای سرور و ترافیک را شامل می‌شود. دلتاگرام برای اینکه مستقل باقی مانده و به ارزش‌های خود وفادار بماند، ابزار پرداخت شده‌ای را برای تبلیغ پیام‌ها با حفظ حریم خصوصی کاربر توسعه داده است. ما از تبلیغ کنندگان مربوطه در آدرس زیر استقبال می‌کنیم:";
 "lng_stats_recent_messages_shares#one" = "{count} به اشتراک گذاری";
 "lng_stats_recent_messages_shares#other" = "{count} به اشتراک گذاری";
 "lng_sticker_premium_title" = "به همراه جلوه";
-"lng_stickers_masks_pack" = "این یک بسته از ماسک‌ها است. ماسک‌ها فقط توسط نسخه‌های تلفن همراه تلگرام پشتیبانی می‌شوند.";
+"lng_stickers_masks_pack" = "این یک بسته از ماسک‌ها است. ماسک‌ها فقط توسط نسخه‌های تلفن همراه دلتاگرام پشتیبانی می‌شوند.";
 "lng_stickers_search_sets" = "جستجوی بسته‌های استیکر";
 "lng_sure_add_admin_unban" = "این کاربر در حال حاضر محدود یا محروم است. آیا از رفع محرومیت و ارتقاء او اطمینان دارید؟";
 "lng_sure_ban_user_channel" = "{user} از کانال محروم شود؟";
@@ -9869,14 +9869,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_editor_export" = "صادر کردن";
 "lng_theme_editor_export_button" = "صدور پوسته";
 "lng_theme_editor_save_palette" = "ذخیره فایل پالت";
-"lng_theme_no_desktop_version" = "متأسفانه این پوسته حاوی نسخه‌ای برای تلگرام دسکتاپ نیست.";
+"lng_theme_no_desktop_version" = "متأسفانه این پوسته حاوی نسخه‌ای برای دلتاگرام دسکتاپ نیست.";
 "lng_translate_box_original" = "اصلی";
 "lng_ttl_about_duration1" = "1 روز";
 "lng_ttl_about_duration2" = "1 هفته";
 "lng_ttl_about_duration3" = "1 ماه";
 "lng_ttl_edit_save" = "تأیید";
-"lng_username_about" = "شما می‌توانید در تلگرام برای خود یک نام کاربری انتخاب کنید.\nبا این کار، افراد می‌توانند بدون نیاز به شماره تلفن شما،\nبا استفاده از این نام کاربری شما را پیدا کرده و با شما\nارتباط برقرار کنند.\n\nشما می‌توانید از کاراکترهای 9–0، a–z و زیرخط استفاده کنید.\nحداقل طول مجاز 5 کاراکتر است.";
-"lng_username_description" = "شما می‌توانید در **تلگرام** برای خود یک نام کاربری انتخاب کنید. با این کار، سایر افراد می‌توانند بدون دانستن شماره تلفن شما، با استفاده از این نام کاربری شما را پیدا کرده و با شما ارتباط برقرار کنند.\n\nشما می‌توانید از کاراکترهای **9–0**، **a–z** و زیرخط استفاده کنید.\nحداقل طول مجاز **5 کاراکتر** است.";
+"lng_username_about" = "شما می‌توانید در دلتاگرام برای خود یک نام کاربری انتخاب کنید.\nبا این کار، افراد می‌توانند بدون نیاز به شماره تلفن شما،\nبا استفاده از این نام کاربری شما را پیدا کرده و با شما\nارتباط برقرار کنند.\n\nشما می‌توانید از کاراکترهای 9–0، a–z و زیرخط استفاده کنید.\nحداقل طول مجاز 5 کاراکتر است.";
+"lng_username_description" = "شما می‌توانید در **دلتاگرام** برای خود یک نام کاربری انتخاب کنید. با این کار، سایر افراد می‌توانند بدون دانستن شماره تلفن شما، با استفاده از این نام کاربری شما را پیدا کرده و با شما ارتباط برقرار کنند.\n\nشما می‌توانید از کاراکترهای **9–0**، **a–z** و زیرخط استفاده کنید.\nحداقل طول مجاز **5 کاراکتر** است.";
 "lng_username_link_willbe" = "این لینک گفتگویی را با خودتان باز می‌کند:";
 
 "lng_channel_earn_out_amount_too_small" = "مبلغ برای برداشت خیلی کم است.";
