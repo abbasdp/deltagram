@@ -8,6 +8,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 #include "lang/lang_instance.h"
 
 #include "core/application.h"
+#include "settings.h"
 #include "storage/serialize_common.h"
 #include "storage/localstorage.h"
 #include "ui/boxes/confirm_box.h"
@@ -17,6 +18,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 #include "base/qthelp_regex.h"
 
 #include "lang_auto_counts.h" // kKeysCount, kTagsCount.
+
+#include <QtGui/QGuiApplication>
 
 namespace Lang {
 namespace {
@@ -234,6 +237,35 @@ Language DefaultLanguage() {
 	};
 }
 
+bool IsRightToLeftLanguageId(const QString &languageId) {
+	const auto code = languageId.section(u'-', 0, 0);
+	const auto match = [&](QLatin1String id) {
+		return (code == id) || (languageId == id);
+	};
+	return match(QLatin1String("ar"))
+		|| match(QLatin1String("arc"))
+		|| match(QLatin1String("ckb"))
+		|| match(QLatin1String("dv"))
+		|| match(QLatin1String("fa"))
+		|| match(QLatin1String("he"))
+		|| match(QLatin1String("iw"))
+		|| match(QLatin1String("ps"))
+		|| match(QLatin1String("sd"))
+		|| match(QLatin1String("ug"))
+		|| match(QLatin1String("ur"))
+		|| match(QLatin1String("yi"));
+}
+
+void ApplyInterfaceDirection(const QString &languageId) {
+	const auto rtl = IsRightToLeftLanguageId(languageId);
+	cSetLangDir(rtl ? Qt::RightToLeft : Qt::LeftToRight);
+	style::SetRightToLeft(rtl);
+	if (QGuiApplication::instance()) {
+		QGuiApplication::setLayoutDirection(
+			rtl ? Qt::RightToLeft : Qt::LeftToRight);
+	}
+}
+
 struct Instance::PrivateTag {
 };
 
@@ -274,6 +306,17 @@ void Instance::setBaseId(const QString &baseId, const QString &pluralId) {
 void Instance::switchToCustomFile(const QString &filePath) {
 	if (loadFromCustomFile(filePath)) {
 		Local::writeLangPack();
+		_updated.fire({});
+	}
+}
+
+void Instance::switchToContent(
+		const Language &language,
+		const QByteArray &content) {
+	reset(language);
+	loadFromContent(content);
+	updatePluralRules();
+	if (!_derived) {
 		_updated.fire({});
 	}
 }
@@ -757,6 +800,8 @@ void Instance::updatePluralRules() {
 			: LanguageIdOrDefault(_id);
 	}
 	UpdatePluralRules(_pluralId);
+	ApplyInterfaceDirection(
+		_pluralId.isEmpty() ? LanguageIdOrDefault(_id) : _pluralId);
 }
 
 void Instance::resetValue(const QByteArray &key) {

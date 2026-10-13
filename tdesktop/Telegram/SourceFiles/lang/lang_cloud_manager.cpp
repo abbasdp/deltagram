@@ -24,8 +24,44 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 #include "boxes/abstract_box.h" // Ui::hideLayer().
 #include "styles/style_layers.h"
 
+#include <QtCore/QFile>
+
 namespace Lang {
 namespace {
+
+Language BundledPersian() {
+	return {
+		u"fa"_q,
+		u"fa"_q,
+		QString(),
+		u"Persian"_q,
+		u"فارسی"_q,
+	};
+}
+
+QByteArray BundledLanguageContent(const QString &id) {
+	if (id != u"fa"_q) {
+		return {};
+	}
+	QFile file(u":/gui/langs/fa.strings"_q);
+	if (!file.open(QIODevice::ReadOnly)) {
+		LOG(("Lang Error: Bundled Persian pack is missing."));
+		return {};
+	}
+	return file.readAll();
+}
+
+void EnsureBundledLanguages(CloudManager::Languages &languages) {
+	if (ranges::find(languages, u"fa"_q, &Language::id) != end(languages)) {
+		return;
+	}
+	const auto english = ranges::find(languages, u"en"_q, &Language::id);
+	if (english == end(languages)) {
+		languages.insert(begin(languages), BundledPersian());
+	} else {
+		languages.insert(std::next(english), BundledPersian());
+	}
+}
 
 class ConfirmSwitchBox : public Ui::BoxContent {
 public:
@@ -307,6 +343,7 @@ void CloudManager::applyLangPackDifference(
 void CloudManager::requestLanguageList() {
 	if (_languages.empty()) {
 		_languages.push_back(DefaultLanguage());
+		EnsureBundledLanguages(_languages);
 		_languageListChanged.fire({});
 	}
 	if (!_api) {
@@ -321,8 +358,9 @@ void CloudManager::requestLanguageList() {
 		for (const auto &language : result.v) {
 			languages.push_back(ParseLanguage(language));
 		}
+		EnsureBundledLanguages(languages);
 		if (_languages != languages) {
-			_languages = languages;
+			_languages = std::move(languages);
 			_languageListChanged.fire({});
 		}
 		_languagesRequestId = 0;
@@ -330,8 +368,9 @@ void CloudManager::requestLanguageList() {
 		_languagesRequestId = 0;
 		if (_languages.empty()) {
 			_languages.push_back(DefaultLanguage());
-			_languageListChanged.fire({});
 		}
+		EnsureBundledLanguages(_languages);
+		_languageListChanged.fire({});
 	}).send();
 }
 
@@ -441,6 +480,20 @@ void CloudManager::requestLanguageAndSwitch(
 }
 
 void CloudManager::sendSwitchingToLanguageRequest() {
+	auto language = Language{
+		_switchingToLanguageId,
+		_switchingToLanguageId,
+	};
+	for (const auto &existing : _languages) {
+		if (existing.id == _switchingToLanguageId) {
+			language = existing;
+			break;
+		}
+	}
+	if (tryApplyBundled(language)) {
+		_switchingToLanguageRequest = 0;
+		return;
+	}
 	if (!_api) {
 		_switchingToLanguageRequest = -1;
 		return;
@@ -480,6 +533,11 @@ void CloudManager::sendSwitchingToLanguageRequest() {
 
 void CloudManager::switchToLanguage(const Language &data) {
 	if (_langpack.id() == data.id && data.id != u"#custom"_q) {
+		return;
+	} else if (data.id == u"#custom"_q) {
+		performSwitchToCustom();
+		return;
+	} else if (tryApplyBundled(data)) {
 		return;
 	} else if (!_api) {
 		return;
@@ -573,6 +631,38 @@ void CloudManager::performSwitchToCustom() {
 				Ui::LayerOption::KeepOther);
 		}
 	});
+}
+
+bool CloudManager::tryApplyBundled(const Language &data) {
+	const auto content = BundledLanguageContent(data.id);
+	if (content.isEmpty()) {
+		return false;
+	}
+	const auto apply = [=] {
+		Local::pushRecentLanguage(data);
+		_langpack.switchToContent(data, content);
+		Local::writeLangPack();
+		requestLangPackDifference(Pack::Current);
+		// RTL chrome is measured at startup, so rebuild the window.
+		if (canApplyWithoutRestart(data.id)) {
+			Core::Restart();
+		} else {
+			restartAfterSwitch();
+		}
+	};
+	if (canApplyWithoutRestart(data.id)) {
+		apply();
+		return true;
+	}
+	const auto text = tr::lng_sure_save_language(tr::now);
+	Ui::show(
+		Ui::MakeConfirmBox({
+			.text = text,
+			.confirmed = apply,
+			.confirmText = tr::lng_box_ok(),
+		}),
+		Ui::LayerOption::KeepOther);
+	return true;
 }
 
 void CloudManager::switchToTestLanguage() {

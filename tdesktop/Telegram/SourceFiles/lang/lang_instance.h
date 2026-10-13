@@ -34,6 +34,7 @@ inline bool operator!=(const Language &a, const Language &b) {
 QString CloudLangPackName();
 QString CustomLanguageId();
 Language DefaultLanguage();
+[[nodiscard]] bool IsRightToLeftLanguageId(const QString &languageId);
 
 class Instance;
 Instance &GetInstance();
@@ -53,6 +54,7 @@ public:
 
 	void switchToId(const Language &language);
 	void switchToCustomFile(const QString &filePath);
+	void switchToContent(const Language &language, const QByteArray &content);
 
 	Instance(const Instance &other) = delete;
 	Instance &operator=(const Instance &other) = delete;

@@ -76,6 +76,7 @@ private:
 	void sendSwitchingToLanguageRequest();
 	void resendPendingValueRequests();
 	void resendRequests();
+	bool tryApplyBundled(const Language &data);
 
 	std::optional<MTP::Sender> _api;
 	Instance &_langpack;
